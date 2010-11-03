@@ -22,6 +22,27 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		CE721490127FF072002C786A /* bg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CE72148F127FF072002C786A /* bg.JPG */; };
+		CE721497127FF2FA002C786A /* Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = CE721496127FF2FA002C786A /* Clock.png */; };
+		CE721499127FF338002C786A /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = CE721498127FF338002C786A /* Contacts.png */; };
+		CE72149D127FF3A5002C786A /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72149C127FF3A5002C786A /* Settings.png */; };
+		CE7214A0127FF410002C786A /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72149F127FF410002C786A /* Camera.png */; };
+		CE7214A6127FF50A002C786A /* Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7214A5127FF50A002C786A /* Chat.png */; };
+		CE7214A8127FF638002C786A /* Lights Off.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7214A7127FF638002C786A /* Lights Off.png */; };
+		CE7214AA127FF660002C786A /* Stumbler.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7214A9127FF660002C786A /* Stumbler.png */; };
+		CE7214C3128005BB002C786A /* tempbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7214C2128005BB002C786A /* tempbg.jpg */; };
+		CE7214F71280FAB9002C786A /* bg.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE7214F61280FAB9002C786A /* bg.gif */; };
+		CE7215091280FD6E002C786A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7215081280FD6E002C786A /* logo.png */; };
+		CE72150C1280FDEC002C786A /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72150B1280FDEC002C786A /* phone.png */; };
+		CE7215201280FF7E002C786A /* bookings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72151F1280FF7E002C786A /* bookings.png */; };
+		CE72152812810009002C786A /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72152712810009002C786A /* menu.png */; };
+		CE72152D1281013D002C786A /* navbarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72152C1281013D002C786A /* navbarbg.png */; };
+		CE72156B12810771002C786A /* free.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72156812810771002C786A /* free.png */; };
+		CE72156C12810771002C786A /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72156912810771002C786A /* news.png */; };
+		CE72156D12810771002C786A /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72156A12810771002C786A /* photos.png */; };
+		CE72157412810A38002C786A /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72157112810A38002C786A /* settings.png */; };
+		CE72157512810A38002C786A /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72157212810A38002C786A /* share.png */; };
+		CE72157612810A38002C786A /* checkin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72157312810A38002C786A /* checkin.png */; };
 		CEBDBEC0127F06C500E5CAA2 /* LauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDBEBE127F06C500E5CAA2 /* LauncherViewController.m */; };
 		CEBDBEC1127F06C500E5CAA2 /* LauncherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBDBEBF127F06C500E5CAA2 /* LauncherViewController.xib */; };
 /* End PBXBuildFile section */
@@ -392,6 +413,27 @@
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* TheCarltonApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCarltonApp_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TheCarltonApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TheCarltonApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE72148F127FF072002C786A /* bg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.JPG; sourceTree = "<group>"; };
+		CE721496127FF2FA002C786A /* Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock.png; sourceTree = "<group>"; };
+		CE721498127FF338002C786A /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		CE72149C127FF3A5002C786A /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = "../../Downloads/chalkwork-iphone-1.3/Chalkwork/Icons/Settings.png"; sourceTree = SOURCE_ROOT; };
+		CE72149F127FF410002C786A /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		CE7214A5127FF50A002C786A /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat.png; sourceTree = "<group>"; };
+		CE7214A7127FF638002C786A /* Lights Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lights Off.png"; path = "../../Downloads/chalkwork-iphone-1.3/Chalkwork/Icons/Lights Off.png"; sourceTree = SOURCE_ROOT; };
+		CE7214A9127FF660002C786A /* Stumbler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stumbler.png; sourceTree = "<group>"; };
+		CE7214C2128005BB002C786A /* tempbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tempbg.jpg; sourceTree = "<group>"; };
+		CE7214F61280FAB9002C786A /* bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bg.gif; sourceTree = "<group>"; };
+		CE7215081280FD6E002C786A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CE72150B1280FDEC002C786A /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		CE72151F1280FF7E002C786A /* bookings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookings.png; sourceTree = "<group>"; };
+		CE72152712810009002C786A /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		CE72152C1281013D002C786A /* navbarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarbg.png; sourceTree = "<group>"; };
+		CE72156812810771002C786A /* free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = free.png; sourceTree = "<group>"; };
+		CE72156912810771002C786A /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		CE72156A12810771002C786A /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		CE72157112810A38002C786A /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		CE72157212810A38002C786A /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		CE72157312810A38002C786A /* checkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkin.png; sourceTree = "<group>"; };
 		CEBDBEBD127F06C500E5CAA2 /* LauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewController.h; sourceTree = "<group>"; };
 		CEBDBEBE127F06C500E5CAA2 /* LauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewController.m; sourceTree = "<group>"; };
 		CEBDBEBF127F06C500E5CAA2 /* LauncherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LauncherViewController.xib; sourceTree = "<group>"; };
@@ -463,6 +505,27 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE7214F61280FAB9002C786A /* bg.gif */,
+				CE72156812810771002C786A /* free.png */,
+				CE72156912810771002C786A /* news.png */,
+				CE72156A12810771002C786A /* photos.png */,
+				CE72157112810A38002C786A /* settings.png */,
+				CE72157212810A38002C786A /* share.png */,
+				CE72157312810A38002C786A /* checkin.png */,
+				CE72151F1280FF7E002C786A /* bookings.png */,
+				CE72152712810009002C786A /* menu.png */,
+				CE72150B1280FDEC002C786A /* phone.png */,
+				CE7215081280FD6E002C786A /* logo.png */,
+				CE72152C1281013D002C786A /* navbarbg.png */,
+				CE7214C2128005BB002C786A /* tempbg.jpg */,
+				CE7214A9127FF660002C786A /* Stumbler.png */,
+				CE7214A7127FF638002C786A /* Lights Off.png */,
+				CE7214A5127FF50A002C786A /* Chat.png */,
+				CE72149F127FF410002C786A /* Camera.png */,
+				CE72149C127FF3A5002C786A /* Settings.png */,
+				CE721498127FF338002C786A /* Contacts.png */,
+				CE721496127FF2FA002C786A /* Clock.png */,
+				CE72148F127FF072002C786A /* bg.JPG */,
 				320B6C86F11D9990244A9730 /* Three20.bundle */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TheCarltonApp-Info.plist */,
@@ -965,6 +1028,27 @@
 				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				CEBDBEC1127F06C500E5CAA2 /* LauncherViewController.xib in Resources */,
+				CE721490127FF072002C786A /* bg.JPG in Resources */,
+				CE721497127FF2FA002C786A /* Clock.png in Resources */,
+				CE721499127FF338002C786A /* Contacts.png in Resources */,
+				CE72149D127FF3A5002C786A /* Settings.png in Resources */,
+				CE7214A0127FF410002C786A /* Camera.png in Resources */,
+				CE7214A6127FF50A002C786A /* Chat.png in Resources */,
+				CE7214A8127FF638002C786A /* Lights Off.png in Resources */,
+				CE7214AA127FF660002C786A /* Stumbler.png in Resources */,
+				CE7214C3128005BB002C786A /* tempbg.jpg in Resources */,
+				CE7214F71280FAB9002C786A /* bg.gif in Resources */,
+				CE7215091280FD6E002C786A /* logo.png in Resources */,
+				CE72150C1280FDEC002C786A /* phone.png in Resources */,
+				CE7215201280FF7E002C786A /* bookings.png in Resources */,
+				CE72152812810009002C786A /* menu.png in Resources */,
+				CE72152D1281013D002C786A /* navbarbg.png in Resources */,
+				CE72156B12810771002C786A /* free.png in Resources */,
+				CE72156C12810771002C786A /* news.png in Resources */,
+				CE72156D12810771002C786A /* photos.png in Resources */,
+				CE72157412810A38002C786A /* settings.png in Resources */,
+				CE72157512810A38002C786A /* share.png in Resources */,
+				CE72157612810A38002C786A /* checkin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

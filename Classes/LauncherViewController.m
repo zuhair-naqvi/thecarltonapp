@@ -8,92 +8,101 @@
 
 #import "LauncherViewController.h"
 
-@interface LauncherViewController(Private)
-
-- (TTLauncherItem *)launcherItemWithTitle:(NSString *)pTitle image:(NSString *)image URL:(NSString *)url;
-
-@end
-
 @implementation LauncherViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+		self.title = @"Home";
+		self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.gif"]]; 
+	}
+	return self;
+}
 
 - (void)loadView {
 	[super loadView];
 	
-	launcherView = [[TTLauncherView alloc] initWithFrame:self.view.bounds];
-	launcherView.backgroundColor = [UIColor blackColor];
-	launcherView.columnCount = 4;
-	launcherView.pages = [NSArray arrayWithObjects:
-						  [NSArray arrayWithObjects:
-						   [self launcherItemWithTitle:@"Google" image:@"bundle://safari_logo.png" URL:@"http://google.com"],
-						   [self launcherItemWithTitle:@"Apple" image:@"bundle://safari_logo.png" URL:@"http://apple.com"]
-						   , nil]
-						  , nil];
-	launcherView.delegate = self;
-	
-	[self.view addSubview:launcherView];
-}
-
-- (void)viewDidLoad {
-	[super viewDidLoad];
-	
-	self.title = @"The Carlton";
-	
 	self.navigationBarStyle = UIBarStyleBlackTranslucent;
-	self.navigationBarTintColor = [UIColor clearColor]; 
+	self.navigationBarTintColor = [UIColor colorWithRed:0.400 green:0.568 blue:0.025 alpha:7.5]; 
 	
-	UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:launcherView action:@selector(beginEditing)];
-	self.navigationItem.rightBarButtonItem = editButton;
-	[editButton release];
+	UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+	[logoView setCenter:CGPointMake((TTScreenBounds().size.width/2),40.0)];
+	CGRect launcherRect = CGRectMake(0, 65, TTScreenBounds().size.width, (TTScreenBounds().size.height - 140));
+	_launcherView = [[TTLauncherView alloc] initWithFrame:launcherRect];
+	//_launcherView.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.gif"]]; 
+	_launcherView.delegate = self;
+	_launcherView.columnCount = 3;
+	_launcherView.pages = [NSArray arrayWithObjects:
+						   [NSArray arrayWithObjects:
+							[[[TTLauncherItem alloc] initWithTitle:@"Contact"
+															 image:@"bundle://phone.png"
+															   URL:nil canDelete:NO] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Bookings"
+															 image:@"bundle://bookings.png"
+															   URL:nil canDelete:NO] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Menu"
+															 image:@"bundle://menu.png"
+															   URL:nil canDelete:YES] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Free"
+															 image:@"bundle://free.png"
+															   URL:@"fb://item4" canDelete:YES] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"News"
+															 image:@"bundle://news.png"
+															   URL:@"fb://item5" canDelete:YES] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Photos"
+															 image:@"bundle://photos.png"
+															   URL:nil canDelete:YES] autorelease],	
+							[[[TTLauncherItem alloc] initWithTitle:@"Check In"
+															 image:@"bundle://checkin.png"
+															   URL:nil canDelete:YES] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Share"
+															 image:@"bundle://share.png"
+															   URL:nil canDelete:YES] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Settings"
+															 image:@"bundle://settings.png"
+															   URL:nil canDelete:YES] autorelease],								
+							nil],
+						   [NSArray arrayWithObjects:
+							[[[TTLauncherItem alloc] initWithTitle:@"Share"
+															 image:@"bundle://Stumbler.png"
+															   URL:nil canDelete:YES] autorelease],
+							[[[TTLauncherItem alloc] initWithTitle:@"Settings"
+															 image:@"bundle://Settings.png"
+															   URL:nil canDelete:YES] autorelease],
+							nil],
+						   nil
+						   ];
+	[self.view addSubview:logoView];
+	[self.view addSubview:_launcherView];
+	
+	TTLauncherItem* free = [_launcherView itemWithURL:@"fb://item4"];
+	free.badgeNumber = 2;
+	
+	TTLauncherItem* news = [_launcherView itemWithURL:@"fb://item5"];
+	news.badgeNumber = 5;
+	
+//	[self.view addSubview:launcherView];
 }
 
-- (void)viewDidUnload {
-	[launcherView release];
-	launcherView = nil;
-	
-	[super viewDidUnload];
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// TTLauncherViewDelegate
+
+- (void)launcherView:(TTLauncherView*)launcher didSelectItem:(TTLauncherItem*)item {
 }
-
-
-#pragma mark -
-#pragma mark Private methods
-
-- (TTLauncherItem *)launcherItemWithTitle:(NSString *)pTitle image:(NSString *)image URL:(NSString *)url {
-	TTLauncherItem *launcherItem = [[TTLauncherItem alloc] initWithTitle:pTitle 
-																   image:image 
-																	 URL:url canDelete:YES];
-	
-	return [launcherItem autorelease];
-}
-
-
-#pragma mark -
-#pragma mark TTLauncherViewDelegate methods
 
 - (void)launcherViewDidBeginEditing:(TTLauncherView*)launcher {
-	UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:launcherView action:@selector(endEditing)];
-	self.navigationItem.rightBarButtonItem = doneButton;
-	[doneButton release];
+	[self.navigationItem setRightBarButtonItem:[[[UIBarButtonItem alloc]
+												 initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+												 target:_launcherView action:@selector(endEditing)] autorelease] animated:YES];
 }
 
 - (void)launcherViewDidEndEditing:(TTLauncherView*)launcher {
-	UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:launcherView action:@selector(endEditing)];
-	self.navigationItem.rightBarButtonItem = editButton;
-	[editButton release];
+	[self.navigationItem setRightBarButtonItem:nil animated:YES];
 }
 
-- (void)launcherView:(TTLauncherView*)launcher didSelectItem:(TTLauncherItem*)item {
-	[[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:item.URL]];
-}
-
-
-#pragma mark -
-#pragma mark Memory Handling methods
 
 - (void)dealloc {
-	[launcherView release];
-	
 	[super dealloc];
 }
+
 
 @end

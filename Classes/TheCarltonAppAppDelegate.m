@@ -35,6 +35,11 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
+	[[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:URL.absoluteString]];
+	return YES;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*
