@@ -1,7 +1,7 @@
 TTheCarltonApp
 v7
 r0
-t313185426.452600
+t313188523.052308
 cCheck dependencies
 cProcessInfoPlistFile /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/Info.plist TheCarltonApp-Info.plist
 cCpResource build/Debug-iphonesimulator/TheCarltonApp.app/Three20.bundle ../three20/src/Three20.bundle
@@ -2496,9 +2496,9 @@ s548
 i<UIKit/UIKit.h>
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m
-c000000004CFA9D250000000000001564
-t1291492645
-s5476
+c000000004CFAA9260000000000002026
+t1291495718
+s8230
 i"TheCarltonAppAppDelegate.h"
 i"Three20/Three20.h"
 i"LauncherViewController.h"
@@ -2608,11 +2608,11 @@ t1288751063
 s6706
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app
-t1291492626
+t1291495723
 s1292
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app.dSYM
-t1291492626
+t1291495722
 s102
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/18-envelope.png
@@ -2712,8 +2712,8 @@ t1291434795
 s1231
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp
-t1291492625
-s1742212
+t1291495722
+s1742368
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/Three20.bundle
 t1291435037
@@ -2873,8 +2873,8 @@ t1291487881
 s2485
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonAppAppDelegate.o
-t1291492625
-s71984
+t1291495722
+s76256
 
 N/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TmpMenuViewController.o
 t2
@@ -4556,7 +4556,7 @@ s871
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies313185425#313185425#0(0"0(0#1#0"8695885568#0"0#
+lSLF07#2@18"Check dependencies313188521#313188521#0(0"0(0#1#0"8718535360#0"0#
 
 CCompileC build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/BoxViewController.o /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/BoxViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313183865.823759
@@ -4887,8 +4887,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/user/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m310793569#310793569#0(0"0(0#0#64"/Users/user/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m8701068448#2019"    cd /Users/user/iOS/TheCarltonApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-generated-files.hmap -I/Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-own-target-headers.hmap -I/Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-all-target-headers.hmap -iquote /Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-project-headers.hmap -F/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator -I/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/DerivedSources/i386 -I/Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/DerivedSources -include /var/folders/jI/jIELjougExSSlolDaiGCVk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarltonApp_Prefix-bwdengvxhtgdtxfrsifdojsgxzln/TheCarltonApp_Prefix.pch -c /Users/user/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m -o /Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonAppAppDelegate.o0#
 
 CCompileC build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonAppAppDelegate.o /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313185425.443052
-e313185425.704649
+s313188521.744826
+e313188522.013953
 r1
 xCompileC
 xbuild/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonAppAppDelegate.o
@@ -4897,7 +4897,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m313185425#313185425#0(0"0(0#0#71"/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m8705151040#2096"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarltonApp_Prefix-dzlilribngisfrbolyuynnghnyip/TheCarltonApp_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m -o /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonAppAppDelegate.o0#
+o/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m: In function '-[TheCarltonAppAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: 'TheCarltonAppAppDelegate' may not respond to '-initSettingsDefaults'
+o/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: (Messages without a matching method signature
+o/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: will be assumed to return 'id' and accept
+o/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: '...' as arguments.)
+lSLF07#2@79"Compile /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m313188521#313188522#0(678"/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m: In function '-[TheCarltonAppAppDelegate application:didFinishLaunchingWithOptions:]':/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: 'TheCarltonAppAppDelegate' may not respond to '-initSettingsDefaults'/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: (Messages without a matching method signature/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: will be assumed to return 'id' and accept/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: '...' as arguments.)2(22@69"'TheCarltonAppAppDelegate' may not respond to '-initSettingsDefaults'313188521#159#155#0(6@71"/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m313188518#31#0#31#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)313188521#314#131#0(6@71"/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m313188518#31#0#31#0#0"0(0#0#71"/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m8696773056#2096"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/TheCarltonApp-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarltonApp_Prefix-dzlilribngisfrbolyuynnghnyip/TheCarltonApp_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m -o /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonAppAppDelegate.o0#
 
 CCompileC build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TmpMenuViewController.o /Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TmpMenuViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313126502.703645
@@ -5506,13 +5511,13 @@ x/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/The
 lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/TheCarltonApp.app.dSYM build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp310793570#310793571#0(0"0(0#0#89"/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp8763687840#374"    cd /Users/user/iOS/TheCarltonApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp -o /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app.dSYM0#
 
 CGenerateDSYMFile /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app.dSYM /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp
-s313185425.991950
-e313185426.448379
+s313188522.409158
+e313188523.049010
 r1
 xGenerateDSYMFile
 x/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app.dSYM
 x/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/TheCarltonApp.app.dSYM build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp313185425#313185426#0(0"0(0#0#96"/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp8692036480#395"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp -o /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app.dSYM0#
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/TheCarltonApp.app.dSYM build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp313188522#313188523#0(0"0(0#0#96"/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp8675195200#395"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp -o /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app.dSYM0#
 
 CLd /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp normal i386
 s310793570.153116
@@ -5525,14 +5530,14 @@ xi386
 lSLF07#2@94"Link /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp310793570#310793570#0(0"0(0#0#0"8766453376#1478"    cd /Users/user/iOS/TheCarltonApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator -F/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator -filelist /Users/user/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonApp.LinkFileList -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/user/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp0#
 
 CLd /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp normal i386
-s313185425.704739
-e313185425.991847
+s313188522.014049
+e313188522.409058
 r1
 xLd
 x/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp
 xnormal
 xi386
-lSLF07#2@101"Link /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp313185425#313185425#0(0"0(0#0#0"8692635008#1562"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator -F/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator -filelist /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonApp.LinkFileList -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp0#
+lSLF07#2@101"Link /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp313188522#313188522#0(0"0(0#0#0"8675789984#1562"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator -F/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator -filelist /Users/zuhairnaqvi/iOS/TheCarltonApp/build/TheCarltonApp.build/Debug-iphonesimulator/TheCarltonApp.build/Objects-normal/i386/TheCarltonApp.LinkFileList -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/TheCarltonApp0#
 
 CProcessInfoPlistFile /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app/Info.plist TheCarltonApp-Info.plist
 s310442712.929141
@@ -5600,10 +5605,10 @@ x/Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app
 lSLF07#2@81"Touch /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app310793571#310793571#0(0"0(0#0#0"8774942144#266"    cd /Users/user/iOS/TheCarltonApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/user/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app0#
 
 CTouch /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app
-s313185426.448475
-e313185426.452539
+s313188523.049426
+e313188523.052259
 r1
 xTouch
 x/Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app
-lSLF07#2@88"Touch /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app313185426#313185426#0(0"0(0#0#0"8715880000#280"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app0#
+lSLF07#2@88"Touch /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app313188523#313188523#0(0"0(0#0#0"8718238176#280"    cd /Users/zuhairnaqvi/iOS/TheCarltonApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zuhairnaqvi/iOS/TheCarltonApp/build/Debug-iphonesimulator/TheCarltonApp.app0#
 

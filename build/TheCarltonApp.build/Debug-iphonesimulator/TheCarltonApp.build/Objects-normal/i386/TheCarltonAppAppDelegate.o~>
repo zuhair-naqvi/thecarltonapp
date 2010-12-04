@@ -1,0 +1,5 @@
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m: In function '-[TheCarltonAppAppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: 'TheCarltonAppAppDelegate' may not respond to '-initSettingsDefaults'
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: (Messages without a matching method signature
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: will be assumed to return 'id' and accept
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/TheCarltonAppAppDelegate.m:31: warning: '...' as arguments.)

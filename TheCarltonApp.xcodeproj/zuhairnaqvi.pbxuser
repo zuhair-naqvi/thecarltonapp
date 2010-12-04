@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 2119}}";
-			sepNavSelRange = "{1915, 0}";
-			sepNavVisRange = "{1575, 1262}";
+			sepNavIntBoundsRect = "{{0, 0}, {1209, 3107}}";
+			sepNavSelRange = "{2510, 0}";
+			sepNavVisRange = "{1607, 1214}";
 			sepNavWindowFrame = "{{107, 231}, {750, 558}}";
 		};
 	};
@@ -117,6 +117,44 @@
 			F4F115F212AAD503001295A4 /* PBXTextBookmark */ = F4F115F212AAD503001295A4 /* PBXTextBookmark */;
 			F4F115F312AAD503001295A4 /* PlistBookmark */ = F4F115F312AAD503001295A4 /* PlistBookmark */;
 			F4F115F412AAD503001295A4 /* PlistBookmark */ = F4F115F412AAD503001295A4 /* PlistBookmark */;
+			F4F1161D12AAD858001295A4 /* PBXTextBookmark */ = F4F1161D12AAD858001295A4 /* PBXTextBookmark */;
+			F4F1161E12AAD858001295A4 /* PBXTextBookmark */ = F4F1161E12AAD858001295A4 /* PBXTextBookmark */;
+			F4F1161F12AAD858001295A4 /* PlistBookmark */ = F4F1161F12AAD858001295A4 /* PlistBookmark */;
+			F4F1162012AAD858001295A4 /* PlistBookmark */ = F4F1162012AAD858001295A4 /* PlistBookmark */;
+			F4F1163012AADC43001295A4 /* PlistBookmark */ = F4F1163012AADC43001295A4 /* PlistBookmark */;
+			F4F1163112AADC43001295A4 /* PBXTextBookmark */ = F4F1163112AADC43001295A4 /* PBXTextBookmark */;
+			F4F1163212AADC43001295A4 /* PBXTextBookmark */ = F4F1163212AADC43001295A4 /* PBXTextBookmark */;
+			F4F1163312AADC43001295A4 /* PBXTextBookmark */ = F4F1163312AADC43001295A4 /* PBXTextBookmark */;
+			F4F1163412AADC43001295A4 /* PlistBookmark */ = F4F1163412AADC43001295A4 /* PlistBookmark */;
+			F4F1163512AADC43001295A4 /* PlistBookmark */ = F4F1163512AADC43001295A4 /* PlistBookmark */;
+			F4F1163812AADC51001295A4 /* PBXTextBookmark */ = F4F1163812AADC51001295A4 /* PBXTextBookmark */;
+			F4F1163912AADC51001295A4 /* PBXTextBookmark */ = F4F1163912AADC51001295A4 /* PBXTextBookmark */;
+			F4F1163A12AADC51001295A4 /* PlistBookmark */ = F4F1163A12AADC51001295A4 /* PlistBookmark */;
+			F4F1163B12AADC51001295A4 /* PlistBookmark */ = F4F1163B12AADC51001295A4 /* PlistBookmark */;
+			F4F1164412AADC74001295A4 /* PBXTextBookmark */ = F4F1164412AADC74001295A4 /* PBXTextBookmark */;
+			F4F1164512AADC74001295A4 /* PBXTextBookmark */ = F4F1164512AADC74001295A4 /* PBXTextBookmark */;
+			F4F1164612AADC74001295A4 /* PlistBookmark */ = F4F1164612AADC74001295A4 /* PlistBookmark */;
+			F4F1164712AADC74001295A4 /* PlistBookmark */ = F4F1164712AADC74001295A4 /* PlistBookmark */;
+			F4F1164812AADC8E001295A4 /* PBXTextBookmark */ = F4F1164812AADC8E001295A4 /* PBXTextBookmark */;
+			F4F1164912AADC8E001295A4 /* PBXTextBookmark */ = F4F1164912AADC8E001295A4 /* PBXTextBookmark */;
+			F4F1164A12AADC8E001295A4 /* PlistBookmark */ = F4F1164A12AADC8E001295A4 /* PlistBookmark */;
+			F4F1164B12AADC8E001295A4 /* PlistBookmark */ = F4F1164B12AADC8E001295A4 /* PlistBookmark */;
+			F4F1165012AADF29001295A4 /* PBXTextBookmark */ = F4F1165012AADF29001295A4 /* PBXTextBookmark */;
+			F4F1165112AADF29001295A4 /* PBXTextBookmark */ = F4F1165112AADF29001295A4 /* PBXTextBookmark */;
+			F4F1165212AADF29001295A4 /* PlistBookmark */ = F4F1165212AADF29001295A4 /* PlistBookmark */;
+			F4F1165312AADF29001295A4 /* PlistBookmark */ = F4F1165312AADF29001295A4 /* PlistBookmark */;
+			F4F1165612AADFEB001295A4 /* PBXTextBookmark */ = F4F1165612AADFEB001295A4 /* PBXTextBookmark */;
+			F4F1165712AADFEB001295A4 /* PBXTextBookmark */ = F4F1165712AADFEB001295A4 /* PBXTextBookmark */;
+			F4F1165812AADFEB001295A4 /* PlistBookmark */ = F4F1165812AADFEB001295A4 /* PlistBookmark */;
+			F4F1165912AADFEB001295A4 /* PlistBookmark */ = F4F1165912AADFEB001295A4 /* PlistBookmark */;
+			F4F1165E12AAE060001295A4 /* PBXTextBookmark */ = F4F1165E12AAE060001295A4 /* PBXTextBookmark */;
+			F4F1165F12AAE060001295A4 /* PBXTextBookmark */ = F4F1165F12AAE060001295A4 /* PBXTextBookmark */;
+			F4F1166012AAE060001295A4 /* PlistBookmark */ = F4F1166012AAE060001295A4 /* PlistBookmark */;
+			F4F1166112AAE060001295A4 /* PlistBookmark */ = F4F1166112AAE060001295A4 /* PlistBookmark */;
+			F4F1166612AAE0AB001295A4 /* PBXTextBookmark */ = F4F1166612AAE0AB001295A4 /* PBXTextBookmark */;
+			F4F1166712AAE0AB001295A4 /* PBXTextBookmark */ = F4F1166712AAE0AB001295A4 /* PBXTextBookmark */;
+			F4F1166812AAE0AB001295A4 /* PlistBookmark */ = F4F1166812AAE0AB001295A4 /* PlistBookmark */;
+			F4F1166912AAE0AB001295A4 /* PlistBookmark */ = F4F1166912AAE0AB001295A4 /* PlistBookmark */;
 		};
 		sourceControlManager = F4F60E751286749900DAFC6B /* Source Control */;
 		userBuildSettings = {
@@ -808,7 +846,7 @@
 		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
 		name = "TheCarltonAppAppDelegate.m: 67";
 		rLen = 0;
-		rLoc = 2343;
+		rLoc = 2562;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 4648;
@@ -818,7 +856,7 @@
 		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
 		name = "TheCarltonAppAppDelegate.m: 55";
 		rLen = 0;
-		rLoc = 1915;
+		rLoc = 2111;
 		rType = 0;
 		vrLen = 1243;
 		vrLoc = 1593;
@@ -840,7 +878,7 @@
 		path = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/en.lproj/Root.strings;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1286, 430}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1286, 407}}";
 			sepNavSelRange = "{195, 5}";
 			sepNavVisRange = "{0, 272}";
 		};
@@ -878,7 +916,7 @@
 		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
 		name = "TheCarltonAppAppDelegate.m: 55";
 		rLen = 0;
-		rLoc = 1915;
+		rLoc = 2111;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 1575;
@@ -906,6 +944,459 @@
 		rLoc = 9223372036854775807;
 	};
 	F4F115F412AAD503001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1161D12AAD858001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 64";
+		rLen = 34;
+		rLoc = 2491;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 1240;
+	};
+	F4F1161E12AAD858001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1161F12AAD858001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1162012AAD858001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1163012AADC43001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1163112AADC43001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 50";
+		rLen = 0;
+		rLoc = 1885;
+		rType = 0;
+		vrLen = 1299;
+		vrLoc = 1240;
+	};
+	F4F1163212AADC43001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 879;
+		rType = 0;
+		vrLen = 1358;
+		vrLoc = 146;
+	};
+	F4F1163312AADC43001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1163412AADC43001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1163512AADC43001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1163812AADC51001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 855;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 146;
+	};
+	F4F1163912AADC51001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1163A12AADC51001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1163B12AADC51001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1164412AADC74001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 30";
+		rLen = 10;
+		rLoc = 845;
+		rType = 0;
+		vrLen = 1358;
+		vrLoc = 146;
+	};
+	F4F1164512AADC74001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1164612AADC74001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1164712AADC74001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1164812AADC8E001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 879;
+		rType = 0;
+		vrLen = 1431;
+		vrLoc = 146;
+	};
+	F4F1164912AADC8E001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1164A12AADC8E001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1164B12AADC8E001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1165012AADF29001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 735;
+		rType = 0;
+		vrLen = 1455;
+		vrLoc = 250;
+	};
+	F4F1165112AADF29001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1165212AADF29001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1165312AADF29001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1165612AADFEB001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 165";
+		rLen = 20;
+		rLoc = 5766;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 5102;
+	};
+	F4F1165712AADFEB001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1165812AADFEB001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1165912AADFEB001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1165E12AAE060001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 930;
+		rType = 0;
+		vrLen = 1349;
+		vrLoc = 87;
+	};
+	F4F1165F12AAE060001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1166012AAE060001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1166112AAE060001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			Rows,
+			0,
+			Children,
+			0,
+			Children,
+		);
+		name = /Users/zuhairnaqvi/Downloads/DrillDownApp/Classes/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1166612AAE0AB001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TheCarltonAppAppDelegate.m */;
+		name = "TheCarltonAppAppDelegate.m: 68";
+		rLen = 0;
+		rLoc = 2510;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 1607;
+	};
+	F4F1166712AAE0AB001295A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4F115A912AAD4A8001295A4 /* Root.strings */;
+		name = "Root.strings: 3";
+		rLen = 5;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	F4F1166812AAE0AB001295A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F4F1158A12AAD422001295A4 /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+		);
+		name = /Users/zuhairnaqvi/iOS/TheCarltonApp/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F4F1166912AAE0AB001295A4 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = F4F1135012A9E4B5001295A4 /* Data.plist */;
 		fallbackIsa = PBXBookmark;
