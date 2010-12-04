@@ -4,6 +4,8 @@
 <dict>
 	<key>application-identifier</key>
 	<string>ZG7467CZQB.TheCarltonApp</string>
+	<key>aps-environment</key>
+	<string>development</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>

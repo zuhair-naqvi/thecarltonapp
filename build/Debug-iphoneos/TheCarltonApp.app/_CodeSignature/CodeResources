@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>18-envelope.png</key>
+		<data>
+		WvJEtYqpIkNjP48TVoAzFTVDgOM=
+		</data>
+		<key>53-house.png</key>
+		<data>
+		6jEoZ53W1olwCF5iwsqFM71js+A=
+		</data>
 		<key>Camera.png</key>
 		<data>
 		Wm4RNK3vvCnyGGWuZVnGi9aoWxw=
@@ -16,9 +24,21 @@
 		<data>
 		gk7801nmuD+2G51OlK2ZK1pT/R4=
 		</data>
+		<key>ContactViewController.nib</key>
+		<data>
+		9W20u/xO3B7GewGnT7Wx6DnVbSY=
+		</data>
 		<key>Contacts.png</key>
 		<data>
 		PJsFX+TYXkXTLn1Hi4e6trYkUa8=
+		</data>
+		<key>Data.plist</key>
+		<data>
+		YzlOWD/Hu3+q+h8bJmufMVgjr5s=
+		</data>
+		<key>DetailView.nib</key>
+		<data>
+		PzyVIHN33PEGIsW6TrJS/SSelKI=
 		</data>
 		<key>LauncherViewController.nib</key>
 		<data>
@@ -28,13 +48,25 @@
 		<data>
 		2LXAdBH9NtmyLBLXRsBZSRgFKFU=
 		</data>
+		<key>LocateViewController.nib</key>
+		<data>
+		4I/T+rgKEq3A7x77f4uL9dObcG0=
+		</data>
 		<key>MainWindow.nib</key>
 		<data>
 		IyMG73zwxYvAusFxh+i3jEGbwMQ=
 		</data>
+		<key>MenuRootViewController.nib</key>
+		<data>
+		xXMP9ie7xIeHWYTKgZ8frfJEdK0=
+		</data>
+		<key>MenuViewController.nib</key>
+		<data>
+		q/yOjdmmhPSGmXw/B41rW4Vzkyo=
+		</data>
 		<key>Phone.png</key>
 		<data>
-		S4FZw9SzmE8tW8PAraueNl0Nz00=
+		6O0UIVy8/ttseMUEZW9s83gj1yc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -42,7 +74,7 @@
 		</data>
 		<key>Settings.png</key>
 		<data>
-		htoGBnA8XwAzbOEnKA1y5fMfp40=
+		CR+21OX3AuYZyHnDpoAXHsaARUE=
 		</data>
 		<key>Stumbler.png</key>
 		<data>
@@ -164,17 +196,85 @@
 		<data>
 		OWbujwr6QRCaZMKiChHsFiAh43w=
 		</data>
-		<key>bg.JPG</key>
+		<key>WineViewController.nib</key>
 		<data>
-		+22aCakoRJgeEnTvLCGj1NqPjfE=
+		FzSUjXX03ETOeSuYb+NQMkPj/Jc=
+		</data>
+		<key>appsettings.png</key>
+		<data>
+		CR+21OX3AuYZyHnDpoAXHsaARUE=
+		</data>
+		<key>bg.gif</key>
+		<data>
+		u2+h3wVu3YtlZE0sScPADn2O3Ns=
+		</data>
+		<key>bg.jpg</key>
+		<data>
+		HR7kHNaEmP5IiiFWyeMVUvAMCII=
+		</data>
+		<key>bookings.png</key>
+		<data>
+		JwK3hdZWG3nHMbFviFJv7tJqd9Q=
+		</data>
+		<key>buttonimg.png</key>
+		<data>
+		qd2mEN9kMWkhDP/UMVxAkqIsPhg=
+		</data>
+		<key>checkin.png</key>
+		<data>
+		xKEPBQEXDEdswdK4G0GeKjwiclc=
+		</data>
+		<key>contact.png</key>
+		<data>
+		6O0UIVy8/ttseMUEZW9s83gj1yc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		Yz3zT38aalBpAoXq4OHsJbt9ahc=
+		ZA+uLnoLNg76GpDSMGdp/BEf1zE=
+		</data>
+		<key>free.png</key>
+		<data>
+		gkwl17kcahIHTDF2eIFU5NQtSvI=
+		</data>
+		<key>logo.png</key>
+		<data>
+		h2K/qwQL2MJ60DIZ0tWWw0cq/w4=
+		</data>
+		<key>map.png</key>
+		<data>
+		gb3F3sWJlqr69miQxlkDUZvRKSU=
+		</data>
+		<key>menu.plist</key>
+		<data>
+		8cqj5iBxJqG4l9w330ifmF6gB9s=
+		</data>
+		<key>menu.png</key>
+		<data>
+		x4ZNmUbMICr1wf9DnoaOL4vpJuw=
+		</data>
+		<key>navbarbg.png</key>
+		<data>
+		vKVTMOzBW4QSZrODKUF0HpJwOYc=
+		</data>
+		<key>news.png</key>
+		<data>
+		4nLQOko5r4PBF8qZemlO+H/M+hI=
+		</data>
+		<key>photos.png</key>
+		<data>
+		65UvWaqNTserRBJnjdPI0lTtszY=
+		</data>
+		<key>share.png</key>
+		<data>
+		EYtC3tFggR9GvxEUNix99hOlJkw=
 		</data>
 		<key>tempbg.jpg</key>
 		<data>
 		hjnSRiflbyblfyox3IhHPaPDhJY=
+		</data>
+		<key>wineart.jpg</key>
+		<data>
+		0m6GHu4l7tj0YAbHxfGSprL6y2c=
 		</data>
 	</dict>
 	<key>rules</key>

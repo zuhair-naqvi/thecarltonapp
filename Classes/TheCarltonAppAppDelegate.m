@@ -9,11 +9,18 @@
 #import "TheCarltonAppAppDelegate.h"
 #import "Three20/Three20.h"
 #import "LauncherViewController.h"
+#import "MenuRootViewController.h"
+#import "ContactViewController.h"
+#import "GalleryViewController.h"
+#import "PhotosViewController.h"
+#import "LocateViewController.h"
+#import "BoxViewController.h"
 
 @implementation TheCarltonAppAppDelegate
 
 @synthesize window;
-
+@synthesize navigationController;
+@synthesize data;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -21,18 +28,73 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
 	TTNavigator* navigator = [TTNavigator navigator];
-	navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+	navigator.persistenceMode = TTNavigatorPersistenceModeNone;
 	TTURLMap* map = navigator.URLMap;
 	[map from:@"*" toViewController:[TTWebController class]];
-	[map from:@"tt://launcher/" toViewController:
-	 [LauncherViewController class]];
+	[map from:@"tt://menu/" toViewController:[MenuRootViewController class]];
+	[map from:@"tt://contact/" toViewController:[ContactViewController class]];
+	[map from:@"tt://gallery/" toViewController:[GalleryViewController class]];
+	[map from:@"tt://box/" toViewController:[BoxViewController class]];
+	[map from:@"tt://launcher/" toViewController:[LauncherViewController class]];
+	//Child mapping
+	[map from:@"tt://locate/" toViewController:[LocateViewController class]];
 	
 	if (![navigator restoreViewControllers]) {
 		[navigator openURLAction:
 		 [TTURLAction actionWithURLPath:@"tt://launcher"]];
 	}
 	//[window makeKeyAndVisible];
+	
+	//Load Menu data
+//	NSString *Path = [[NSBundle mainBundle] bundlePath];
+//	NSString *DataPath = [Path stringByAppendingPathComponent:@"data.plist"];
+	
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];	
+	NSString *server = [prefs stringForKey:@"server"];	
+	NSString *urlStr = [[NSString alloc] 
+						initWithFormat:@"http://%@/front_dev.php/menu/plist?seedVar=%f", server, 
+						(float)random()/RAND_MAX];
+	NSURL *url = [NSURL URLWithString:urlStr];
+	
+	//[[NSDictionary alloc] initWithContentsOfFile:DataPath];
+	NSDictionary *tempDict = [[NSDictionary alloc] initWithContentsOfURL:url];//[NSDictionary dictionaryWithContentsOfURL:url];
+	self.data = tempDict;
+	[tempDict release];
+	[urlStr release];
+	[url release];
+	
+	//Register for push notifications
+	NSLog(@"Registering for push notifications...");    
+    [[UIApplication sharedApplication] 
+	 registerForRemoteNotificationTypes:
+	 (UIRemoteNotificationTypeAlert | 
+	  UIRemoteNotificationTypeBadge | 
+	  UIRemoteNotificationTypeSound)];
+	
     return YES;
+}
+
+- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken { 
+	
+    NSString *str = [NSString 
+					 stringWithFormat:@"Device Token=%@",deviceToken];
+    NSLog(@" %@",str);
+	
+}
+
+- (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err { 
+	
+    NSString *str = [NSString stringWithFormat: @"Error: %@", err];
+    NSLog(@" %@", str);    
+	
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+	
+    for (id key in userInfo) {
+        NSLog(@"key: %@, value: %@", key, [userInfo objectForKey:key]);
+    }    
+	
 }
 
 - (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
@@ -90,7 +152,9 @@
 
 
 - (void)dealloc {
-    [window release];
+	[data release];
+	[navigationController release];
+	[window release];
     [super dealloc];
 }
 

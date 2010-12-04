@@ -1,0 +1,35 @@
+Running…
+[Switching to thread 11523]
+[Switching to thread 11523]
+sharedlibrary apply-load-rules all
+continue
+2010-11-03 23:48:03.876 TheCarltonApp[616:307] *** Terminating app due to uncaught exception 'NSRangeException', reason: '*** -[NSMutableArray objectAtIndex:]: index 4294967295 beyond bounds [0 .. 2]'
+*** Call stack at first throw:
+(
+	0   CoreFoundation                      0x344aaed3 __exceptionPreprocess + 114
+	1   libobjc.A.dylib                     0x33975811 objc_exception_throw + 24
+	2   CoreFoundation                      0x3443cd79 -[__NSArrayM objectAtIndex:] + 184
+	3   TheCarltonApp                       0x00021eeb -[TTLauncherView updateTouch] + 618
+	4   TheCarltonApp                       0x0002262b -[TTLauncherView touchesMoved:withEvent:] + 302
+	5   TheCarltonApp                       0x0001d785 -[TTLauncherButton touchesMoved:withEvent:] + 84
+	6   UIKit                               0x31b2edbb -[UIWindow _sendTouchesForEvent:] + 334
+	7   UIKit                               0x31b2e757 -[UIWindow sendEvent:] + 262
+	8   UIKit                               0x31b299ff -[UIApplication sendEvent:] + 298
+	9   UIKit                               0x31b29337 _UIApplicationHandleEvent + 5110
+	10  GraphicsServices                    0x3026c04b PurpleEventCallback + 666
+	11  CoreFoundation                      0x3443fce3 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE1_PERFORM_FUNCTION__ + 26
+	12  CoreFoundation                      0x3443fca7 __CFRunLoopDoSource1 + 166
+	13  CoreFoundation                      0x3443256d __CFRunLoopRun + 520
+	14  CoreFoundation                      0x34432277 CFRunLoopRunSpecific + 230
+	15  CoreFoundation                      0x3443217f CFRunLoopRunInMode + 58
+	16  GraphicsServices                    0x3026b5f3 GSEventRunModal + 114
+	17  GraphicsServices                    0x3026b69f GSEventRun + 62
+	18  UIKit                               0x31ad0123 -[UIApplication _run] + 402
+	19  UIKit                               0x31ace12f UIApplicationMain + 670
+	20  TheCarltonApp                       0x00002867 main + 70
+	21  TheCarltonApp                       0x0000281c start + 40
+)
+terminate called after throwing an instance of 'NSException'
+Program received signal:  “SIGABRT”.
+kill
+quit

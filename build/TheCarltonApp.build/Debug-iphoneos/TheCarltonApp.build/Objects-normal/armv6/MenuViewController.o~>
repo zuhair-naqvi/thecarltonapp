@@ -1,0 +1,6 @@
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/MenuViewController.m:74: warning: property 'tableDataSource' requires method '-tableDataSource' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/MenuViewController.m:74: warning: property 'tableDataSource' requires the method 'setTableDataSource:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/MenuViewController.m:74: warning: property 'CurrentTitle' requires method '-CurrentTitle' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/MenuViewController.m:74: warning: property 'CurrentTitle' requires the method 'setCurrentTitle:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/MenuViewController.m:74: warning: property 'CurrentLevel' requires method '-CurrentLevel' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/zuhairnaqvi/iOS/TheCarltonApp/Classes/MenuViewController.m:74: warning: property 'CurrentLevel' requires the method 'setCurrentLevel:' to be defined - use @synthesize, @dynamic or provide a method implementation
