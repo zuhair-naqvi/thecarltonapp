@@ -24,14 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	UIEdgeInsets inset = UIEdgeInsetsMake(75, 0, 0, 0);
-	self.tableView.contentInset = inset;	
-	UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
-	[logoView setCenter:CGPointMake((TTScreenBounds().size.width/2),-40.0)];
-	[self.tableView addSubview:logoView];
-	self.tableView.separatorColor = [UIColor grayColor];
-	self.tableView.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]];
-	
 	
     if(CurrentLevel == 0) {
 		
@@ -144,19 +136,6 @@
 	NSDictionary *dictionary = [self.tableDataSource objectAtIndex:indexPath.row];
 	
     // Configure the cell...
-		
-	
-//	cell.contentView.backgroundColor = [UIColor clearColor];
-//	cell.contentView.alpha = 0.6;
-	
-	
-	UIView *v = [[[UIView alloc] init] autorelease];
-	v.backgroundColor = [UIColor colorWithRed:0.700 green:0.168 blue:0.425 alpha:1.5];
-	
-	cell.selectedBackgroundView = v;
-	UIFont *cellFont = [UIFont fontWithName:@"TrebuchetMS" size:16.0];
-	cell.textLabel.textColor = [UIColor whiteColor];
-	cell.textLabel.font = cellFont;
 	cell.textLabel.text = [dictionary objectForKey:@"Title"];
     
     return cell;
