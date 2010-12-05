@@ -13,8 +13,7 @@
 
 @implementation GalleryViewController
 
-- (void) updateTableLayout {
-	
+- (void) updateTableLayout {	
 	self.tableView.contentInset = UIEdgeInsetsMake(5, 0, 0, 0);
 	self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(TTBarsHeight(), 0, 0, 0);
 }
@@ -100,15 +99,16 @@
 						      size:CGSizeMake(800, 533)] autorelease],
 						    nil]
 						];
+	[self.photoSource autorelease];
 }
 
 - (void) goCamera
 {
 	//create an overlay view instance
-	Overlay *overlay = [[Overlay alloc]
-							initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)];
+	Overlay *overlay = [[[Overlay alloc]
+							initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)] autorelease];
 	
-	PhotosViewController *photosViewController = [[PhotosViewController alloc] init];
+	PhotosViewController *photosViewController = [[[PhotosViewController alloc] init] autorelease];
 	//photosViewController.delegate = self;
 	photosViewController.sourceType = UIImagePickerControllerSourceTypeCamera;
 	photosViewController.cameraOverlayView = overlay;

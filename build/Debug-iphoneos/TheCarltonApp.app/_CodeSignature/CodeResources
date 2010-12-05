@@ -12,6 +12,10 @@
 		<data>
 		6jEoZ53W1olwCF5iwsqFM71js+A=
 		</data>
+		<key>BoxViewController.nib</key>
+		<data>
+		FTgzEjHZkxp6jgm34iljxuEhmcM=
+		</data>
 		<key>Camera.png</key>
 		<data>
 		Wm4RNK3vvCnyGGWuZVnGi9aoWxw=
@@ -38,7 +42,11 @@
 		</data>
 		<key>DetailView.nib</key>
 		<data>
-		PzyVIHN33PEGIsW6TrJS/SSelKI=
+		QNKzj9tX4+VOKkAWbSpkW61eCWs=
+		</data>
+		<key>Hoyne_PureBlonde.jpeg</key>
+		<data>
+		LBcZ/hmQpdX4h7APVcY0JLPeGRo=
 		</data>
 		<key>LauncherViewController.nib</key>
 		<data>
@@ -71,6 +79,14 @@
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Settings.bundle/Root.plist</key>
+		<data>
+		QXHsR7inzQHh+7I+coCfyGVWeiM=
+		</data>
+		<key>Settings.bundle/en.lproj/Root.strings</key>
+		<data>
+		t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
 		</data>
 		<key>Settings.png</key>
 		<data>

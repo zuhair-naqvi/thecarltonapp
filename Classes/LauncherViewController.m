@@ -20,7 +20,7 @@
 
 - (void)loadView {
 	[super loadView];
-	
+	self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]]; 
 	self.navigationBarStyle = UIBarStyleBlackTranslucent;
 	self.navigationBarTintColor = [UIColor colorWithRed:0.400 green:0.568 blue:0.025 alpha:7.5]; 
 	

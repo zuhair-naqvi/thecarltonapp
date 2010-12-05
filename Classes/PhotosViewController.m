@@ -15,7 +15,7 @@
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
 	// Access the uncropped image from info dictionary
-	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+	UIImage *image = [[info objectForKey:@"UIImagePickerControllerOriginalImage"] autorelease];
 	
 	// Save image
 	UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
@@ -46,6 +46,12 @@
 	[alert release];
 }
 
+
+// as a delegate we are told to finished with the camera
+- (void)didFinishWithCamera
+{
+    [self dismissModalViewControllerAnimated:YES];
+}
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
