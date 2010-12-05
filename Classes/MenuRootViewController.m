@@ -24,7 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
+	self.tableView.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]];
+	self.tableView.separatorColor = [UIColor grayColor];
     if(CurrentLevel == 0) {
 		
 		//Initialize our table data source
@@ -136,8 +137,19 @@
 	NSDictionary *dictionary = [self.tableDataSource objectAtIndex:indexPath.row];
 	
     // Configure the cell...
+//	cell.contentView.backgroundColor = [UIColor whiteColor];
+//	cell.contentView.alpha = 0.6;
+	
+	UIView *v = [[[UIView alloc] init] autorelease];
+	v.backgroundColor = [UIColor colorWithRed:0.700 green:0.168 blue:0.425 alpha:1.5];
+	
+	// Configure the cell...
+	cell.selectedBackgroundView = v;
+	UIFont *cellFont = [UIFont fontWithName:@"TrebuchetMS" size:16.0];
+	cell.textLabel.textColor = [UIColor whiteColor];
+	cell.textLabel.font = cellFont;
 	cell.textLabel.text = [dictionary objectForKey:@"Title"];
-    
+    [cellFont retain];	
     return cell;
 }
 
