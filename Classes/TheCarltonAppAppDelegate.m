@@ -52,20 +52,6 @@
 //	NSString *Path = [[NSBundle mainBundle] bundlePath];
 //	NSString *DataPath = [Path stringByAppendingPathComponent:@"data.plist"];
 	
-	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];	
-	NSString *server = [prefs stringForKey:@"server"];	
-	NSString *urlStr = [[NSString alloc] 
-						initWithFormat:@"http://%@/front_dev.php/menu/plist?seedVar=%f", server, 
-						(float)random()/RAND_MAX];
-	NSLog(@"%@", urlStr);
-	NSURL *url = [NSURL URLWithString:urlStr];
-	
-	//[[NSDictionary alloc] initWithContentsOfFile:DataPath];
-	NSDictionary *tempDict = [[NSDictionary alloc] initWithContentsOfURL:url];//[NSDictionary dictionaryWithContentsOfURL:url];
-	self.data = tempDict;
-	[tempDict release];
-	[urlStr release];
-	[url release];
 	
 	//Register for push notifications
 	NSLog(@"Registering for push notifications...");    

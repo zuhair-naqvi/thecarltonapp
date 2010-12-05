@@ -11,7 +11,7 @@
 
 @implementation DetailViewController
 
-@synthesize itemDesc, itemPic, itemDescText, itemPicView, imageUrlPrefix;
+@synthesize itemDesc, itemPic, itemDescText, itemPicView, spinner;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -20,21 +20,45 @@
 	//self.navigationItem.title = @"Detail View";
 	itemDescText.text = itemDesc;
 	itemDescText.backgroundColor = [UIColor clearColor];
+
+	spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+	[spinner setCenter:CGPointMake(itemPicView.bounds.size.width/2, itemPicView.bounds.size.height/2)]; // I do this because I'm in landscape mode
+	[itemPicView addSubview:spinner]; 
+	[spinner startAnimating];
+		
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+	NSURL *picUrl = [NSURL URLWithString:[[NSString alloc] initWithFormat:@"http://%@/uploads/images/menu/%@", [prefs stringForKey:@"server"], itemPic]];
+	NSURLRequest *request=[NSURLRequest requestWithURL:picUrl
+										   cachePolicy:NSURLRequestUseProtocolCachePolicy
+									   timeoutInterval:60];
 	
-	imageUrlPrefix = @"http://ec2-184-72-186-159.compute-1.amazonaws.com/uploads/images/menu";
-	
-	NSString *myImageString = [NSString stringWithFormat:@"%@/%@",imageUrlPrefix,itemPic];
-	NSURL * imageUrl = [[NSURL alloc] initWithString:myImageString];
-	NSURLRequest *myRequest = [ [NSURLRequest alloc] initWithURL: imageUrl ];
-	NSData *returnData = [ NSURLConnection sendSynchronousRequest:myRequest returningResponse: nil error: nil ];
-	UIImage *myImage  = [[UIImage alloc] initWithData:returnData];	
-	itemPicView.image = myImage;
-	NSLog(@"%@", myImageString);
+	NSURLConnection *connection=[[NSURLConnection alloc] initWithRequest:request delegate:self];
 //							   [myImageString release];
 //							   [imageUrl release];
 //							   [myRequest release];
 //							   [returnData release];
 //							   [myImage release];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    responseData = [[NSMutableData alloc] init];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    [responseData appendData:data];	
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    [responseData release];
+    [connection release];
+    //[textView setString:@"Unable to fetch data"];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection 
+{
+	[spinner stopAnimating];
+	[spinner release];
+	itemPicView.image = [UIImage imageWithData:responseData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,7 +72,7 @@
 	[itemPic release];
 	[itemDescText release];
 	[itemPicView release];
-	[imageUrlPrefix release];
+	[responseData release];
     [super dealloc];
 }
 

@@ -11,14 +11,16 @@
 @interface DetailViewController : UIViewController {
 	NSString *itemDesc;
 	NSString *itemPic;
-	NSString *imageUrlPrefix;
+	NSMutableData *responseData;
+	UIActivityIndicatorView *spinner;
 	IBOutlet UIImageView *itemPicView;
-	IBOutlet UITextView *itemDescText;
+	IBOutlet UITextView *itemDescText;	
 }
 
 @property (nonatomic, retain) NSString *itemDesc;
 @property (nonatomic, retain) NSString *itemPic;
-@property (nonatomic, retain) NSString *imageUrlPrefix;
+@property (nonatomic, retain) NSMutableData *responseData;
+@property (nonatomic, retain) UIActivityIndicatorView *spinner;
 @property (nonatomic, retain) IBOutlet UIImageView *itemPicView;
 @property (nonatomic, retain) IBOutlet UITextView *itemDescText;
 

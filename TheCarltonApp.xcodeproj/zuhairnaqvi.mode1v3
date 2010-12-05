@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>F4F1166712AAE0AB001295A4</string>
+						<string>F4F1191F12AB13AA001295A4</string>
 						<key>history</key>
 						<array>
 							<string>F4F115A812AAD4A8001295A4</string>
@@ -256,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>F4F1166812AAE0AB001295A4</string>
+						<string>F4F1192012AB13AA001295A4</string>
 						<key>history</key>
 						<array>
 							<string>F4F115AA12AAD4A8001295A4</string>
@@ -296,7 +296,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>F4F1166912AAE0AB001295A4</string>
+						<string>F4F1192112AB13AA001295A4</string>
 						<key>history</key>
 						<array>
 							<string>F4F115AB12AAD4A8001295A4</string>
@@ -386,6 +386,9 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>F4BE23AC1286781B00FF6106</string>
+								<string>F4BE23AB1286781200FF6106</string>
+								<string>F4BE23AA128677B500FF6106</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -393,13 +396,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>24</integer>
+									<integer>12</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 59}, {249, 673}}</string>
+							<string>{{0, 21}, {249, 673}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -436,7 +440,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TheCarltonAppAppDelegate.m</string>
+								<string>MenuRootViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -444,11 +448,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TheCarltonAppAppDelegate.m</string>
+										<string>MenuRootViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F4F1166612AAE0AB001295A4</string>
+										<string>F4F1191E12AB13AA001295A4</string>
 										<key>history</key>
 										<array>
 											<string>F4BE23B01286786F00FF6106</string>
@@ -472,31 +476,31 @@
 											<string>F4F1132912A23885001295A4</string>
 											<string>F4F1134812A9E316001295A4</string>
 											<string>F4F1134912A9E316001295A4</string>
-											<string>F4F1134B12A9E316001295A4</string>
 											<string>F4F1134C12A9E316001295A4</string>
 											<string>F4F113C212A9EF56001295A4</string>
 											<string>F4F113C312A9EF56001295A4</string>
-											<string>F4F113C712A9EF56001295A4</string>
 											<string>F4F113C912A9EF56001295A4</string>
-											<string>F4F113D212A9EFE7001295A4</string>
 											<string>F4F1145512AA0BE0001295A4</string>
 											<string>F4F1149F12AAA78C001295A4</string>
-											<string>F4F114E312AAB27A001295A4</string>
-											<string>F4F114FD12AAC051001295A4</string>
-											<string>F4F114FE12AAC051001295A4</string>
-											<string>F4F114FF12AAC051001295A4</string>
-											<string>F4F1151312AAC20C001295A4</string>
-											<string>F4F1151412AAC20C001295A4</string>
 											<string>F4F1152412AAC514001295A4</string>
 											<string>F4F1152612AAC514001295A4</string>
 											<string>F4F1152B12AAC7A0001295A4</string>
-											<string>F4F1153712AAC9A1001295A4</string>
 											<string>F4F1155312AACE34001295A4</string>
 											<string>F4F1156F12AAD10B001295A4</string>
 											<string>F4F1157E12AAD422001295A4</string>
 											<string>F4F1159B12AAD479001295A4</string>
 											<string>F4F1163012AADC43001295A4</string>
-											<string>F4F1163112AADC43001295A4</string>
+											<string>F4F1171F12AAFB91001295A4</string>
+											<string>F4F1173712AAFCC4001295A4</string>
+											<string>F4F1173812AAFCC4001295A4</string>
+											<string>F4F1174512AAFE56001295A4</string>
+											<string>F4F1174612AAFE56001295A4</string>
+											<string>F4F1188B12AB0F38001295A4</string>
+											<string>F4F118AA12AB1095001295A4</string>
+											<string>F4F118B412AB10DD001295A4</string>
+											<string>F4F1190312AB12D4001295A4</string>
+											<string>F4F1190412AB12D4001295A4</string>
+											<string>F4F1190512AB12D4001295A4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -695,10 +699,10 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>F4BE23A31286768600FF6106</string>
 		<string>F4F1143812A9FC35001295A4</string>
 		<string>F4F1157112AAD10B001295A4</string>
 		<string>F4F1158512AAD422001295A4</string>
+		<string>F4BE23A31286768600FF6106</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/zuhairnaqvi/iOS/TheCarltonApp/TheCarltonApp.xcodeproj</string>
 	</array>
@@ -719,12 +723,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>MenuRootViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -793,7 +799,7 @@
 			<key>WindowToolGUID</key>
 			<string>F4BE23A31286768600FF6106</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -1047,18 +1053,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {737, 206}}</string>
+								<string>{{0, 0}, {951, 667}}</string>
 								<key>RubberWindowFrame</key>
-								<string>21 608 737 247 0 0 1440 878 </string>
+								<string>21 147 951 708 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>206pt</string>
+							<string>667pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>206pt</string>
+					<string>667pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1078,7 +1084,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>21 608 737 247 0 0 1440 878 </string>
+			<string>21 147 951 708 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

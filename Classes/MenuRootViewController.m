@@ -7,21 +7,32 @@
 //
 
 #import "MenuRootViewController.h"
-#import "TheCarltonAppAppDelegate.h"
 #import "DetailViewController.h"
 
 @implementation MenuRootViewController
 
 
-@synthesize tableDataSource, CurrentTitle, CurrentLevel;
+@synthesize tableDataSource, CurrentTitle, CurrentLevel, responseData;
 
 #pragma mark -
 #pragma mark View lifecycle
 
+//- (void) viewWillAppear:(BOOL)animated
+//{
+//	self.tableView.frame = CGRectMake(0, 65, TTScreenBounds().size.width, (TTScreenBounds().size.height - 140));
+//}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+	UIEdgeInsets inset = UIEdgeInsetsMake(75, 0, 0, 0);
+	self.tableView.contentInset = inset;	
+	UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+	[logoView setCenter:CGPointMake((TTScreenBounds().size.width/2),-40.0)];
+	[self.tableView addSubview:logoView];
+	self.tableView.separatorColor = [UIColor grayColor];
+	self.tableView.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]];
+	
+	
     if(CurrentLevel == 0) {
 		
 		//Initialize our table data source
@@ -29,10 +40,15 @@
 		self.tableDataSource = tempArray;
 		[tempArray release];
 		
-		TheCarltonAppAppDelegate *AppDelegate = (TheCarltonAppAppDelegate *)[[UIApplication sharedApplication] delegate];
-		self.tableDataSource = [AppDelegate.data objectForKey:@"Rows"];
+		NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+		NSURL *plistUrl = [NSURL URLWithString:[[NSString alloc] initWithFormat:@"http://%@/front_dev.php/menu/plist", [prefs stringForKey:@"server"]]];
+		NSURLRequest *request=[NSURLRequest requestWithURL:plistUrl
+												  cachePolicy:NSURLRequestUseProtocolCachePolicy
+											  timeoutInterval:60];
 		
-		self.navigationItem.title = @"Food & Drings";
+		NSURLConnection *connection=[[NSURLConnection alloc] initWithRequest:request delegate:self];
+		
+		self.navigationItem.title = @"Loading...";
 	}
 	else 
 	{
@@ -40,6 +56,35 @@
 	}
 }
 
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    responseData = [[NSMutableData alloc] init];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    [responseData appendData:data];	
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    [responseData release];
+    [connection release];
+	self.navigationItem.title = @"No Internet Connection";	
+	self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.700 green:0.168 blue:0.015 alpha:7.5]; 
+
+    //[textView setString:@"Unable to fetch data"];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection 
+{
+	self.navigationItem.title = @"Food & Drings";	
+//    NSLog(@"Succeeded! Received %d bytes of data",[responseData
+//                                                   length]);
+//    NSString *txt = [[[NSString alloc] initWithData:responseData encoding: NSASCIIStringEncoding] autorelease];
+	NSString *listFile = [[[NSString alloc] initWithData:responseData encoding:NSASCIIStringEncoding] autorelease];
+	NSDictionary *tempDict = [[NSDictionary alloc] initWithDictionary:[listFile propertyList]];
+	self.tableDataSource = [tempDict objectForKey:@"Rows"];
+	[self.tableView reloadData];
+	
+}
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -95,9 +140,23 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    // Configure the cell...
-	
+	// Cell data
 	NSDictionary *dictionary = [self.tableDataSource objectAtIndex:indexPath.row];
+	
+    // Configure the cell...
+		
+	
+//	cell.contentView.backgroundColor = [UIColor clearColor];
+//	cell.contentView.alpha = 0.6;
+	
+	
+	UIView *v = [[[UIView alloc] init] autorelease];
+	v.backgroundColor = [UIColor colorWithRed:0.700 green:0.168 blue:0.425 alpha:1.5];
+	
+	cell.selectedBackgroundView = v;
+	UIFont *cellFont = [UIFont fontWithName:@"TrebuchetMS" size:16.0];
+	cell.textLabel.textColor = [UIColor whiteColor];
+	cell.textLabel.font = cellFont;
 	cell.textLabel.text = [dictionary objectForKey:@"Title"];
     
     return cell;
@@ -203,6 +262,7 @@
 
 
 - (void)dealloc {
+	[responseData release];
 	[CurrentTitle release];
 	[tableDataSource release];
     [super dealloc];

@@ -7,16 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Three20/Three20.h"
 
 @interface MenuRootViewController : UITableViewController {
 	NSArray *tableDataSource;
 	NSString *CurrentTitle;
 	NSInteger CurrentLevel;
+	NSMutableData *responseData;
 }
 
 @property (nonatomic, retain) NSArray *tableDataSource;
 @property (nonatomic, retain) NSString *CurrentTitle;
 @property (nonatomic, readwrite) NSInteger CurrentLevel;
+@property (nonatomic, retain) NSMutableData *responseData;
 
 @end
