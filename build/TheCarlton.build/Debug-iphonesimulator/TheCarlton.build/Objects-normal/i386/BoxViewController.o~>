@@ -1,5 +1,0 @@
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:33: warning: 'RemoteImage' may not respond to '-imageWithUrl:'
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:33: warning: (Messages without a matching method signature
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:33: warning: will be assumed to return 'id' and accept
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:33: warning: '...' as arguments.)
