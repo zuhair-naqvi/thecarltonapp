@@ -553,6 +553,11 @@
 			F425098912B5053E0016CD6B /* PBXTextBookmark */ = F425098912B5053E0016CD6B /* PBXTextBookmark */;
 			F425098A12B5053E0016CD6B /* PBXTextBookmark */ = F425098A12B5053E0016CD6B /* PBXTextBookmark */;
 			F425098D12B505430016CD6B /* PBXTextBookmark */ = F425098D12B505430016CD6B /* PBXTextBookmark */;
+			F425098E12B505B70016CD6B /* PBXTextBookmark */ = F425098E12B505B70016CD6B /* PBXTextBookmark */;
+			F425098F12B505B70016CD6B /* PBXTextBookmark */ = F425098F12B505B70016CD6B /* PBXTextBookmark */;
+			F425099012B505BA0016CD6B /* PBXTextBookmark */ = F425099012B505BA0016CD6B /* PBXTextBookmark */;
+			F425099112B505BA0016CD6B /* PBXTextBookmark */ = F425099112B505BA0016CD6B /* PBXTextBookmark */;
+			F425099612B505C30016CD6B /* PBXTextBookmark */ = F425099612B505C30016CD6B /* PBXTextBookmark */;
 			F437CC9712B3BEAC0049F9C4 = F437CC9712B3BEAC0049F9C4 /* PBXBookmark */;
 			F437CC9812B3BEAC0049F9C4 = F437CC9812B3BEAC0049F9C4 /* PBXBookmark */;
 			F437CC9912B3BEAC0049F9C4 = F437CC9912B3BEAC0049F9C4 /* PBXBookmark */;
@@ -3056,7 +3061,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1068, 767}}";
 			sepNavSelRange = "{366, 0}";
-			sepNavVisRange = "{30, 1108}";
+			sepNavVisRange = "{30, 1170}";
 		};
 	};
 	F42507AF12B4CFC50016CD6B /* MenuRootViewController.h */ = {
@@ -5292,6 +5297,56 @@
 		vrLen = 1108;
 		vrLoc = 30;
 	};
+	F425098E12B505B70016CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CCE912B3BFF90049F9C4 /* BoxViewController.m */;
+		name = "BoxViewController.m: 21";
+		rLen = 0;
+		rLoc = 581;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	F425098F12B505B70016CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 55";
+		rLen = 5;
+		rLoc = 2201;
+		rType = 0;
+		vrLen = 796;
+		vrLoc = 1839;
+	};
+	F425099012B505BA0016CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CCE912B3BFF90049F9C4 /* BoxViewController.m */;
+		name = "BoxViewController.m: 21";
+		rLen = 0;
+		rLoc = 581;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	F425099112B505BA0016CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 55";
+		rLen = 5;
+		rLoc = 2201;
+		rType = 0;
+		vrLen = 796;
+		vrLoc = 1839;
+	};
+	F425099612B505C30016CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F42507AD12B4CFC50016CD6B /* DetailViewController.m */;
+		name = "DetailViewController.m: 18";
+		rLen = 0;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1170;
+		vrLoc = 30;
+	};
 	F437CB0012B3AD170049F9C4 /* TheCarlton */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -5431,9 +5486,9 @@
 	};
 	F437CCE912B3BFF90049F9C4 /* BoxViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {943, 884}}";
-			sepNavSelRange = "{581, 0}";
-			sepNavVisRange = "{0, 261}";
+			sepNavIntBoundsRect = "{{0, 0}, {1447, 741}}";
+			sepNavSelRange = "{1649, 0}";
+			sepNavVisRange = "{672, 672}";
 		};
 	};
 	F437CD0412B3C69F0049F9C4 /* CameraViewController.h */ = {
