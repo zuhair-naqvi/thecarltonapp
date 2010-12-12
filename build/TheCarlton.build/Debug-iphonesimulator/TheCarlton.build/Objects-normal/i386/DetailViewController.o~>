@@ -1,0 +1,5 @@
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController viewDidLoad]':
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m:27: error: 'RemoteImage' undeclared (first use in this function)
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m:27: error: (Each undeclared identifier is reported only once
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m:27: error: for each function it appears in.)
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m:27: error: 'itemImage' undeclared (first use in this function)

@@ -7,23 +7,28 @@
 // 
 
 #import "BoxViewController.h"
+#import "RemoteDictionary.h"
 #import "RemoteImage.h"
 
 @implementation BoxViewController
 
-@synthesize description, promoImage;
+@synthesize description, promoImage, imageUrl;
 
 - (void)viewDidLoad {
-	self.title = @"The Box";	
-	description.backgroundColor = [UIColor clearColor];
+	[self setTitle:@"The Box"];
+	[description setBackgroundColor:[UIColor clearColor]];
 	NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(showRedeem) userInfo:nil repeats:NO];
-	
-	//[[TTURLCache sharedCache] removeAll:YES];
-	
-	RemoteImage *img = [[RemoteImage alloc] init];
-	img.delegate = self;
-	[img imageFromServer:@"logogreen.png"];
-	
+    RemoteDictionary *rdict = [[RemoteDictionary alloc] init];
+	[rdict setDelegate:self];	
+	[rdict dictionaryFromServer:@"box.xml"];
+}
+
+- (void) remoteDictionaryDidLoad:(NSDictionary*)dict
+{
+	[description setText:[dict valueForKey:@"description"]];
+	RemoteImage *rimg = [[RemoteImage alloc] init];
+	[rimg setDelegate:self];	
+	[rimg imageFromServer:[dict valueForKey:@"picture"]];
 }
 
 - (void) remoteImageDidLoad:(UIImage*)image
@@ -31,10 +36,6 @@
 	[promoImage setImage:image];
 }
 
-- (void) remoteImageDidNotLoad:(NSError*)error
-{
-	NSLog(@"Failed: %@",error);
-}
 
 - (void)showRedeem {
 	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"And it's Free" message:@"That's right, this one's on us :-)" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];

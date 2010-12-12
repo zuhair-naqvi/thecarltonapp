@@ -54,16 +54,16 @@
 															   URL:nil canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Photos"
 															 image:@"bundle://cameraimg.png"
-															   URL:@"tt://gallery/" canDelete:NO] autorelease],	
+															   URL:@"tt://photos/" canDelete:NO] autorelease],	
 							[[[TTLauncherItem alloc] initWithTitle:@"Check In"
 															 image:@"bundle://checkin.png"
 															   URL:nil canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Share"
 															 image:@"bundle://share.png"
 															   URL:nil canDelete:NO] autorelease],
-							[[[TTLauncherItem alloc] initWithTitle:@"Settings"
+							[[[TTLauncherItem alloc] initWithTitle:@"Sync"
 															 image:@"bundle://appsettings.png"
-															   URL:nil canDelete:NO] autorelease],								
+															   URL:@"tt://sync/" canDelete:NO] autorelease],								
 							nil],
 						   nil
 						   ];
@@ -73,8 +73,8 @@
 	TTLauncherItem* box = [_launcherView itemWithURL:@"tt://box/"];
 	box.badgeNumber = 1;
 	
-	TTLauncherItem* gallery = [_launcherView itemWithURL:@"tt://gallery/"];
-	gallery.badgeNumber = 5;
+	TTLauncherItem* photos = [_launcherView itemWithURL:@"tt://photos/"];
+	photos.badgeNumber = 5;
 	
 }
 

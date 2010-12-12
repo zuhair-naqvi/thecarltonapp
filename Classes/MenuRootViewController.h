@@ -6,7 +6,7 @@
 //  Copyright 2010 Fitzroy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RemoteDictionary.h"
 
 @interface MenuRootViewController : UITableViewController {
 	NSArray *tableDataSource;

@@ -7,7 +7,6 @@
 //
 
 #import "DetailViewController.h"
-#import "RemoteImage.h"
 
 @implementation DetailViewController
 
@@ -24,10 +23,10 @@
 	[itemPicView addSubview:spinner]; 
 	[spinner startAnimating];
 	
-	NSString *imageUrl = [NSString stringWithFormat:@"images/%@",itemPic];
+//	NSString *imageUrl = [NSString stringWithFormat:@"images/%@",itemPic];
 	RemoteImage *itemImage = [[RemoteImage alloc] init];
 	[itemImage setDelegate:self];
-	[itemImage imageFromServer:imageUrl];
+	[itemImage imageFromServer:itemPic];
 }
 
 - (void) remoteImageDidLoad:(UIImage*)img

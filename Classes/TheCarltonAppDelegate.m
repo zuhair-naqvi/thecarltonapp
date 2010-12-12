@@ -7,13 +7,15 @@
 //
 
 #import "TheCarltonAppDelegate.h"
-#import "Three20/Three20.h"
 
 // Launcher Dependencies
 #import "LauncherViewController.h"
+#import "SyncViewController.h"
 #import "BoxViewController.h"
 #import "CameraViewController.h"
 #import "MenuRootViewController.h"
+#import "ContactViewController.h"
+#import "LocateViewController.h"
 
 @implementation TheCarltonAppDelegate
 
@@ -39,13 +41,14 @@
 	TTURLMap* map = navigator.URLMap;
 	[map from:@"*" toViewController:[TTWebController class]];
 	[map from:@"tt://menu/" toViewController:[MenuRootViewController class]];
-//	[map from:@"tt://contact/" toViewController:[ContactViewController class]];
-	[map from:@"tt://gallery/" toViewController:[CameraViewController class]];
+	[map from:@"tt://contact/" toViewController:[ContactViewController class]];
+	[map from:@"tt://photos/" toViewController:[CameraViewController class]];
 	[map from:@"tt://box/" toViewController:[BoxViewController class]];
 //	[map from:@"tt://reservations/" toViewController:[ReservationsViewController class]];
+	[map from:@"tt://sync/" toViewController:[SyncViewController class]];
 	[map from:@"tt://launcher/" toViewController:[LauncherViewController class]];
 //	//Child mapping
-//	[map from:@"tt://locate/" toViewController:[LocateViewController class]];
+	[map from:@"tt://locate/" toViewController:[LocateViewController class]];
 	
 	if (![navigator restoreViewControllers]) {
 		[navigator openURLAction:

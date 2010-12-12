@@ -6,7 +6,7 @@
 //  Copyright 2010 Fitzroy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Three20/Three20.h"
 
 @interface TheCarltonAppDelegate : NSObject <UIApplicationDelegate> {
     

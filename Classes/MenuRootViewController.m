@@ -8,7 +8,6 @@
 
 #import "MenuRootViewController.h"
 #import "DetailViewController.h"
-#import "RemoteDictionary.h"
 
 @implementation MenuRootViewController
 

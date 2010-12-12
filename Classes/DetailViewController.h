@@ -6,7 +6,7 @@
 //  Copyright 2010 Fitzroy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RemoteImage.h"
 
 @interface DetailViewController : UIViewController {
 	NSString *itemDesc;

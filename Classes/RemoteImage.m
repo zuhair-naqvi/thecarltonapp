@@ -8,7 +8,6 @@
 
 #import "RemoteImage.h"
 
-
 @implementation RemoteImage
 
 

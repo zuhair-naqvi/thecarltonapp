@@ -29,6 +29,19 @@
 		F42507B412B4CFC50016CD6B /* MenuRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42507B012B4CFC50016CD6B /* MenuRootViewController.m */; };
 		F42507B512B4CFC50016CD6B /* MenuRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F42507B112B4CFC50016CD6B /* MenuRootViewController.xib */; };
 		F42507EE12B4DBD40016CD6B /* logogreen.png in Resources */ = {isa = PBXBuildFile; fileRef = F42507ED12B4DBD40016CD6B /* logogreen.png */; };
+		F425080412B4DDF90016CD6B /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F425080212B4DDF90016CD6B /* SyncViewController.m */; };
+		F425080512B4DDF90016CD6B /* SyncViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F425080312B4DDF90016CD6B /* SyncViewController.xib */; };
+		F42508C312B4F9550016CD6B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F42508BD12B4F9550016CD6B /* Default.png */; };
+		F42508C412B4F9550016CD6B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F42508BE12B4F9550016CD6B /* Icon-Small.png */; };
+		F42508C512B4F9550016CD6B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42508BF12B4F9550016CD6B /* Icon-Small@2x.png */; };
+		F42508C612B4F9550016CD6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F42508C012B4F9550016CD6B /* Icon.png */; };
+		F42508C712B4F9550016CD6B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42508C112B4F9550016CD6B /* Icon@2x.png */; };
+		F42508C812B4F9550016CD6B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F42508C212B4F9550016CD6B /* iTunesArtwork */; };
+		F42508E412B4FC960016CD6B /* LocateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42508DD12B4FC960016CD6B /* LocateViewController.m */; };
+		F42508E512B4FC960016CD6B /* LocateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F42508DE12B4FC960016CD6B /* LocateViewController.xib */; };
+		F42508E612B4FC960016CD6B /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42508E012B4FC960016CD6B /* ContactViewController.m */; };
+		F42508E712B4FC960016CD6B /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F42508E112B4FC960016CD6B /* ContactViewController.xib */; };
+		F42508E812B4FC960016CD6B /* ContactTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42508E312B4FC960016CD6B /* ContactTableController.m */; };
 		F437CBF012B3B6F40049F9C4 /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CBE012B3B6F40049F9C4 /* 18-envelope.png */; };
 		F437CBF112B3B6F40049F9C4 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CBE112B3B6F40049F9C4 /* 53-house.png */; };
 		F437CBF212B3B6F40049F9C4 /* appsettings.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CBE212B3B6F40049F9C4 /* appsettings.png */; };
@@ -55,12 +68,6 @@
 		F437CD0912B3C7FA0049F9C4 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F437CD0812B3C7FA0049F9C4 /* OverlayViewController.m */; };
 		F437CD2A12B3CB480049F9C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */; };
 		F437CD7E12B3CF080049F9C4 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F437CD7D12B3CF080049F9C4 /* tick.aiff */; };
-		F437CD8512B3CF280049F9C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CD7F12B3CF280049F9C4 /* Default.png */; };
-		F437CD8612B3CF280049F9C4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CD8012B3CF280049F9C4 /* Icon-Small.png */; };
-		F437CD8712B3CF280049F9C4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CD8112B3CF280049F9C4 /* Icon-Small@2x.png */; };
-		F437CD8812B3CF280049F9C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CD8212B3CF280049F9C4 /* Icon.png */; };
-		F437CD8912B3CF280049F9C4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F437CD8312B3CF280049F9C4 /* Icon@2x.png */; };
-		F437CD8A12B3CF280049F9C4 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F437CD8412B3CF280049F9C4 /* iTunesArtwork */; };
 		F437CD9A12B3CF640049F9C4 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F437CD9812B3CF640049F9C4 /* OverlayViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -441,6 +448,23 @@
 		F42507B012B4CFC50016CD6B /* MenuRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuRootViewController.m; sourceTree = "<group>"; };
 		F42507B112B4CFC50016CD6B /* MenuRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuRootViewController.xib; sourceTree = "<group>"; };
 		F42507ED12B4DBD40016CD6B /* logogreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logogreen.png; sourceTree = "<group>"; };
+		F425080112B4DDF90016CD6B /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		F425080212B4DDF90016CD6B /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		F425080312B4DDF90016CD6B /* SyncViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SyncViewController.xib; sourceTree = "<group>"; };
+		F42508BD12B4F9550016CD6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F42508BE12B4F9550016CD6B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F42508BF12B4F9550016CD6B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F42508C012B4F9550016CD6B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F42508C112B4F9550016CD6B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F42508C212B4F9550016CD6B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		F42508DC12B4FC960016CD6B /* LocateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocateViewController.h; sourceTree = "<group>"; };
+		F42508DD12B4FC960016CD6B /* LocateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocateViewController.m; sourceTree = "<group>"; };
+		F42508DE12B4FC960016CD6B /* LocateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocateViewController.xib; sourceTree = "<group>"; };
+		F42508DF12B4FC960016CD6B /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		F42508E012B4FC960016CD6B /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		F42508E112B4FC960016CD6B /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		F42508E212B4FC960016CD6B /* ContactTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableController.h; sourceTree = "<group>"; };
+		F42508E312B4FC960016CD6B /* ContactTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableController.m; sourceTree = "<group>"; };
 		F437CBE012B3B6F40049F9C4 /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-envelope.png"; sourceTree = "<group>"; };
 		F437CBE112B3B6F40049F9C4 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house.png"; sourceTree = "<group>"; };
 		F437CBE212B3B6F40049F9C4 /* appsettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appsettings.png; sourceTree = "<group>"; };
@@ -471,12 +495,6 @@
 		F437CD0812B3C7FA0049F9C4 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
 		F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F437CD7D12B3CF080049F9C4 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
-		F437CD7F12B3CF280049F9C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../Downloads/PhotoPicker 2/images/Default.png"; sourceTree = SOURCE_ROOT; };
-		F437CD8012B3CF280049F9C4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../Downloads/PhotoPicker 2/images/Icon-Small.png"; sourceTree = SOURCE_ROOT; };
-		F437CD8112B3CF280049F9C4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png"; sourceTree = SOURCE_ROOT; };
-		F437CD8212B3CF280049F9C4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "../../Downloads/PhotoPicker 2/images/Icon.png"; sourceTree = SOURCE_ROOT; };
-		F437CD8312B3CF280049F9C4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Downloads/PhotoPicker 2/images/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
-		F437CD8412B3CF280049F9C4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = "../../Downloads/PhotoPicker 2/images/iTunesArtwork"; sourceTree = SOURCE_ROOT; };
 		F437CD9912B3CF640049F9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -506,6 +524,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F42508DA12B4FC960016CD6B /* Contact */,
+				F42507FB12B4DDB70016CD6B /* Sync */,
 				F42507A412B4CF510016CD6B /* Menu */,
 				F425061212B49EB20016CD6B /* Common */,
 				F437CD0312B3C66A0049F9C4 /* Camera */,
@@ -693,16 +713,49 @@
 			name = Menu;
 			sourceTree = "<group>";
 		};
+		F42507FB12B4DDB70016CD6B /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				F425080112B4DDF90016CD6B /* SyncViewController.h */,
+				F425080212B4DDF90016CD6B /* SyncViewController.m */,
+				F425080312B4DDF90016CD6B /* SyncViewController.xib */,
+			);
+			name = Sync;
+			sourceTree = "<group>";
+		};
+		F42508DA12B4FC960016CD6B /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F42508DF12B4FC960016CD6B /* ContactViewController.h */,
+				F42508E012B4FC960016CD6B /* ContactViewController.m */,
+				F42508E112B4FC960016CD6B /* ContactViewController.xib */,
+				F42508E212B4FC960016CD6B /* ContactTableController.h */,
+				F42508E312B4FC960016CD6B /* ContactTableController.m */,
+				F42508DB12B4FC960016CD6B /* Locate */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		F42508DB12B4FC960016CD6B /* Locate */ = {
+			isa = PBXGroup;
+			children = (
+				F42508DC12B4FC960016CD6B /* LocateViewController.h */,
+				F42508DD12B4FC960016CD6B /* LocateViewController.m */,
+				F42508DE12B4FC960016CD6B /* LocateViewController.xib */,
+			);
+			name = Locate;
+			sourceTree = "<group>";
+		};
 		F437CBDF12B3B6E30049F9C4 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F42508BD12B4F9550016CD6B /* Default.png */,
+				F42508BE12B4F9550016CD6B /* Icon-Small.png */,
+				F42508BF12B4F9550016CD6B /* Icon-Small@2x.png */,
+				F42508C012B4F9550016CD6B /* Icon.png */,
+				F42508C112B4F9550016CD6B /* Icon@2x.png */,
+				F42508C212B4F9550016CD6B /* iTunesArtwork */,
 				F42507ED12B4DBD40016CD6B /* logogreen.png */,
-				F437CD7F12B3CF280049F9C4 /* Default.png */,
-				F437CD8012B3CF280049F9C4 /* Icon-Small.png */,
-				F437CD8112B3CF280049F9C4 /* Icon-Small@2x.png */,
-				F437CD8212B3CF280049F9C4 /* Icon.png */,
-				F437CD8312B3CF280049F9C4 /* Icon@2x.png */,
-				F437CD8412B3CF280049F9C4 /* iTunesArtwork */,
 				F437CC0012B3B7090049F9C4 /* bg.jpg */,
 				F437CBE012B3B6F40049F9C4 /* 18-envelope.png */,
 				F437CBE112B3B6F40049F9C4 /* 53-house.png */,
@@ -1171,16 +1224,19 @@
 				F437CC6812B3BABC0049F9C4 /* LauncherViewController.xib in Resources */,
 				F437CCEC12B3BFF90049F9C4 /* BoxViewController.xib in Resources */,
 				F437CD7E12B3CF080049F9C4 /* tick.aiff in Resources */,
-				F437CD8512B3CF280049F9C4 /* Default.png in Resources */,
-				F437CD8612B3CF280049F9C4 /* Icon-Small.png in Resources */,
-				F437CD8712B3CF280049F9C4 /* Icon-Small@2x.png in Resources */,
-				F437CD8812B3CF280049F9C4 /* Icon.png in Resources */,
-				F437CD8912B3CF280049F9C4 /* Icon@2x.png in Resources */,
-				F437CD8A12B3CF280049F9C4 /* iTunesArtwork in Resources */,
 				F437CD9A12B3CF640049F9C4 /* OverlayViewController.xib in Resources */,
 				F42507B312B4CFC50016CD6B /* DetailView.xib in Resources */,
 				F42507B512B4CFC50016CD6B /* MenuRootViewController.xib in Resources */,
 				F42507EE12B4DBD40016CD6B /* logogreen.png in Resources */,
+				F425080512B4DDF90016CD6B /* SyncViewController.xib in Resources */,
+				F42508C312B4F9550016CD6B /* Default.png in Resources */,
+				F42508C412B4F9550016CD6B /* Icon-Small.png in Resources */,
+				F42508C512B4F9550016CD6B /* Icon-Small@2x.png in Resources */,
+				F42508C612B4F9550016CD6B /* Icon.png in Resources */,
+				F42508C712B4F9550016CD6B /* Icon@2x.png in Resources */,
+				F42508C812B4F9550016CD6B /* iTunesArtwork in Resources */,
+				F42508E512B4FC960016CD6B /* LocateViewController.xib in Resources */,
+				F42508E712B4FC960016CD6B /* ContactViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1201,6 +1257,10 @@
 				F42506E712B4BC240016CD6B /* RemoteDictionary.m in Sources */,
 				F42507B212B4CFC50016CD6B /* DetailViewController.m in Sources */,
 				F42507B412B4CFC50016CD6B /* MenuRootViewController.m in Sources */,
+				F425080412B4DDF90016CD6B /* SyncViewController.m in Sources */,
+				F42508E412B4FC960016CD6B /* LocateViewController.m in Sources */,
+				F42508E612B4FC960016CD6B /* ContactViewController.m in Sources */,
+				F42508E812B4FC960016CD6B /* ContactTableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
