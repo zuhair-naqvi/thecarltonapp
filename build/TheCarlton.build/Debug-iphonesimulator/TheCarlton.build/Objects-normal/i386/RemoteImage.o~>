@@ -1,0 +1,2 @@
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m:78: warning: incomplete implementation of class 'RemoteImage'
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m:78: warning: method definition for '-imageWithUrl:ignoreCache:' not found

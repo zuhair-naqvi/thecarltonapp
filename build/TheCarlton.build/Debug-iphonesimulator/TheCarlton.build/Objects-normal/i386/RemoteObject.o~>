@@ -1,0 +1,2 @@
+In file included from /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteObject.m:9:
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteObject.h:12: error: cannot find protocol declaration for 'TTURLRequestDelegate'

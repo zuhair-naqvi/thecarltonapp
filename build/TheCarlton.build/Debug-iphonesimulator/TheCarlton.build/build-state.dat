@@ -1,0 +1,2755 @@
+TTheCarlton
+v7
+r0
+t313842855.917601
+cCheck dependencies
+cProcessInfoPlistFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist TheCarlton-Info.plist
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Three20.bundle ../three20/src/Three20.bundle
+cCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/18-envelope.png 18-envelope.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/53-house.png 53-house.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/appsettings.png appsettings.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/bookings.png bookings.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/buttonimg.png buttonimg.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/cameraimg.png cameraimg.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/checkin.png checkin.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/contact.png contact.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/free.png free.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/logo.png logo.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/menu.png menu.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/navbarbg.png navbarbg.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/news.png news.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/phone.png phone.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/settings.png settings.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/share.png share.png
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/bg.jpg bg.jpg
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Settings.bundle Settings.bundle
+cCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib
+cCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/tick.aiff tick.aiff
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Default.png "../../Downloads/PhotoPicker 2/images/Default.png"
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon-Small.png "../../Downloads/PhotoPicker 2/images/Icon-Small.png"
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon-Small@2x.png "../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png"
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon.png "../../Downloads/PhotoPicker 2/images/Icon.png"
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon@2x.png "../../Downloads/PhotoPicker 2/images/Icon@2x.png"
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/iTunesArtwork "../../Downloads/PhotoPicker 2/images/iTunesArtwork"
+cCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/OverlayViewController.xib
+cCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
+cCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.xib
+cCpResource build/Debug-iphonesimulator/TheCarlton.app/logogreen.png logogreen.png
+cProcessPCH /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/main.o /Users/zuhairnaqvi/iOS/TheCarlton/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarltonAppDelegate.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton normal i386
+cGenerateDSYMFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
+cTouch /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FA0800000000000031E9
+t1286863368
+s12777
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BE32D960000000000CF2F70
+t1273179542
+s13578096
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Default.png
+c000000004C18FCB400000000000027D3
+t1276705972
+s10195
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon-Small.png
+c000000004C18FCB40000000000000396
+t1276705972
+s918
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png
+c000000004C18FCB400000000000003F2
+t1276705972
+s1010
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon.png
+c000000004C18FCB400000000000003EF
+t1276705972
+s1007
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon@2x.png
+c000000004C18FCB400000000000004E4
+t1276705972
+s1252
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/iTunesArtwork
+c000000004C221C4F0000000000001444
+t1277303887
+s5188
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/../three20/src/Three20.bundle
+c000000004D037E5F00000000000001DC
+t1292074591
+s476
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/18-envelope.png
+c000000004D037F74000000000000013A
+t1292074868
+s314
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/53-house.png
+c000000004D037F740000000000000B55
+t1292074868
+s2901
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.h
+c000000004D0496CF0000000000000238
+t1292146383
+s568
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m
+c000000004D04A13700000000000005FB
+t1292149047
+s1531
+i"BoxViewController.h"
+i"RemoteImage.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
+c000000004D04575D0000000000006820
+t1292130141
+s26656
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.h
+c000000004D043B3C0000000000000380
+t1292122940
+s896
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+i"OverlayViewController.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m
+c000000004D043B4F0000000000000C4C
+t1292122959
+s3148
+i"CameraViewController.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm
+c000000004D03904500000000000011BC
+t1292079173
+s4540
+i"CameraViewController.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
+c000000004CFA904A0000000000005A17
+t1291489354
+s23063
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.h
+c000000004D049D5000000000000002CD
+t1292148048
+s717
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m
+c000000004D04A4790000000000000649
+t1292149881
+s1609
+i"DetailViewController.h"
+i"RemoteImage.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.h
+c000000004D0385FC0000000000000176
+t1292076540
+s374
+i"Three20/Three20.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m
+c000000004D03861B0000000000000F66
+t1292076571
+s3942
+i"LauncherViewController.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib
+c000000004D03833C000000000000187D
+t1292075836
+s6269
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.h
+c000000004D049F060000000000000287
+t1292148486
+s647
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m
+c000000004D04A05D00000000000013C7
+t1292148829
+s5063
+i"MenuRootViewController.h"
+i"DetailViewController.h"
+i"RemoteDictionary.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.xib
+c000000004CF9BBE40000000000001C8D
+t1291434980
+s7309
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.h
+c000000004D03908F0000000000000664
+t1292079247
+s1636
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m
+c000000004D0397F2000000000000202B
+t1292081138
+s8235
+i"OverlayViewController.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.h
+c000000004D0495BE00000000000002AC
+t1292146110
+s684
+i<Foundation/Foundation.h>
+i"Three20/Three20.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m
+c000000004D04A50E0000000000000779
+t1292150030
+s1913
+i"RemoteDictionary.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.h
+c000000004D0496750000000000000271
+t1292146293
+s625
+i<Foundation/Foundation.h>
+i"Three20/Three20.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m
+c000000004D04964F000000000000067E
+t1292146255
+s1662
+i"RemoteImage.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteObject.h
+c000000004D04678400000000000000EF
+t1292134276
+s239
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteObject.m
+c000000004D0467C900000000000000C4
+t1292134345
+s196
+i"RemoteObject.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.h
+c000000004D0382D8000000000000023F
+t1292075736
+s575
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m
+c000000004D04A03F00000000000019D9
+t1292148799
+s6617
+i"TheCarltonAppDelegate.h"
+i"Three20/Three20.h"
+i"LauncherViewController.h"
+i"BoxViewController.h"
+i"CameraViewController.h"
+i"MenuRootViewController.h"
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/CameraViewController.xib
+c000000004BC895E30000000000007EB8
+t1271436771
+s32440
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/OverlayViewController.xib
+c000000004D043FB3000000000000691C
+t1292124083
+s26908
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/MainWindow.xib
+c000000004D0375970000000000002117
+t1292072343
+s8471
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/Settings.bundle
+c000000004D04A17A0000000000000088
+t1292149114
+s136
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch
+c000000004D03759700000000000000BD
+t1292072343
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/appsettings.png
+c000000004D037F740000000000001F82
+t1292074868
+s8066
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/bg.jpg
+c000000004D037F890000000000017DD9
+t1292074889
+s97753
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/bookings.png
+c000000004D037F740000000000001A32
+t1292074868
+s6706
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
+t1292150055
+s1292
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM
+t1292150055
+s102
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/18-envelope.png
+t1292133350
+s314
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/53-house.png
+t1292133350
+s2901
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/BoxViewController.nib
+t1292133351
+s2465
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Default.png
+t1292133351
+s10195
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/DetailView.nib
+t1292147508
+s2070
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Icon-Small.png
+t1292133351
+s918
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Icon-Small@2x.png
+t1292133351
+s1010
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Icon.png
+t1292133351
+s1007
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Icon@2x.png
+t1292133351
+s1252
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist
+t1292133350
+s603
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/LauncherViewController.nib
+t1292133351
+s764
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/MainWindow.nib
+t1292133351
+s987
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/MenuRootViewController.nib
+t1292147507
+s979
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/PkgInfo
+t1292133350
+s8
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Settings.bundle
+t1292149336
+s136
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
+t1292150055
+s1337196
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Three20.bundle
+t1292133350
+s476
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/appsettings.png
+t1292133350
+s8066
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/bg.jpg
+t1292133350
+s97753
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/bookings.png
+t1292133350
+s6706
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/buttonimg.png
+t1292133350
+s667
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/cameraimg.png
+t1292133350
+s4522
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/checkin.png
+t1292133350
+s4600
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/contact.png
+t1292133350
+s5938
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/en.lproj/CameraViewController.nib
+t2
+s0
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/en.lproj/OverlayViewController.nib
+t1292133351
+s1437
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/free.png
+t1292133350
+s7985
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/iTunesArtwork
+t1292133351
+s5188
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/logo.png
+t1292133350
+s11013
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/logogreen.png
+t1292149857
+s16641
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/menu.png
+t1292133350
+s6879
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/navbarbg.png
+t1292133350
+s281
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/news.png
+t1292133350
+s6230
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/phone.png
+t1292133350
+s5938
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/settings.png
+t1292133350
+s8066
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/share.png
+t1292133350
+s6521
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/tick.aiff
+t1292133351
+s24030
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o
+t1292149336
+s53980
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o
+t1292133352
+s53908
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o
+t1292150055
+s51300
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o
+t1292133352
+s63220
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o
+t1292148859
+s59328
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o
+t1292133353
+s68932
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o
+t1292150055
+s18372
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o
+t1292146322
+s17696
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteObject.o
+t2
+s0
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarlton.LinkFileList
+c000000004D049B330000000000000554
+t1292147507
+s1364
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarltonAppDelegate.o
+t1292148859
+s75256
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/main.o
+t1292133352
+s6292
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/buttonimg.png
+c000000004CF1D697000000000000029B
+t1290917527
+s667
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/cameraimg.png
+c000000004CFB51B300000000000011AA
+t1291538867
+s4522
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/checkin.png
+c000000004D037F7400000000000011F8
+t1292074868
+s4600
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/contact.png
+c000000004D037F740000000000001732
+t1292074868
+s5938
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/free.png
+c000000004D037F740000000000001F31
+t1292074868
+s7985
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/logo.png
+c000000004D037F740000000000002B05
+t1292074868
+s11013
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/logogreen.png
+c000000004D04A4320000000000004101
+t1292149810
+s16641
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/main.m
+c000000004D045FD20000000000000163
+t1292132306
+s355
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/menu.png
+c000000004D037F740000000000001ADF
+t1292074868
+s6879
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/navbarbg.png
+c000000004D037F740000000000000119
+t1292074868
+s281
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/news.png
+c000000004D037F740000000000001856
+t1292074868
+s6230
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/phone.png
+c000000004CFADE4A0000000000001732
+t1291509322
+s5938
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/settings.png
+c000000004CFADE4A0000000000001F82
+t1291509322
+s8066
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/share.png
+c000000004D037F740000000000001979
+t1292074868
+s6521
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/tick.aiff
+c000000004ACCDD410000000000005DDE
+t1254939969
+s24030
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a
+c000000004D0463E60000000000001010
+t1292133350
+s4112
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a
+c000000004D0463CF00000000000330C0
+t1292133327
+s209088
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a
+c000000004D0463D30000000000051810
+t1292133331
+s333840
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a
+c000000004D0463DA00000000001264A8
+t1292133338
+s1205416
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a
+c000000004D0463E50000000000580FC8
+t1292133349
+s5771208
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a
+c000000004D0463D10000000000037548
+t1292133329
+s226632
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a
+c000000004D0463DC0000000000082750
+t1292133340
+s534352
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20/Three20.h
+c000000004D0463E50000000000000412
+t1292133349
+s1042
+i"Three20Core/Three20Core.h"
+i"Three20Network/Three20Network.h"
+i"Three20Style/Three20Style.h"
+i"Three20UICommon/Three20UICommon.h"
+i"Three20UINavigator/Three20UINavigator.h"
+i"Three20UI/Three20UI.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTCorePreprocessorMacros.h
+c000000004D0463CE0000000000000836
+t1292133326
+s2102
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTDebug.h
+c000000004D0463CE0000000000000EBD
+t1292133326
+s3773
+i<TargetConditionals.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTEntityTables.h
+c000000004D0463CE00000000000004E0
+t1292133326
+s1248
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTGlobalCore.h
+c000000004D0463CE00000000000005E6
+t1292133326
+s1510
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTGlobalCoreLocale.h
+c000000004D0463CE000000000000056D
+t1292133326
+s1389
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTGlobalCorePaths.h
+c000000004D0463CE00000000000005D7
+t1292133326
+s1495
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTGlobalCoreRects.h
+c000000004D0463CE0000000000000520
+t1292133326
+s1312
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/TTMarkupStripper.h
+c000000004D0463CE00000000000003CB
+t1292133326
+s971
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Core/Three20Core.h
+c000000004D0463CE00000000000003DD
+t1292133326
+s989
+i"Three20Core/TTCorePreprocessorMacros.h"
+i"Three20Core/TTGlobalCore.h"
+i"Three20Core/TTGlobalCoreLocale.h"
+i"Three20Core/TTGlobalCorePaths.h"
+i"Three20Core/TTGlobalCoreRects.h"
+i"Three20Core/TTDebug.h"
+i"Three20Core/TTEntityTables.h"
+i"Three20Core/TTMarkupStripper.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTErrorCodes.h
+c000000004D0463D100000000000002BB
+t1292133329
+s699
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTGlobalNetwork.h
+c000000004D0463D1000000000000057D
+t1292133329
+s1405
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTModel.h
+c000000004D0463D10000000000000CEB
+t1292133329
+s3307
+i<Foundation/Foundation.h>
+i"Three20Network/TTURLRequestCachePolicy.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTModelDelegate.h
+c000000004D0463D100000000000008A8
+t1292133329
+s2216
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLCache.h
+c000000004D0463D100000000000018EA
+t1292133329
+s6378
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLDataResponse.h
+c000000004D0463D10000000000000363
+t1292133329
+s867
+i"Three20Network/TTURLResponse.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLImageResponse.h
+c000000004D0463D10000000000000434
+t1292133329
+s1076
+i"Three20Network/TTURLResponse.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLRequest.h
+c000000004D0463D10000000000001A70
+t1292133329
+s6768
+i<Foundation/Foundation.h>
+i"Three20Network/TTURLRequestCachePolicy.h"
+i"Three20Core/TTCorePreprocessorMacros.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLRequestCachePolicy.h
+c000000004D0463D100000000000004CF
+t1292133329
+s1231
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLRequestDelegate.h
+c000000004D0463D100000000000006C3
+t1292133329
+s1731
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLRequestModel.h
+c000000004D0463D100000000000006A1
+t1292133329
+s1697
+i"Three20Network/TTModel.h"
+i"Three20Network/TTURLRequestDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLRequestQueue.h
+c000000004D0463D10000000000000DAC
+t1292133329
+s3500
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTURLResponse.h
+c000000004D0463D1000000000000064F
+t1292133329
+s1615
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/TTUserInfo.h
+c000000004D0463D10000000000000673
+t1292133329
+s1651
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Network/Three20Network.h
+c000000004D0463D1000000000000058B
+t1292133329
+s1419
+i"Three20Core/Three20Core.h"
+i"Three20Network/TTGlobalNetwork.h"
+i"Three20Network/TTURLRequestCachePolicy.h"
+i"Three20Network/TTErrorCodes.h"
+i"Three20Network/TTModel.h"
+i"Three20Network/TTModelDelegate.h"
+i"Three20Network/TTURLRequestModel.h"
+i"Three20Network/TTURLRequest.h"
+i"Three20Network/TTURLRequestDelegate.h"
+i"Three20Network/TTURLResponse.h"
+i"Three20Network/TTURLDataResponse.h"
+i"Three20Network/TTURLImageResponse.h"
+i"Three20Network/TTUserInfo.h"
+i"Three20Network/TTURLRequestQueue.h"
+i"Three20Network/TTURLCache.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTBevelBorderStyle.h
+c000000004D0463D300000000000004FD
+t1292133331
+s1277
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTBlendStyle.h
+c000000004D0463D30000000000000340
+t1292133331
+s832
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTBoxStyle.h
+c000000004D0463D300000000000005FD
+t1292133331
+s1533
+i"Three20Style/TTStyle.h"
+i"Three20Style/TTPosition.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTContentStyle.h
+c000000004D0463D300000000000002DB
+t1292133331
+s731
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTDefaultStyleSheet+DragRefreshHeader.h
+c000000004D0463D300000000000004C3
+t1292133331
+s1219
+i"Three20Style/TTDefaultStyleSheet.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTDefaultStyleSheet.h
+c000000004D0463D30000000000000FD7
+t1292133331
+s4055
+i"Three20Style/TTStyleSheet.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTFlowLayout.h
+c000000004D0463D30000000000000324
+t1292133331
+s804
+i"Three20Style/TTLayout.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTFourBorderStyle.h
+c000000004D0463D30000000000000630
+t1292133331
+s1584
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTGlobalStyle.h
+c000000004D0463D30000000000000774
+t1292133331
+s1908
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTGridLayout.h
+c000000004D0463D30000000000000373
+t1292133331
+s883
+i"Three20Style/TTLayout.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTHighlightBorderStyle.h
+c000000004D0463D30000000000000442
+t1292133331
+s1090
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTImageStyle.h
+c000000004D0463D300000000000007A7
+t1292133331
+s1959
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTInnerShadowStyle.h
+c000000004D0463D300000000000002B8
+t1292133331
+s696
+i"Three20Style/TTShadowStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTInsetStyle.h
+c000000004D0463D30000000000000337
+t1292133331
+s823
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTLayout.h
+c000000004D0463D300000000000002F8
+t1292133331
+s760
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTLinearGradientBorderStyle.h
+c000000004D0463D300000000000005DC
+t1292133331
+s1500
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTLinearGradientFillStyle.h
+c000000004D0463D300000000000003D5
+t1292133331
+s981
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTMaskStyle.h
+c000000004D0463D3000000000000032D
+t1292133331
+s813
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTPartStyle.h
+c000000004D0463D300000000000003CD
+t1292133331
+s973
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTPosition.h
+c000000004D0463D300000000000002CA
+t1292133331
+s714
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTRectangleShape.h
+c000000004D0463D300000000000002C8
+t1292133331
+s712
+i"Three20Style/TTShape.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTReflectiveFillStyle.h
+c000000004D0463D30000000000000435
+t1292133331
+s1077
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTRoundedLeftArrowShape.h
+c000000004D0463D3000000000000032E
+t1292133331
+s814
+i"Three20Style/TTShape.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTRoundedRectangleShape.h
+c000000004D0463D300000000000004DD
+t1292133331
+s1245
+i"Three20Style/TTShape.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTRoundedRightArrowShape.h
+c000000004D0463D30000000000000330
+t1292133331
+s816
+i"Three20Style/TTShape.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTShadowStyle.h
+c000000004D0463D30000000000000402
+t1292133331
+s1026
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTShape.h
+c000000004D0463D300000000000004D8
+t1292133331
+s1240
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTShapeStyle.h
+c000000004D0463D3000000000000038A
+t1292133331
+s906
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTSolidBorderStyle.h
+c000000004D0463D30000000000000399
+t1292133331
+s921
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTSolidFillStyle.h
+c000000004D0463D3000000000000033B
+t1292133331
+s827
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTSpeechBubbleShape.h
+c000000004D0463D3000000000000046A
+t1292133331
+s1130
+i"Three20Style/TTShape.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyle.h
+c000000004D0463D30000000000000474
+t1292133331
+s1140
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyleContext.h
+c000000004D0463D300000000000004BA
+t1292133331
+s1210
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyleDelegate.h
+c000000004D0463D3000000000000039D
+t1292133331
+s925
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyleSheet.h
+c000000004D0463D300000000000003E3
+t1292133331
+s995
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledBlock.h
+c000000004D0463D300000000000002B7
+t1292133331
+s695
+i"Three20Style/TTStyledElement.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledBoldNode.h
+c000000004D0463D300000000000002B8
+t1292133331
+s696
+i"Three20Style/TTStyledInline.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledBoxFrame.h
+c000000004D0463D30000000000000437
+t1292133331
+s1079
+i"Three20Style/TTStyledFrame.h"
+i"Three20Style/TTStyleDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledButtonNode.h
+c000000004D0463D3000000000000042F
+t1292133331
+s1071
+i"Three20Style/TTStyledInlineBlock.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledElement.h
+c000000004D0463D30000000000000515
+t1292133331
+s1301
+i"Three20Style/TTStyledNode.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledFrame.h
+c000000004D0463D300000000000005E0
+t1292133331
+s1504
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledImageFrame.h
+c000000004D0463D3000000000000046E
+t1292133331
+s1134
+i"Three20Style/TTStyledFrame.h"
+i"Three20Style/TTStyleDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledImageNode.h
+c000000004D0463D3000000000000043F
+t1292133331
+s1087
+i"Three20Style/TTStyledElement.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledInline.h
+c000000004D0463D300000000000002B8
+t1292133331
+s696
+i"Three20Style/TTStyledElement.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledInlineBlock.h
+c000000004D0463D300000000000002BD
+t1292133331
+s701
+i"Three20Style/TTStyledElement.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledInlineFrame.h
+c000000004D0463D300000000000003F3
+t1292133331
+s1011
+i"Three20Style/TTStyledBoxFrame.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledItalicNode.h
+c000000004D0463D300000000000002BA
+t1292133331
+s698
+i"Three20Style/TTStyledInline.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledLineBreakNode.h
+c000000004D0463D300000000000002BB
+t1292133331
+s699
+i"Three20Style/TTStyledBlock.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledLinkNode.h
+c000000004D0463D30000000000000423
+t1292133331
+s1059
+i"Three20Style/TTStyledInline.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledNode.h
+c000000004D0463D3000000000000047B
+t1292133331
+s1147
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledText.h
+c000000004D0463D30000000000000EFB
+t1292133331
+s3835
+i<UIKit/UIKit.h>
+i"Three20Network/TTURLRequestDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledTextDelegate.h
+c000000004D0463D30000000000000314
+t1292133331
+s788
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledTextFrame.h
+c000000004D0463D300000000000004D5
+t1292133331
+s1237
+i"Three20Style/TTStyledFrame.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledTextNode.h
+c000000004D0463D3000000000000037F
+t1292133331
+s895
+i"Three20Style/TTStyledNode.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTStyledTextParser.h
+c000000004D0463D3000000000000055F
+t1292133331
+s1375
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/TTTextStyle.h
+c000000004D0463D30000000000000B13
+t1292133331
+s2835
+i"Three20Style/TTStyle.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20Style/Three20Style.h
+c000000004D0463D30000000000000C09
+t1292133331
+s3081
+i"Three20Core/Three20Core.h"
+i"Three20Network/Three20Network.h"
+i"Three20Style/TTGlobalStyle.h"
+i"Three20Style/TTPosition.h"
+i"Three20Style/TTDefaultStyleSheet.h"
+i"Three20Style/TTDefaultStyleSheet+DragRefreshHeader.h"
+i"Three20Style/TTLayout.h"
+i"Three20Style/TTFlowLayout.h"
+i"Three20Style/TTGridLayout.h"
+i"Three20Style/TTShape.h"
+i"Three20Style/TTRectangleShape.h"
+i"Three20Style/TTRoundedRectangleShape.h"
+i"Three20Style/TTRoundedRightArrowShape.h"
+i"Three20Style/TTRoundedLeftArrowShape.h"
+i"Three20Style/TTSpeechBubbleShape.h"
+i"Three20Style/TTStyle.h"
+i"Three20Style/TTStyleDelegate.h"
+i"Three20Style/TTStyleContext.h"
+i"Three20Style/TTContentStyle.h"
+i"Three20Style/TTPartStyle.h"
+i"Three20Style/TTShapeStyle.h"
+i"Three20Style/TTInsetStyle.h"
+i"Three20Style/TTBoxStyle.h"
+i"Three20Style/TTTextStyle.h"
+i"Three20Style/TTImageStyle.h"
+i"Three20Style/TTMaskStyle.h"
+i"Three20Style/TTBlendStyle.h"
+i"Three20Style/TTSolidFillStyle.h"
+i"Three20Style/TTLinearGradientFillStyle.h"
+i"Three20Style/TTReflectiveFillStyle.h"
+i"Three20Style/TTShadowStyle.h"
+i"Three20Style/TTInnerShadowStyle.h"
+i"Three20Style/TTSolidBorderStyle.h"
+i"Three20Style/TTHighlightBorderStyle.h"
+i"Three20Style/TTFourBorderStyle.h"
+i"Three20Style/TTBevelBorderStyle.h"
+i"Three20Style/TTLinearGradientBorderStyle.h"
+i"Three20Style/TTStyledText.h"
+i"Three20Style/TTStyledTextDelegate.h"
+i"Three20Style/TTStyledNode.h"
+i"Three20Style/TTStyledTextNode.h"
+i"Three20Style/TTStyledElement.h"
+i"Three20Style/TTStyledBlock.h"
+i"Three20Style/TTStyledInline.h"
+i"Three20Style/TTStyledInlineBlock.h"
+i"Three20Style/TTStyledBoldNode.h"
+i"Three20Style/TTStyledItalicNode.h"
+i"Three20Style/TTStyledLinkNode.h"
+i"Three20Style/TTStyledButtonNode.h"
+i"Three20Style/TTStyledImageNode.h"
+i"Three20Style/TTStyledLineBreakNode.h"
+i"Three20Style/TTStyledFrame.h"
+i"Three20Style/TTStyledBoxFrame.h"
+i"Three20Style/TTStyledInlineFrame.h"
+i"Three20Style/TTStyledTextFrame.h"
+i"Three20Style/TTStyledImageFrame.h"
+i"Three20Style/TTStyledTextParser.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTActionSheetController.h
+c000000004D0463DC0000000000000C84
+t1292133340
+s3204
+i"Three20UI/TTPopupViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTActionSheetControllerDelegate.h
+c000000004D0463DC0000000000000704
+t1292133340
+s1796
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTActivityLabel.h
+c000000004D0463DC0000000000000749
+t1292133340
+s1865
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTAlertViewController.h
+c000000004D0463DC0000000000000663
+t1292133340
+s1635
+i"Three20UI/TTPopupViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTAlertViewControllerDelegate.h
+c000000004D0463DC0000000000000394
+t1292133340
+s916
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTButton.h
+c000000004D0463DC0000000000000796
+t1292133340
+s1942
+i"Three20Style/TTStyleDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTButtonBar.h
+c000000004D0463DC00000000000003E5
+t1292133340
+s997
+i"Three20UI/TTView.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTErrorView.h
+c000000004D0463DC00000000000003FB
+t1292133340
+s1019
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTImageView.h
+c000000004D0463DC0000000000000B5C
+t1292133340
+s2908
+i"Three20UI/TTView.h"
+i"Three20Network/TTURLRequestDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTImageViewDelegate.h
+c000000004D0463DC00000000000004A4
+t1292133340
+s1188
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTLabel.h
+c000000004D0463DC0000000000000346
+t1292133340
+s838
+i"Three20UI/TTView.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTLauncherItem.h
+c000000004D0463DC00000000000005E5
+t1292133340
+s1509
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTLauncherView.h
+c000000004D0463DC0000000000000AEA
+t1292133340
+s2794
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTLauncherViewDelegate.h
+c000000004D0463DC00000000000004F0
+t1292133340
+s1264
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTLink.h
+c000000004D0463DC0000000000000460
+t1292133340
+s1120
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTListDataSource.h
+c000000004D0463DC00000000000003F3
+t1292133340
+s1011
+i"Three20UI/TTTableViewDataSource.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTMessageController.h
+c000000004D0463DC0000000000001B6F
+t1292133340
+s7023
+i"Three20UI/TTViewController.h"
+i"Three20UI/TTTextEditorDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTMessageControllerDelegate.h
+c000000004D0463DC000000000000081A
+t1292133340
+s2074
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTMessageField.h
+c000000004D0463DC000000000000058E
+t1292133340
+s1422
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTMessageRecipientField.h
+c000000004D0463DC00000000000003CA
+t1292133340
+s970
+i"Three20UI/TTMessageField.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTMessageSubjectField.h
+c000000004D0463DC000000000000037B
+t1292133340
+s891
+i"Three20UI/TTMessageTextField.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTMessageTextField.h
+c000000004D0463DC0000000000000331
+t1292133340
+s817
+i"Three20UI/TTMessageField.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTModelViewController.h
+c000000004D0463DC0000000000001712
+t1292133340
+s5906
+i"Three20UI/TTViewController.h"
+i"Three20Network/TTModelDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTNavigationController.h
+c000000004D0463DD000000000000047D
+t1292133341
+s1149
+i"Three20UINavigator/TTBaseNavigationController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTNavigator.h
+c000000004D0463DD0000000000000435
+t1292133341
+s1077
+i"Three20UINavigator/TTBaseNavigator.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPageControl.h
+c000000004D0463DC0000000000000505
+t1292133340
+s1285
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPhoto.h
+c000000004D0463DC0000000000000515
+t1292133340
+s1301
+i"Three20UI/TTPhotoVersion.h"
+i"Three20UINavigator/TTURLObject.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPhotoSource.h
+c000000004D0463DC00000000000004F7
+t1292133340
+s1271
+i"Three20Network/TTModel.h"
+i"Three20UINavigator/TTURLObject.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPhotoVersion.h
+c000000004D0463DC00000000000002EB
+t1292133340
+s747
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPhotoView.h
+c000000004D0463DC0000000000000581
+t1292133340
+s1409
+i"Three20UI/TTImageView.h"
+i"Three20UI/TTPhotoVersion.h"
+i"Three20UI/TTImageViewDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPhotoViewController.h
+c000000004D0463DC0000000000000C70
+t1292133340
+s3184
+i"Three20UI/TTModelViewController.h"
+i"Three20UI/TTScrollViewDelegate.h"
+i"Three20UI/TTScrollViewDataSource.h"
+i"Three20UI/TTThumbsViewControllerDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPickerTextField.h
+c000000004D0463DC0000000000000533
+t1292133340
+s1331
+i"Three20UI/TTSearchTextField.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPickerTextFieldDelegate.h
+c000000004D0463DC00000000000003DE
+t1292133340
+s990
+i"Three20UI/TTSearchTextFieldDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPopupViewController.h
+c000000004D0463DC0000000000000513
+t1292133340
+s1299
+i"Three20UI/TTModelViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPostController.h
+c000000004D0463DC0000000000000955
+t1292133340
+s2389
+i"Three20UI/TTPopupViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTPostControllerDelegate.h
+c000000004D0463DC00000000000005F1
+t1292133340
+s1521
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTRecursiveProgress.h
+c000000004D0463DC0000000000000E79
+t1292133340
+s3705
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTScrollView.h
+c000000004D0463DC000000000000178C
+t1292133340
+s6028
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTScrollViewDataSource.h
+c000000004D0463DC000000000000058A
+t1292133340
+s1418
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTScrollViewDelegate.h
+c000000004D0463DC00000000000007A7
+t1292133340
+s1959
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTSearchBar.h
+c000000004D0463DC000000000000085C
+t1292133340
+s2140
+i"Three20UI/TTView.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTSearchDisplayController.h
+c000000004D0463DC0000000000000637
+t1292133340
+s1591
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTSearchTextField.h
+c000000004D0463DC0000000000000703
+t1292133340
+s1795
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTSearchTextFieldDelegate.h
+c000000004D0463DC0000000000000341
+t1292133340
+s833
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTSearchlightLabel.h
+c000000004D0463DC0000000000000520
+t1292133340
+s1312
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTSectionedDataSource.h
+c000000004D0463DC0000000000000841
+t1292133340
+s2113
+i"Three20UI/TTTableViewDataSource.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTStyledTextLabel.h
+c000000004D0463DC00000000000008E4
+t1292133340
+s2276
+i"Three20Style/TTStyledTextDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTStyledTextTableCell.h
+c000000004D0463DC0000000000000331
+t1292133340
+s817
+i"Three20UI/TTTableViewCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTStyledTextTableItemCell.h
+c000000004D0463DC0000000000000341
+t1292133340
+s833
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTab.h
+c000000004D0463DC0000000000000374
+t1292133340
+s884
+i"Three20UI/TTButton.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTabBar.h
+c000000004D0463DC00000000000005B2
+t1292133340
+s1458
+i"Three20UI/TTView.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTabDelegate.h
+c000000004D0463DC00000000000002FA
+t1292133340
+s762
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTabGrid.h
+c000000004D0463DC00000000000002EC
+t1292133340
+s748
+i"Three20UI/TTTabBar.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTabItem.h
+c000000004D0463DC0000000000000409
+t1292133340
+s1033
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTabStrip.h
+c000000004D0463DC0000000000000301
+t1292133340
+s769
+i"Three20UI/TTTabBar.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableActivityItem.h
+c000000004D0463DC0000000000000319
+t1292133340
+s793
+i"Three20UI/TTTableItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableActivityItemCell.h
+c000000004D0463DC0000000000000385
+t1292133340
+s901
+i"Three20UI/TTTableViewCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableButton.h
+c000000004D0463DC00000000000002B1
+t1292133340
+s689
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableCaptionItem.h
+c000000004D0463DC0000000000000410
+t1292133340
+s1040
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableCaptionItemCell.h
+c000000004D0463DC00000000000002FF
+t1292133340
+s767
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableControlCell.h
+c000000004D0463DC000000000000039C
+t1292133340
+s924
+i"Three20UI/TTTableViewCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableControlItem.h
+c000000004D0463DC0000000000000392
+t1292133340
+s914
+i"Three20UI/TTTableItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableFlushViewCell.h
+c000000004D0463DC000000000000038D
+t1292133340
+s909
+i"Three20UI/TTTableViewCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableGrayTextItem.h
+c000000004D0463DC00000000000002B7
+t1292133340
+s695
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableHeaderView.h
+c000000004D0463DC00000000000002E2
+t1292133340
+s738
+i"Three20UI/TTView.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableImageItem.h
+c000000004D0463DC0000000000000564
+t1292133340
+s1380
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableImageItemCell.h
+c000000004D0463DC0000000000000338
+t1292133340
+s824
+i"Three20UI/TTTableTextItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableItem.h
+c000000004D0463DC0000000000000302
+t1292133340
+s770
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableLink.h
+c000000004D0463DC00000000000002AF
+t1292133340
+s687
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableLinkedItem.h
+c000000004D0463DC0000000000000442
+t1292133340
+s1090
+i"Three20UI/TTTableItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableLinkedItemCell.h
+c000000004D0463DC00000000000002F5
+t1292133340
+s757
+i"Three20UI/TTTableViewCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableLongTextItem.h
+c000000004D0463DC00000000000002B7
+t1292133340
+s695
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableMessageItem.h
+c000000004D0463DC0000000000000518
+t1292133340
+s1304
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableMessageItemCell.h
+c000000004D0463DC000000000000044A
+t1292133340
+s1098
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableMoreButton.h
+c000000004D0463DC000000000000036D
+t1292133340
+s877
+i"Three20UI/TTTableSubtitleItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableMoreButtonCell.h
+c000000004D0463DC00000000000003D1
+t1292133340
+s977
+i"Three20UI/TTTableSubtitleItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableRightCaptionItem.h
+c000000004D0463DC00000000000002C1
+t1292133340
+s705
+i"Three20UI/TTTableCaptionItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableRightCaptionItemCell.h
+c000000004D0463DC0000000000000304
+t1292133340
+s772
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableRightImageItem.h
+c000000004D0463DC00000000000002BB
+t1292133340
+s699
+i"Three20UI/TTTableImageItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableStyledTextItem.h
+c000000004D0463DC0000000000000482
+t1292133340
+s1154
+i"Three20UI/TTTableLinkedItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableSubtextItem.h
+c000000004D0463DC00000000000002BC
+t1292133340
+s700
+i"Three20UI/TTTableCaptionItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableSubtextItemCell.h
+c000000004D0463DC00000000000002FF
+t1292133340
+s767
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableSubtitleItem.h
+c000000004D0463DC00000000000005F5
+t1292133340
+s1525
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableSubtitleItemCell.h
+c000000004D0463DC0000000000000385
+t1292133340
+s901
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableSummaryItem.h
+c000000004D0463DC00000000000002B6
+t1292133340
+s694
+i"Three20UI/TTTableTextItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableTextItem.h
+c000000004D0463DC0000000000000406
+t1292133340
+s1030
+i"Three20UI/TTTableLinkedItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableTextItemCell.h
+c000000004D0463DC00000000000002C3
+t1292133340
+s707
+i"Three20UI/TTTableLinkedItemCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableView.h
+c000000004D0463DC00000000000006A2
+t1292133340
+s1698
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewCell.h
+c000000004D0463DC000000000000076F
+t1292133340
+s1903
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewController.h
+c000000004D0463DC0000000000001044
+t1292133340
+s4164
+i"Three20UI/TTModelViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewDataSource.h
+c000000004D0463DC0000000000000B6C
+t1292133340
+s2924
+i<UIKit/UIKit.h>
+i"Three20Network/TTModel.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewDelegate.h
+c000000004D0463DC0000000000000710
+t1292133340
+s1808
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewDragRefreshDelegate.h
+c000000004D0463DC00000000000006BA
+t1292133340
+s1722
+i"Three20UI/TTTableViewVarHeightDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewGroupedVarHeightDelegate.h
+c000000004D0463DC000000000000033F
+t1292133340
+s831
+i"Three20UI/TTTableViewVarHeightDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewItem.h
+c000000004D0463DC0000000000000371
+t1292133340
+s881
+i"Three20UI/TTTableItem.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewPlainDelegate.h
+c000000004D0463DC000000000000030D
+t1292133340
+s781
+i"Three20UI/TTTableViewDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewPlainVarHeightDelegate.h
+c000000004D0463DC00000000000002E5
+t1292133340
+s741
+i"Three20UI/TTTableViewVarHeightDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTableViewVarHeightDelegate.h
+c000000004D0463DC000000000000031D
+t1292133340
+s797
+i"Three20UI/TTTableViewDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTextBarController.h
+c000000004D0463DC00000000000008AC
+t1292133340
+s2220
+i"Three20UI/TTPopupViewController.h"
+i"Three20UI/TTTextEditorDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTextBarDelegate.h
+c000000004D0463DC000000000000056B
+t1292133340
+s1387
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTextEditor.h
+c000000004D0463DC0000000000000691
+t1292133340
+s1681
+i"Three20UI/TTView.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTTextEditorDelegate.h
+c000000004D0463DC0000000000000534
+t1292133340
+s1332
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTThumbView.h
+c000000004D0463DC00000000000002D3
+t1292133340
+s723
+i"Three20UI/TTButton.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTThumbsDataSource.h
+c000000004D0463DC0000000000000486
+t1292133340
+s1158
+i"Three20UI/TTTableViewDataSource.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTThumbsTableViewCell.h
+c000000004D0463DC0000000000000521
+t1292133340
+s1313
+i"Three20UI/TTTableViewCell.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTThumbsTableViewCellDelegate.h
+c000000004D0463DC000000000000031B
+t1292133340
+s795
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTThumbsViewController.h
+c000000004D0463DC0000000000000578
+t1292133340
+s1400
+i"Three20UI/TTTableViewController.h"
+i"Three20UI/TTThumbsTableViewCellDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTThumbsViewControllerDelegate.h
+c000000004D0463DC0000000000000505
+t1292133340
+s1285
+i<Foundation/Foundation.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTView.h
+c000000004D0463DC000000000000041F
+t1292133340
+s1055
+i"Three20Style/TTStyleDelegate.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTViewController.h
+c000000004D0463DC00000000000006C8
+t1292133340
+s1736
+i"Three20UINavigator/TTNavigatorViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTWebController.h
+c000000004D0463DC000000000000091C
+t1292133340
+s2332
+i"Three20UI/TTModelViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/TTYouTubeView.h
+c000000004D0463DC00000000000003CF
+t1292133340
+s975
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UI/Three20UI.h
+c000000004D0463DC0000000000001441
+t1292133340
+s5185
+i"Three20UI/TTNavigator.h"
+i"Three20UI/TTViewController.h"
+i"Three20UI/TTNavigationController.h"
+i"Three20UI/TTWebController.h"
+i"Three20UI/TTMessageController.h"
+i"Three20UI/TTMessageControllerDelegate.h"
+i"Three20UI/TTMessageField.h"
+i"Three20UI/TTMessageRecipientField.h"
+i"Three20UI/TTMessageTextField.h"
+i"Three20UI/TTMessageSubjectField.h"
+i"Three20UI/TTAlertViewController.h"
+i"Three20UI/TTAlertViewControllerDelegate.h"
+i"Three20UI/TTActionSheetController.h"
+i"Three20UI/TTActionSheetControllerDelegate.h"
+i"Three20UI/TTPostController.h"
+i"Three20UI/TTPostControllerDelegate.h"
+i"Three20UI/TTTextBarController.h"
+i"Three20UI/TTTextBarDelegate.h"
+i"Three20Network/TTURLCache.h"
+i"Three20UI/TTView.h"
+i"Three20UI/TTImageView.h"
+i"Three20UI/TTImageViewDelegate.h"
+i"Three20UI/TTYouTubeView.h"
+i"Three20UI/TTScrollView.h"
+i"Three20UI/TTScrollViewDelegate.h"
+i"Three20UI/TTScrollViewDataSource.h"
+i"Three20UI/TTLauncherView.h"
+i"Three20UI/TTLauncherViewDelegate.h"
+i"Three20UI/TTLauncherItem.h"
+i"Three20UI/TTLabel.h"
+i"Three20UI/TTStyledTextLabel.h"
+i"Three20UI/TTActivityLabel.h"
+i"Three20UI/TTSearchlightLabel.h"
+i"Three20UI/TTButton.h"
+i"Three20UI/TTLink.h"
+i"Three20UI/TTTabBar.h"
+i"Three20UI/TTTabDelegate.h"
+i"Three20UI/TTTabStrip.h"
+i"Three20UI/TTTabGrid.h"
+i"Three20UI/TTTab.h"
+i"Three20UI/TTTabItem.h"
+i"Three20UI/TTButtonBar.h"
+i"Three20UI/TTPageControl.h"
+i"Three20UI/TTTextEditor.h"
+i"Three20UI/TTTextEditorDelegate.h"
+i"Three20UI/TTSearchTextField.h"
+i"Three20UI/TTSearchTextFieldDelegate.h"
+i"Three20UI/TTPickerTextField.h"
+i"Three20UI/TTPickerTextFieldDelegate.h"
+i"Three20UI/TTSearchBar.h"
+i"Three20UI/TTTableViewController.h"
+i"Three20UI/TTSearchDisplayController.h"
+i"Three20UI/TTTableView.h"
+i"Three20UI/TTTableViewDelegate.h"
+i"Three20UI/TTTableViewVarHeightDelegate.h"
+i"Three20UI/TTTableViewGroupedVarHeightDelegate.h"
+i"Three20UI/TTTableViewPlainDelegate.h"
+i"Three20UI/TTTableViewPlainVarHeightDelegate.h"
+i"Three20UI/TTTableViewDragRefreshDelegate.h"
+i"Three20UI/TTListDataSource.h"
+i"Three20UI/TTSectionedDataSource.h"
+i"Three20UI/TTTableHeaderView.h"
+i"Three20UI/TTTableViewCell.h"
+i"Three20UI/TTTableItem.h"
+i"Three20UI/TTTableLinkedItem.h"
+i"Three20UI/TTTableTextItem.h"
+i"Three20UI/TTTableCaptionItem.h"
+i"Three20UI/TTTableRightCaptionItem.h"
+i"Three20UI/TTTableSubtextItem.h"
+i"Three20UI/TTTableSubtitleItem.h"
+i"Three20UI/TTTableMessageItem.h"
+i"Three20UI/TTTableLongTextItem.h"
+i"Three20UI/TTTableGrayTextItem.h"
+i"Three20UI/TTTableSummaryItem.h"
+i"Three20UI/TTTableLink.h"
+i"Three20UI/TTTableButton.h"
+i"Three20UI/TTTableMoreButton.h"
+i"Three20UI/TTTableImageItem.h"
+i"Three20UI/TTTableRightImageItem.h"
+i"Three20UI/TTTableActivityItem.h"
+i"Three20UI/TTTableStyledTextItem.h"
+i"Three20UI/TTTableControlItem.h"
+i"Three20UI/TTTableViewItem.h"
+i"Three20UI/TTTableLinkedItemCell.h"
+i"Three20UI/TTTableTextItemCell.h"
+i"Three20UI/TTTableCaptionItemCell.h"
+i"Three20UI/TTTableSubtextItemCell.h"
+i"Three20UI/TTTableRightCaptionItemCell.h"
+i"Three20UI/TTTableSubtitleItemCell.h"
+i"Three20UI/TTTableMessageItemCell.h"
+i"Three20UI/TTTableMoreButtonCell.h"
+i"Three20UI/TTTableImageItemCell.h"
+i"Three20UI/TTStyledTextTableItemCell.h"
+i"Three20UI/TTStyledTextTableCell.h"
+i"Three20UI/TTTableActivityItemCell.h"
+i"Three20UI/TTTableControlCell.h"
+i"Three20UI/TTTableFlushViewCell.h"
+i"Three20UI/TTErrorView.h"
+i"Three20UI/TTPhotoVersion.h"
+i"Three20UI/TTPhotoSource.h"
+i"Three20UI/TTPhoto.h"
+i"Three20UI/TTPhotoViewController.h"
+i"Three20UI/TTPhotoView.h"
+i"Three20UI/TTThumbsViewController.h"
+i"Three20UI/TTThumbsViewControllerDelegate.h"
+i"Three20UI/TTThumbsDataSource.h"
+i"Three20UI/TTThumbsTableViewCell.h"
+i"Three20UI/TTThumbsTableViewCellDelegate.h"
+i"Three20UI/TTThumbView.h"
+i"Three20UI/TTRecursiveProgress.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UICommon/TTBaseViewController.h
+c000000004D0463CF0000000000000A15
+t1292133327
+s2581
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UICommon/TTGlobalUICommon.h
+c000000004D0463CF000000000000150B
+t1292133327
+s5387
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UICommon/Three20UICommon.h
+c000000004D0463CF00000000000002CE
+t1292133327
+s718
+i"Three20UICommon/TTGlobalUICommon.h"
+i"Three20UICommon/TTBaseViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTBaseNavigationController.h
+c000000004D0463DA000000000000050F
+t1292133338
+s1295
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTBaseNavigator.h
+c000000004D0463DA0000000000001B38
+t1292133338
+s6968
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20UINavigator/TTNavigatorPersistenceMode.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTGlobalNavigatorMetrics.h
+c000000004D0463DA00000000000006A1
+t1292133338
+s1697
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTNavigationMode.h
+c000000004D0463DA00000000000003E5
+t1292133338
+s997
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTNavigatorDelegate.h
+c000000004D0463DA0000000000000657
+t1292133338
+s1623
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTNavigatorPersistenceMode.h
+c000000004D0463DA0000000000000348
+t1292133338
+s840
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTNavigatorViewController.h
+c000000004D0463DA000000000000036A
+t1292133338
+s874
+i"Three20UICommon/TTBaseViewController.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTURLAction.h
+c000000004D0463DA0000000000000A90
+t1292133338
+s2704
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTURLGeneratorPattern.h
+c000000004D0463DA0000000000000379
+t1292133338
+s889
+i"Three20UINavigator/TTURLPattern.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTURLMap.h
+c000000004D0463DA000000000000161C
+t1292133338
+s5660
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20UINavigator/TTNavigationMode.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTURLNavigatorPattern.h
+c000000004D0463DA00000000000006E0
+t1292133338
+s1760
+i"Three20UINavigator/TTURLPattern.h"
+i"Three20UINavigator/TTNavigationMode.h"
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTURLObject.h
+c000000004D0463DA0000000000000497
+t1292133338
+s1175
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/TTURLPattern.h
+c000000004D0463DA0000000000000511
+t1292133338
+s1297
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/zuhairnaqvi/iOS/three20/Build/Products/three20/Three20UINavigator/Three20UINavigator.h
+c000000004D0463DA000000000000054C
+t1292133338
+s1356
+i"Three20UINavigator/TTGlobalNavigatorMetrics.h"
+i"Three20UINavigator/TTURLObject.h"
+i"Three20UINavigator/TTNavigatorViewController.h"
+i"Three20UINavigator/TTBaseNavigationController.h"
+i"Three20UINavigator/TTNavigatorPersistenceMode.h"
+i"Three20UINavigator/TTBaseNavigator.h"
+i"Three20UINavigator/TTNavigatorDelegate.h"
+i"Three20UINavigator/TTURLAction.h"
+i"Three20UINavigator/TTURLMap.h"
+i"Three20UINavigator/TTNavigationMode.h"
+i"Three20UINavigator/TTURLPattern.h"
+i"Three20UINavigator/TTURLGeneratorPattern.h"
+i"Three20UINavigator/TTURLNavigatorPattern.h"
+
+N/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch.gch
+t1292079628
+s16473168
+
+N/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch.gch
+t1292133352
+s15453392
+
+N/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-ggkxwueygcnukkhdpczrpglrdqtl/TheCarlton_Prefix.pch.gch
+t1292072350
+s15453392
+
+NTheCarlton-Info.plist
+c000000004D037597000000000000038D
+t1292072343
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313842855#313842855#0(0"0(0#1#0"8686327936#0"0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313842136.831798
+e313842136.991074
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:19: warning: unused variable 'timer'
+lSLF07#2@69"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313842136#313842137#0(210"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:19: warning: unused variable 'timer'1(22@23"Unused variable 'timer'313842136#111#99#0(6@61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313841847#19#0#19#0#19"unused variable '*'0(0#0#61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m8667594208#1989"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313826152.868938
+e313826152.963244
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m313826152#313826152#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m8622047808#1995"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s313772428.420809
+e313772428.463629
+r0
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm:12: error: expected constructor, destructor, or type conversion before 'implementation'
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm:35: error: expected unqualified-id before '-' token
+lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm313772428#313772428#0(272"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm:12: error: expected constructor, destructor, or type conversion before 'implementation'/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm:35: error: expected unqualified-id before '-' token2(4@76"Expected constructor, destructor, or type conversion before 'implementation'313772428#0#154#0(6@65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm313771973#12#0#12#0#19"expected * before *0(4@40"Expected unqualified-id before '-' token313772428#154#118#0(6@65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm313771973#35#0#35#0#19"expected * before *0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm8679781728#2017"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.mm -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o1#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313842855.356552
+e313842855.541348
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m313842855#313842855#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m8663033952#1995"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313826152.702163
+e313826152.868836
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m313826152#313826152#0(0"0(0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m8647325152#1999"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313841658.876355
+e313841659.124903
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m313841658#313841659#0(0"0(0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m8620760096#1999"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313826152.963348
+e313826153.080134
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m313826152#313826153#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m8623642144#1997"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313842855.355249
+e313842855.573588
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m313842855#313842855#0(0"0(0#0#60"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m8663393472#1987"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313839122.635668
+e313839122.860149
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m313839122#313839122#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m8662798528#1977"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteObject.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarltonAppDelegate.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313841658.871872
+e313841659.074398
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarltonAppDelegate.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m313841658#313841659#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m8636473568#1997"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarltonAppDelegate.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/main.o /Users/zuhairnaqvi/iOS/TheCarlton/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313826152.627648
+e313826152.702062
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/main.o
+x/Users/zuhairnaqvi/iOS/TheCarlton/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/zuhairnaqvi/iOS/TheCarlton/main.m313826152#313826152#0(0"0(0#0#40"/Users/zuhairnaqvi/iOS/TheCarlton/main.m8663038496#1955"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/main.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
+s313826151.244727
+e313826151.832008
+r1
+xCompileXIB
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
+lSLF07#2@40"CompileXIB Classes/BoxViewController.xib313826151#313826151#0(0"0(0#0#63"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib8615955232#580"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/BoxViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
+s313840307.508746
+e313840308.764705
+r1
+xCompileXIB
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
+lSLF07#2@33"CompileXIB Classes/DetailView.xib313840307#313840308#0(0"0(0#0#56"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib8665541248#566"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/DetailView.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib
+s313826150.657979
+e313826151.250360
+r1
+xCompileXIB
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib
+lSLF07#2@45"CompileXIB Classes/LauncherViewController.xib313826150#313826151#0(0"0(0#0#68"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib8652117472#590"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/LauncherViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.xib
+s313840307.513506
+e313840308.381540
+r1
+xCompileXIB
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.xib
+lSLF07#2@45"CompileXIB Classes/MenuRootViewController.xib313840307#313840308#0(0"0(0#0#68"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.xib8665232224#590"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/MenuRootViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/CameraViewController.xib
+r0
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/OverlayViewController.xib
+s313826151.277176
+e313826151.782147
+r1
+xCompileXIB
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/OverlayViewController.xib
+lSLF07#2@53"CompileXIB Classes/en.lproj/OverlayViewController.xib313826151#313826151#0(0"0(0#0#76"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/OverlayViewController.xib8634766368#606"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/en.lproj/OverlayViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/en.lproj/OverlayViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/MainWindow.xib
+s313826150.562423
+e313826151.244638
+r1
+xCompileXIB
+x/Users/zuhairnaqvi/iOS/TheCarlton/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313826150#313826151#0(0"0(0#0#48"/Users/zuhairnaqvi/iOS/TheCarlton/MainWindow.xib8648195040#558"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/MainWindow.nib /Users/zuhairnaqvi/iOS/TheCarlton/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/18-envelope.png 18-envelope.png
+s313826150.576874
+e313826150.615275
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/18-envelope.png
+x18-envelope.png
+lSLF07#2@20"Copy 18-envelope.png313826150#313826150#0(0"0(0#0#49"/Users/zuhairnaqvi/iOS/TheCarlton/18-envelope.png8664760704#461"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/18-envelope.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/53-house.png 53-house.png
+s313826150.582011
+e313826150.615393
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/53-house.png
+x53-house.png
+lSLF07#2@17"Copy 53-house.png313826150#313826150#0(0"0(0#0#46"/Users/zuhairnaqvi/iOS/TheCarlton/53-house.png8660183552#458"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/53-house.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Default.png "../../Downloads/PhotoPicker 2/images/Default.png"
+s313826151.253568
+e313826151.282365
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Default.png
+x../../Downloads/PhotoPicker 2/images/Default.png
+lSLF07#2@53"Copy ../../Downloads/PhotoPicker 2/images/Default.png313826151#313826151#0(0"0(0#0#82"/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Default.png8618009952#496"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Default.png" /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon-Small.png "../../Downloads/PhotoPicker 2/images/Icon-Small.png"
+s313826151.259043
+e313826151.282472
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Icon-Small.png
+x../../Downloads/PhotoPicker 2/images/Icon-Small.png
+lSLF07#2@56"Copy ../../Downloads/PhotoPicker 2/images/Icon-Small.png313826151#313826151#0(0"0(0#0#85"/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon-Small.png8661063232#499"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon-Small.png" /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon-Small@2x.png "../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png"
+s313826151.266007
+e313826151.282587
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Icon-Small@2x.png
+x../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png
+lSLF07#2@59"Copy ../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png313826151#313826151#0(0"0(0#0#88"/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png8639270080#502"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon-Small@2x.png" /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon.png "../../Downloads/PhotoPicker 2/images/Icon.png"
+s313826151.268727
+e313826151.282695
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Icon.png
+x../../Downloads/PhotoPicker 2/images/Icon.png
+lSLF07#2@50"Copy ../../Downloads/PhotoPicker 2/images/Icon.png313826151#313826151#0(0"0(0#0#79"/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon.png8634128320#493"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon.png" /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Icon@2x.png "../../Downloads/PhotoPicker 2/images/Icon@2x.png"
+s313826151.273405
+e313826151.284723
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Icon@2x.png
+x../../Downloads/PhotoPicker 2/images/Icon@2x.png
+lSLF07#2@53"Copy ../../Downloads/PhotoPicker 2/images/Icon@2x.png313826151#313826151#0(0"0(0#0#82"/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon@2x.png8617395328#496"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/Icon@2x.png" /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Settings.bundle Settings.bundle
+s313842136.783503
+e313842136.831261
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Settings.bundle
+xSettings.bundle
+lSLF07#2@20"Copy Settings.bundle313842136#313842136#0(0"0(0#0#49"/Users/zuhairnaqvi/iOS/TheCarlton/Settings.bundle8670483808#461"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/Settings.bundle /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/Three20.bundle ../three20/src/Three20.bundle
+s313826150.550618
+e313826150.576797
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/Three20.bundle
+x../three20/src/Three20.bundle
+lSLF07#2@34"Copy ../three20/src/Three20.bundle313826150#313826150#0(0"0(0#0#63"/Users/zuhairnaqvi/iOS/TheCarlton/../three20/src/Three20.bundle8605826112#475"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/../three20/src/Three20.bundle /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/appsettings.png appsettings.png
+s313826150.587277
+e313826150.615497
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/appsettings.png
+xappsettings.png
+lSLF07#2@20"Copy appsettings.png313826150#313826150#0(0"0(0#0#49"/Users/zuhairnaqvi/iOS/TheCarlton/appsettings.png8648646336#461"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/appsettings.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/bg.jpg bg.jpg
+s313826150.649468
+e313826150.661828
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/bg.jpg
+xbg.jpg
+lSLF07#2@11"Copy bg.jpg313826150#313826150#0(0"0(0#0#40"/Users/zuhairnaqvi/iOS/TheCarlton/bg.jpg8632907776#452"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/bg.jpg /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/bookings.png bookings.png
+s313826150.590125
+e313826150.615594
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/bookings.png
+xbookings.png
+lSLF07#2@17"Copy bookings.png313826150#313826150#0(0"0(0#0#46"/Users/zuhairnaqvi/iOS/TheCarlton/bookings.png8639306688#458"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/bookings.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/buttonimg.png buttonimg.png
+s313826150.594452
+e313826150.615694
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/buttonimg.png
+xbuttonimg.png
+lSLF07#2@18"Copy buttonimg.png313826150#313826150#0(0"0(0#0#47"/Users/zuhairnaqvi/iOS/TheCarlton/buttonimg.png8636152576#459"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/buttonimg.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/cameraimg.png cameraimg.png
+s313826150.598029
+e313826150.649203
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/cameraimg.png
+xcameraimg.png
+lSLF07#2@18"Copy cameraimg.png313826150#313826150#0(0"0(0#0#47"/Users/zuhairnaqvi/iOS/TheCarlton/cameraimg.png8632651488#459"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/cameraimg.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/checkin.png checkin.png
+s313826150.601865
+e313826150.615793
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/checkin.png
+xcheckin.png
+lSLF07#2@16"Copy checkin.png313826150#313826150#0(0"0(0#0#45"/Users/zuhairnaqvi/iOS/TheCarlton/checkin.png8620483456#457"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/checkin.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/contact.png contact.png
+s313826150.603990
+e313826150.615896
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/contact.png
+xcontact.png
+lSLF07#2@16"Copy contact.png313826150#313826150#0(0"0(0#0#45"/Users/zuhairnaqvi/iOS/TheCarlton/contact.png8617315744#457"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/contact.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/free.png free.png
+s313826150.610580
+e313826150.649398
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/free.png
+xfree.png
+lSLF07#2@13"Copy free.png313826150#313826150#0(0"0(0#0#42"/Users/zuhairnaqvi/iOS/TheCarlton/free.png8615849376#454"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/free.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/iTunesArtwork "../../Downloads/PhotoPicker 2/images/iTunesArtwork"
+s313826151.275206
+e313826151.282819
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/iTunesArtwork
+x../../Downloads/PhotoPicker 2/images/iTunesArtwork
+lSLF07#2@55"Copy ../../Downloads/PhotoPicker 2/images/iTunesArtwork313826151#313826151#0(0"0(0#0#84"/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/iTunesArtwork8650153312#498"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/zuhairnaqvi/iOS/TheCarlton/../../Downloads/PhotoPicker 2/images/iTunesArtwork" /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/logo.png logo.png
+s313826150.616078
+e313826150.648612
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/logo.png
+xlogo.png
+lSLF07#2@13"Copy logo.png313826150#313826150#0(0"0(0#0#42"/Users/zuhairnaqvi/iOS/TheCarlton/logo.png8604053184#454"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/logo.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/logogreen.png logogreen.png
+s313842657.602269
+e313842657.610493
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/logogreen.png
+xlogogreen.png
+lSLF07#2@18"Copy logogreen.png313842657#313842657#0(0"0(0#0#47"/Users/zuhairnaqvi/iOS/TheCarlton/logogreen.png8672948992#459"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/logogreen.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/menu.png menu.png
+s313826150.618662
+e313826150.648798
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/menu.png
+xmenu.png
+lSLF07#2@13"Copy menu.png313826150#313826150#0(0"0(0#0#42"/Users/zuhairnaqvi/iOS/TheCarlton/menu.png8667583136#454"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/menu.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/navbarbg.png navbarbg.png
+s313826150.626224
+e313826150.648902
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/navbarbg.png
+xnavbarbg.png
+lSLF07#2@17"Copy navbarbg.png313826150#313826150#0(0"0(0#0#46"/Users/zuhairnaqvi/iOS/TheCarlton/navbarbg.png8647071136#458"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/navbarbg.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/news.png news.png
+s313826150.630679
+e313826150.649000
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/news.png
+xnews.png
+lSLF07#2@13"Copy news.png313826150#313826150#0(0"0(0#0#42"/Users/zuhairnaqvi/iOS/TheCarlton/news.png8621654752#454"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/news.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/phone.png phone.png
+s313826150.637105
+e313826150.649101
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/phone.png
+xphone.png
+lSLF07#2@14"Copy phone.png313826150#313826150#0(0"0(0#0#43"/Users/zuhairnaqvi/iOS/TheCarlton/phone.png8654515936#455"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/phone.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/settings.png settings.png
+s313826150.639168
+e313826150.649299
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/settings.png
+xsettings.png
+lSLF07#2@17"Copy settings.png313826150#313826150#0(0"0(0#0#46"/Users/zuhairnaqvi/iOS/TheCarlton/settings.png8623892800#458"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/settings.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/share.png share.png
+s313826150.646756
+e313826150.662043
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/share.png
+xshare.png
+lSLF07#2@14"Copy share.png313826150#313826150#0(0"0(0#0#43"/Users/zuhairnaqvi/iOS/TheCarlton/share.png8653361888#455"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/share.png /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CCpResource build/Debug-iphonesimulator/TheCarlton.app/tick.aiff tick.aiff
+s313826151.250443
+e313826151.282236
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TheCarlton.app/tick.aiff
+xtick.aiff
+lSLF07#2@14"Copy tick.aiff313826151#313826151#0(0"0(0#0#43"/Users/zuhairnaqvi/iOS/TheCarlton/tick.aiff8653701344#455"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/tick.aiff /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+
+CGenerateDSYMFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
+s313842855.857489
+e313842855.914718
+r1
+xGenerateDSYMFile
+x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM
+x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/TheCarlton.app.dSYM build/Debug-iphonesimulator/TheCarlton.app/TheCarlton313842855#313842855#0(0"0(0#0#87"/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton8686703072#377"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM0#
+
+CLd /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton normal i386
+s313842855.573672
+e313842855.857393
+r1
+xLd
+x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
+xnormal
+xi386
+lSLF07#2@92"Link /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton313842855#313842855#0(0"0(0#0#0"8678212512#2088"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -filelist /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarlton.LinkFileList -mmacosx-version-min=10.6 -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -Xlinker -objc_abi_version -Xlinker 2 /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton0#
+
+CProcessInfoPlistFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist TheCarlton-Info.plist
+s313826150.545187
+e313826150.550527
+r1
+xProcessInfoPlistFile
+x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist
+xTheCarlton-Info.plist
+lSLF07#2@29"Process TheCarlton-Info.plist313826150#313826150#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton-Info.plist8663222528#473"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TheCarlton-Info.plist -genpkginfo /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist0#
+
+CProcessPCH /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313826151.832116
+e313826152.627441
+r1
+xProcessPCH
+x/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch.gch
+xTheCarlton_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile TheCarlton_Prefix.pch313826151#313826152#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch8628537664#1849"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -c /Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch -o /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-ggkxwueygcnukkhdpczrpglrdqtl/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313765149.117138
+e313765150.641890
+r1
+xProcessPCH
+x/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-ggkxwueygcnukkhdpczrpglrdqtl/TheCarlton_Prefix.pch.gch
+xTheCarlton_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile TheCarlton_Prefix.pch313765149#313765150#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch8610047552#1813"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -c /Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch -o /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-ggkxwueygcnukkhdpczrpglrdqtl/TheCarlton_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s313772427.116316
+e313772428.420063
+r1
+xProcessPCH++
+x/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch.gch
+xTheCarlton_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile TheCarlton_Prefix.pch313772427#313772428#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch8599249632#1870"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -c /Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch -o /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch.gch0#
+
+CTouch /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
+s313842855.914806
+e313842855.917556
+r1
+xTouch
+x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
+lSLF07#2@82"Touch /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app313842855#313842855#0(0"0(0#0#0"8686515904#271"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+

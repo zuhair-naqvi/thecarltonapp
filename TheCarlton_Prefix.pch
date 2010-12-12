@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TheCarlton' target in the 'TheCarlton' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
