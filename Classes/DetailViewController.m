@@ -16,7 +16,6 @@
     [super viewDidLoad];
 	
 	itemDescText.text = itemDesc;
-	itemDescText.backgroundColor = [UIColor clearColor];
 
 	spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
 	[spinner setCenter:CGPointMake(itemPicView.bounds.size.width/2, itemPicView.bounds.size.height/2)]; // I do this because I'm in landscape mode

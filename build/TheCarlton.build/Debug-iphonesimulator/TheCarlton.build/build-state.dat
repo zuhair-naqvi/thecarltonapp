@@ -1,7 +1,7 @@
 TTheCarlton
 v7
 r0
-t313852202.879986
+t313853250.496695
 cCheck dependencies
 cProcessInfoPlistFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist TheCarlton-Info.plist
 cCpResource build/Debug-iphonesimulator/TheCarlton.app/Three20.bundle ../three20/src/Three20.bundle
@@ -166,17 +166,17 @@ s622
 i"Three20/Three20.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m
-c000000004D04BEE800000000000006B1
-t1292156648
-s1713
+c000000004D04CC830000000000000679
+t1292160131
+s1657
 i"BoxViewController.h"
 i"RemoteDictionary.h"
 i"RemoteImage.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
-c000000004D04BF6A000000000000610F
-t1292156778
-s24847
+c000000004D04CC780000000000006112
+t1292160120
+s24850
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.h
 c000000004D043B3C0000000000000380
@@ -230,9 +230,9 @@ t1290836806
 s21963
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
-c000000004CFA904A0000000000005A17
-t1291489354
-s23063
+c000000004D04CC620000000000005F3D
+t1292160098
+s24381
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.h
 c000000004D04C84B00000000000002CD
@@ -241,9 +241,9 @@ s717
 i"RemoteImage.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m
-c000000004D04C8470000000000000632
-t1292159047
-s1586
+c000000004D04CC8B00000000000005FC
+t1292160139
+s1532
 i"DetailViewController.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.h
@@ -287,9 +287,9 @@ s652
 i"RemoteDictionary.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m
-c000000004D04C85A00000000000013AA
-t1292159066
-s5034
+c000000004D04CB1900000000000013BA
+t1292159769
+s5050
 i"MenuRootViewController.h"
 i"DetailViewController.h"
 
@@ -318,9 +318,9 @@ s650
 i"Three20/Three20.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m
-c000000004D04A50E0000000000000779
-t1292150030
-s1913
+c000000004D04CABB000000000000078E
+t1292159675
+s1934
 i"RemoteDictionary.h"
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.h
@@ -469,11 +469,11 @@ t1292074868
 s6706
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
-t1292159402
+t1292160150
 s1394
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM
-t1292159402
+t1292160150
 s102
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/18-envelope.png
@@ -485,7 +485,7 @@ t1292133350
 s2901
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/BoxViewController.nib
-t1292156783
+t1292160149
 s2188
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/ContactViewController.nib
@@ -497,8 +497,8 @@ t1292158106
 s243593
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/DetailView.nib
-t1292147508
-s2070
+t1292160149
+s1693
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Icon-Small.png
 t1292157952
@@ -549,7 +549,7 @@ t1292151871
 s2689
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
-t1292159402
+t1292160150
 s1358740
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Three20.bundle
@@ -641,8 +641,8 @@ t2
 s0
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o
-t1292159167
-s55704
+t1292160149
+s55424
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o
 t1292133352
@@ -657,8 +657,8 @@ t1292158984
 s43824
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o
-t1292159167
-s51020
+t1292160149
+s50728
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o
 t1292159402
@@ -669,16 +669,16 @@ t1292158963
 s51436
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o
-t1292159167
-s59328
+t1292159777
+s59324
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o
 t1292133353
 s68932
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o
-t1292159167
-s18372
+t1292159744
+s18432
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o
 t1292159167
@@ -708,6 +708,62 @@ s6292
 N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/untitled.o
 t2
 s0
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/BoxViewController.plist
+t1292160149
+s1701
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/CameraViewController.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/ContactTableController.plist
+t1292159561
+s3518
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/ContactViewController.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/DetailViewController.plist
+t1292160149
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/LauncherViewController.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/LocateViewController.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/MenuRootViewController.plist
+t1292159777
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/OverlayViewController.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/RemoteDictionary.plist
+t1292159744
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/RemoteImage.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/SyncViewController.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/TheCarltonAppDelegate.plist
+t1292159561
+s276
+
+N/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/main.plist
+t1292159561
+s276
 
 N/Users/zuhairnaqvi/iOS/TheCarlton/buttonimg.png
 c000000004CF1D697000000000000029B
@@ -2367,6 +2423,10 @@ i"Three20UINavigator/TTURLPattern.h"
 i"Three20UINavigator/TTURLGeneratorPattern.h"
 i"Three20UINavigator/TTURLNavigatorPattern.h"
 
+N/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch.pth
+t1292159560
+s2783988
+
 N/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch.gch
 t1292079628
 s16473168
@@ -2384,13 +2444,133 @@ c000000004D037597000000000000038D
 t1292072343
 s909
 
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m
+s313852949.771094
+e313852949.857675
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:19:11:{19:19-19:130}: warning: Value stored to 'timer' during its initialization is never read
+o         NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(showRedeem) userInfo:nil repeats:NO];
+o                  ^       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF07#2@69"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313852949#313852949#0(455"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:19:11:{19:19-19:130}: warning: Value stored to 'timer' during its initialization is never read         NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(showRedeem) userInfo:nil repeats:NO];                  ^       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(0@63"Value stored to 'timer' during its initialization is never read313852949#18446744073709551615#0#1(21@63"Value stored to 'timer' during its initialization is never read313852949#18446744073709551615#0#0(6@61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313852931#19#11#0#0#0"1(6@61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313852931#19#19#19#129#63"Value stored to 'timer' during its initialization is never read6@61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313852931#19#11#0#0#10"Dead store0(19"Dead initialization0#0#61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m8674263904#1998"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/BoxViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m
+s313852361.111886
+e313852361.170624
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m
+lSLF07#2@72"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m313852361#313852361#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m8665133152#2004"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/CameraViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m
+s313852361.514409
+e313852361.606333
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m:24:2: warning: Dereference of null pointer
+o         contactMenu = [[NSMutableArray alloc] init];
+o         ^
+o1 warning generated.
+lSLF07#2@74"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m313852361#313852361#0(196"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m:24:2: warning: Dereference of null pointer         contactMenu = [[NSMutableArray alloc] init];         ^1 warning generated.1(0@27"Dereference of null pointer313852361#18446744073709551615#0#3(17@0"313852361#18446744073709551615#0#0(6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#0#0#0#0#0"0(6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#0#0#0#0#1(3@6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#21#5#21#5#6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#21#10#21#10#17@0"313852361#18446744073709551615#0#0(6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#0#0#0#0#0"0(6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#0#0#0#0#1(3@6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#21#10#21#10#6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#24#2#24#12#21@27"Dereference of null pointer313852361#18446744073709551615#0#0(6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#24#2#0#0#0"1(6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#24#2#24#12#27"Dereference of null pointer6@66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m312619939#24#2#0#0#11"Logic error0(27"Dereference of null pointer0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m8674247712#2008"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactTableController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/ContactTableController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m
+s313852361.513467
+e313852361.590663
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m
+lSLF07#2@73"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m313852361#313852361#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m8676860480#2006"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/ContactViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m
+s313852949.858004
+e313852949.940509
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m
+lSLF07#2@72"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m313852949#313852949#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m8670313568#2004"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/DetailViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m
+s313852361.018431
+e313852361.111793
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m
+lSLF07#2@74"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m313852361#313852361#0(0"0(0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m8677622592#2008"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/LauncherViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m
+s313852361.399291
+e313852361.512983
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m
+lSLF07#2@72"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m313852361#313852361#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m8669431232#2004"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/LocateViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m
+s313852577.479436
+e313852577.567971
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m
+lSLF07#2@74"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m313852577#313852577#0(0"0(0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m8687390176#2008"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/MenuRootViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m
+s313852361.136814
+e313852361.199685
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m
+lSLF07#2@73"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m313852361#313852361#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m8664897440#2006"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/OverlayViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m
+s313852544.649100
+e313852544.740875
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m
+lSLF07#2@68"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m313852544#313852544#0(0"0(0#0#60"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m8650345408#1996"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/RemoteDictionary.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m
+s313852361.170710
+e313852361.306739
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m
+lSLF07#2@63"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m313852361#313852361#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m8664431360#1986"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/RemoteImage.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m
+s313852361.383662
+e313852361.513394
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m
+lSLF07#2@70"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m313852361#313852361#0(0"0(0#0#62"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m8670307840#2000"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/SyncViewController.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m
+s313852360.901332
+e313852361.046381
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m
+lSLF07#2@73"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m313852360#313852361#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m8686848992#2006"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/TheCarltonAppDelegate.plist0#
+
+CAnalyze /Users/zuhairnaqvi/iOS/TheCarlton/main.m
+s313852360.899442
+e313852361.018336
+r1
+xAnalyze
+x/Users/zuhairnaqvi/iOS/TheCarlton/main.m
+lSLF07#2@48"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/main.m313852360#313852361#0(0"0(0#0#40"/Users/zuhairnaqvi/iOS/TheCarlton/main.m8621691008#1964"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch --analyze /Users/zuhairnaqvi/iOS/TheCarlton/main.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/StaticAnalyzer/normal/i386/main.plist0#
+
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies313852202#313852202#0(0"0(0#1#0"8661451392#0"0#
+lSLF07#2@18"Check dependencies313853250#313853250#0(0"0(0#1#0"8670526816#0"0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313851966.984878
-e313851967.232979
+s313852949.545804
+e313852949.770377
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o
@@ -2400,8 +2580,8 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':
-o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'
-lSLF07#2@69"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313851966#313851967#0(210"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'1(22@23"Unused variable 'timer'313851967#111#99#0(6@61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313849448#20#0#20#0#19"unused variable '*'0(0#0#61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m8681351936#1989"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o0#
+o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:19: warning: unused variable 'timer'
+lSLF07#2@69"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313852949#313852949#0(210"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m:19: warning: unused variable 'timer'1(22@23"Unused variable 'timer'313852949#111#99#0(6@61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m313852931#19#0#19#0#19"unused variable '*'0(0#0#61"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m8686725568#1989"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/CameraViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313826152.868938
@@ -2458,8 +2638,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m313851784#313851784#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m8670610048#1997"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/ContactViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313851967.437167
-e313851967.680835
+s313852949.605792
+e313852949.851069
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o
@@ -2468,7 +2648,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m313851967#313851967#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m8670175008#1995"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o0#
+lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m313852949#313852949#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m8687095904#1995"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313852202.135590
@@ -2497,8 +2677,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m313851763#313851763#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m8670810304#1995"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LocateViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313851967.482445
-e313851967.690878
+s313852577.395562
+e313852577.632790
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o
@@ -2507,7 +2687,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m313851967#313851967#0(0"0(0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m8669105664#1999"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o0#
+lSLF07#2@74"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m313852577#313852577#0(0"0(0#0#66"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m8677107488#1999"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/MenuRootViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MenuRootViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313826152.963348
@@ -2523,8 +2703,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m313826152#313826153#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m8623642144#1997"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/OverlayViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313851967.233071
-e313851967.482353
+s313852544.359929
+e313852544.645145
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o
@@ -2533,7 +2713,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m313851967#313851967#0(0"0(0#0#60"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m8674431712#1987"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o0#
+lSLF07#2@68"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m313852544#313852544#0(0"0(0#0#60"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m8636841600#1987"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteDictionary.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o /Users/zuhairnaqvi/iOS/TheCarlton/Classes/RemoteImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s313851967.226029
@@ -2594,12 +2774,12 @@ CCompileC build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-
 r0
 
 CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
-s313849582.995126
-e313849583.470293
+s313852948.833418
+e313852949.539790
 r1
 xCompileXIB
 x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib
-lSLF07#2@40"CompileXIB Classes/BoxViewController.xib313849582#313849583#0(0"0(0#0#63"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib8678483904#580"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/BoxViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@40"CompileXIB Classes/BoxViewController.xib313852948#313852949#0(0"0(0#0#63"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib8659968384#580"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/BoxViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.xib
 s313851142.041729
@@ -2610,12 +2790,12 @@ x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.xib
 lSLF07#2@44"CompileXIB Classes/ContactViewController.xib313851142#313851142#0(0"0(0#0#67"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.xib8671631936#588"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/ContactViewController.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
-s313840307.508746
-e313840308.764705
+s313852948.834599
+e313852949.545257
 r1
 xCompileXIB
 x/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib
-lSLF07#2@33"CompileXIB Classes/DetailView.xib313840307#313840308#0(0"0(0#0#56"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib8665541248#566"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/DetailView.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@33"CompileXIB Classes/DetailView.xib313852948#313852949#0(0"0(0#0#56"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib8652605888#566"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/DetailView.nib /Users/zuhairnaqvi/iOS/TheCarlton/Classes/DetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LauncherViewController.xib
 s313826150.657979
@@ -2969,23 +3149,23 @@ xtick.aiff
 lSLF07#2@14"Copy tick.aiff313826151#313826151#0(0"0(0#0#43"/Users/zuhairnaqvi/iOS/TheCarlton/tick.aiff8653701344#455"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/zuhairnaqvi/iOS/TheCarlton/tick.aiff /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
 
 CGenerateDSYMFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
-s313852202.766199
-e313852202.875211
+s313852950.110406
+e313852950.176833
 r1
 xGenerateDSYMFile
 x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM
 x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/TheCarlton.app.dSYM build/Debug-iphonesimulator/TheCarlton.app/TheCarlton313852202#313852202#0(0"0(0#0#87"/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton8672967968#377"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/TheCarlton.app.dSYM build/Debug-iphonesimulator/TheCarlton.app/TheCarlton313852950#313852950#0(0"0(0#0#87"/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton8664980896#377"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app.dSYM0#
 
 CLd /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton normal i386
-s313852202.500098
-e313852202.766103
+s313852949.851323
+e313852950.110312
 r1
 xLd
 x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton
 xnormal
 xi386
-lSLF07#2@92"Link /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton313852202#313852202#0(0"0(0#0#0"8676670560#2088"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -filelist /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarlton.LinkFileList -mmacosx-version-min=10.6 -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -Xlinker -objc_abi_version -Xlinker 2 /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton0#
+lSLF07#2@92"Link /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton313852949#313852950#0(0"0(0#0#0"8673437344#2088"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -filelist /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarlton.LinkFileList -mmacosx-version-min=10.6 -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -Xlinker -objc_abi_version -Xlinker 2 /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/zuhairnaqvi/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/TheCarlton0#
 
 CProcessInfoPlistFile /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist TheCarlton-Info.plist
 s313826150.545187
@@ -2995,6 +3175,19 @@ xProcessInfoPlistFile
 x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist
 xTheCarlton-Info.plist
 lSLF07#2@29"Process TheCarlton-Info.plist313826150#313826150#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton-Info.plist8663222528#473"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TheCarlton-Info.plist -genpkginfo /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app/Info.plist0#
+
+CProcessPCH /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch.pth TheCarlton_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s313852360.613917
+e313852360.898173
+r1
+xProcessPCH
+x/var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch.pth
+xTheCarlton_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@32"Precompile TheCarlton_Prefix.pch313852360#313852360#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch8661952544#1840"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -c /Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch -o /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-acvjxppvloiejidimfdylthenkkh/TheCarlton_Prefix.pch.pth0#
 
 CProcessPCH /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fcdvhvpybfbgnfhfftbkwucijfhv/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s313826151.832116
@@ -3036,10 +3229,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile TheCarlton_Prefix.pch313772427#313772428#0(0"0(0#0#55"/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch8599249632#1870"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources/i386 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/DerivedSources -c /Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton_Prefix.pch -o /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-aopmdatbikgvfcgcxlxkanhpghop/TheCarlton_Prefix.pch.gch0#
 
 CTouch /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
-s313852202.875311
-e313852202.879942
+s313852950.176935
+e313852950.179818
 r1
 xTouch
 x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app
-lSLF07#2@82"Touch /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app313852202#313852202#0(0"0(0#0#0"8671235136#271"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
+lSLF07#2@82"Touch /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app313852950#313852950#0(0"0(0#0#0"8664552160#271"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphonesimulator/TheCarlton.app0#
 

@@ -59,6 +59,7 @@
 	TTURLDataResponse* plistResponse = (TTURLDataResponse*)request.response;
 	NSString *listFile = [[NSString alloc] initWithData:plistResponse.data encoding:NSASCIIStringEncoding];
 	NSDictionary *remoteDict = [[NSDictionary alloc] initWithDictionary:[listFile propertyList]];
+	[listFile release];
 	[self notifySuccess:remoteDict];
 }
 

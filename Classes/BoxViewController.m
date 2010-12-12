@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
 	[self setTitle:@"The Box"];
-	[description setBackgroundColor:[UIColor clearColor]];
 	NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(showRedeem) userInfo:nil repeats:NO];
     RemoteDictionary *rdict = [[RemoteDictionary alloc] init];
 	[rdict setDelegate:self];	

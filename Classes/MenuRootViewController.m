@@ -27,10 +27,10 @@
 	self.tableView.contentInset = UIEdgeInsetsMake(75, 0, 0, 0);
 	self.tableView.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]];
 	self.tableView.separatorColor = [UIColor grayColor];
-	UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+	UIImageView *logoView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]] autorelease];
 	[logoView setCenter:CGPointMake((self.view.bounds.size.width/2),-40)];
 	[self.tableView addSubview:logoView];
-	[logoView retain];
+	//[logoView retain];
     if(CurrentLevel == 0) {
 		
 		//Initialize our table data source

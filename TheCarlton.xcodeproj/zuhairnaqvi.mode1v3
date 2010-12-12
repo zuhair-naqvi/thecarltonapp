@@ -266,6 +266,8 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>F42507FB12B4DDB70016CD6B</string>
+								<string>F42507A412B4CF510016CD6B</string>
+								<string>F437CCE712B3BFF90049F9C4</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>F437CD7912B3CEF30049F9C4</string>
@@ -279,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>3</integer>
+									<integer>9</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -323,7 +325,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SyncViewController.m</string>
+								<string>DetailViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SyncViewController.m</string>
+										<string>DetailViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F425095912B5012B0016CD6B</string>
+										<string>F425098D12B505430016CD6B</string>
 										<key>history</key>
 										<array>
 											<string>F437CC9712B3BEAC0049F9C4</string>
@@ -352,7 +354,6 @@
 											<string>F425076912B4C9BD0016CD6B</string>
 											<string>F425086A12B4EF850016CD6B</string>
 											<string>F425087D12B4F3240016CD6B</string>
-											<string>F42508A812B4F7E50016CD6B</string>
 											<string>F42508AA12B4F7E50016CD6B</string>
 											<string>F42508AB12B4F7E50016CD6B</string>
 											<string>F425091012B4FD080016CD6B</string>
@@ -369,8 +370,6 @@
 											<string>F425094212B500400016CD6B</string>
 											<string>F425094312B500400016CD6B</string>
 											<string>F425094412B500400016CD6B</string>
-											<string>F425094512B500400016CD6B</string>
-											<string>F425094612B500400016CD6B</string>
 											<string>F425094712B500400016CD6B</string>
 											<string>F425094812B500400016CD6B</string>
 											<string>F425094912B500400016CD6B</string>
@@ -384,7 +383,10 @@
 											<string>F425095612B5012B0016CD6B</string>
 											<string>F425095712B5012B0016CD6B</string>
 											<string>F425095812B5012B0016CD6B</string>
-											<string>F425093812B4FF890016CD6B</string>
+											<string>F425098212B504260016CD6B</string>
+											<string>F425098312B504260016CD6B</string>
+											<string>F425098412B504260016CD6B</string>
+											<string>F425098512B504260016CD6B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -586,9 +588,9 @@
 		<string>F425054812B491450016CD6B</string>
 		<string>F425054512B491450016CD6B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>F437CB0F12B3AD200049F9C4</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>F437CB0F12B3AD200049F9C4</string>
 		<string>/Users/zuhairnaqvi/iOS/TheCarlton/TheCarlton.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -608,12 +610,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ContactViewController.m</string>
+								<string>BoxViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -630,8 +634,6 @@
 							<string>235pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -684,7 +686,7 @@
 			<key>WindowToolGUID</key>
 			<string>F437CB0F12B3AD200049F9C4</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
