@@ -52,12 +52,12 @@
 
 - (void) syncMenu {
 	[syncStatus setText:@"Loading Menu"];	
-	[rdict dictionaryFromServer:@"menu.xml"];	
+	[rdict dictionaryFromServer:@"menu/plist"];	
 }
 
 - (void) syncBox {
 	[syncStatus setText:@"Filling the Box"];
-	[rdict dictionaryFromServer:@"box.xml"];
+	[rdict dictionaryFromServer:@"box/plist"];
 }
 
 - (void) remoteImageDidLoad:(UIImage*)image
@@ -67,7 +67,6 @@
 
 - (void) remoteDictionaryDidLoad:(NSDictionary*)dict
 {
-	NSLog(@"Dict: %@", dict);
 	if ([dict valueForKey:@"Rows"] == NULL) {
 		[syncStatus setText:@"Box Filled"];
 		[rimg imageFromServer:[dict objectForKey:@"picture"]];

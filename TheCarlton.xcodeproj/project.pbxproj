@@ -22,6 +22,10 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		F4008D7D12B60DCF00B583C6 /* Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */; };
+		F4008D8012B60DDF00B583C6 /* MockPhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F4008D7F12B60DDF00B583C6 /* MockPhotoSource.m */; };
+		F4008D8312B60DEB00B583C6 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4008D8212B60DEB00B583C6 /* GalleryViewController.m */; };
+		F4008D8612B60DFA00B583C6 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4008D8512B60DFA00B583C6 /* PhotosViewController.m */; };
 		F425061812B49F590016CD6B /* RemoteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F425061712B49F590016CD6B /* RemoteImage.m */; };
 		F42506E712B4BC240016CD6B /* RemoteDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F42506E612B4BC240016CD6B /* RemoteDictionary.m */; };
 		F42507B212B4CFC50016CD6B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42507AD12B4CFC50016CD6B /* DetailViewController.m */; };
@@ -64,11 +68,8 @@
 		F437CC6812B3BABC0049F9C4 /* LauncherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F437CC6612B3BABC0049F9C4 /* LauncherViewController.xib */; };
 		F437CCEB12B3BFF90049F9C4 /* BoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F437CCE912B3BFF90049F9C4 /* BoxViewController.m */; };
 		F437CCEC12B3BFF90049F9C4 /* BoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F437CCEA12B3BFF90049F9C4 /* BoxViewController.xib */; };
-		F437CD0612B3C69F0049F9C4 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F437CD0512B3C69F0049F9C4 /* CameraViewController.m */; };
-		F437CD0912B3C7FA0049F9C4 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F437CD0812B3C7FA0049F9C4 /* OverlayViewController.m */; };
 		F437CD2A12B3CB480049F9C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */; };
 		F437CD7E12B3CF080049F9C4 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F437CD7D12B3CF080049F9C4 /* tick.aiff */; };
-		F437CD9A12B3CF640049F9C4 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F437CD9812B3CF640049F9C4 /* OverlayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -437,6 +438,14 @@
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* TheCarlton_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheCarlton_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TheCarlton-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TheCarlton-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F4008D7B12B60DCF00B583C6 /* Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overlay.h; sourceTree = "<group>"; };
+		F4008D7C12B60DCF00B583C6 /* Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Overlay.m; sourceTree = "<group>"; };
+		F4008D7E12B60DDF00B583C6 /* MockPhotoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockPhotoSource.h; sourceTree = "<group>"; };
+		F4008D7F12B60DDF00B583C6 /* MockPhotoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockPhotoSource.m; sourceTree = "<group>"; };
+		F4008D8112B60DEB00B583C6 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		F4008D8212B60DEB00B583C6 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		F4008D8412B60DFA00B583C6 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		F4008D8512B60DFA00B583C6 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 		F425061612B49F590016CD6B /* RemoteImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImage.h; sourceTree = "<group>"; };
 		F425061712B49F590016CD6B /* RemoteImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImage.m; sourceTree = "<group>"; };
 		F42506E512B4BC240016CD6B /* RemoteDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteDictionary.h; sourceTree = "<group>"; };
@@ -489,13 +498,8 @@
 		F437CCE812B3BFF90049F9C4 /* BoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxViewController.h; sourceTree = "<group>"; };
 		F437CCE912B3BFF90049F9C4 /* BoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxViewController.m; sourceTree = "<group>"; };
 		F437CCEA12B3BFF90049F9C4 /* BoxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoxViewController.xib; sourceTree = "<group>"; };
-		F437CD0412B3C69F0049F9C4 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		F437CD0512B3C69F0049F9C4 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		F437CD0712B3C7FA0049F9C4 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
-		F437CD0812B3C7FA0049F9C4 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
 		F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F437CD7D12B3CF080049F9C4 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
-		F437CD9912B3CF640049F9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -524,11 +528,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F4008D7912B60DA700B583C6 /* Photos */,
 				F42508DA12B4FC960016CD6B /* Contact */,
 				F42507FB12B4DDB70016CD6B /* Sync */,
 				F42507A412B4CF510016CD6B /* Menu */,
 				F425061212B49EB20016CD6B /* Common */,
-				F437CD0312B3C66A0049F9C4 /* Camera */,
 				F437CCE712B3BFF90049F9C4 /* Box */,
 				F437CC6312B3BABC0049F9C4 /* Launcher */,
 				1D3623240D0F684500981E51 /* TheCarltonAppDelegate.h */,
@@ -689,6 +693,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F4008D7912B60DA700B583C6 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F4008D8412B60DFA00B583C6 /* PhotosViewController.h */,
+				F4008D8512B60DFA00B583C6 /* PhotosViewController.m */,
+				F4008D8112B60DEB00B583C6 /* GalleryViewController.h */,
+				F4008D8212B60DEB00B583C6 /* GalleryViewController.m */,
+				F4008D7E12B60DDF00B583C6 /* MockPhotoSource.h */,
+				F4008D7F12B60DDF00B583C6 /* MockPhotoSource.m */,
+				F4008D7A12B60DCF00B583C6 /* Overlay */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		F4008D7A12B60DCF00B583C6 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				F4008D7B12B60DCF00B583C6 /* Overlay.h */,
+				F4008D7C12B60DCF00B583C6 /* Overlay.m */,
+			);
+			name = Overlay;
+			sourceTree = "<group>";
+		};
 		F425061212B49EB20016CD6B /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -795,18 +822,6 @@
 				F437CCEA12B3BFF90049F9C4 /* BoxViewController.xib */,
 			);
 			name = Box;
-			sourceTree = "<group>";
-		};
-		F437CD0312B3C66A0049F9C4 /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				F437CD0412B3C69F0049F9C4 /* CameraViewController.h */,
-				F437CD0512B3C69F0049F9C4 /* CameraViewController.m */,
-				F437CD0712B3C7FA0049F9C4 /* OverlayViewController.h */,
-				F437CD0812B3C7FA0049F9C4 /* OverlayViewController.m */,
-				F437CD9812B3CF640049F9C4 /* OverlayViewController.xib */,
-			);
-			name = Camera;
 			sourceTree = "<group>";
 		};
 		F437CD7912B3CEF30049F9C4 /* Sounds */ = {
@@ -1224,7 +1239,6 @@
 				F437CC6812B3BABC0049F9C4 /* LauncherViewController.xib in Resources */,
 				F437CCEC12B3BFF90049F9C4 /* BoxViewController.xib in Resources */,
 				F437CD7E12B3CF080049F9C4 /* tick.aiff in Resources */,
-				F437CD9A12B3CF640049F9C4 /* OverlayViewController.xib in Resources */,
 				F42507B312B4CFC50016CD6B /* DetailView.xib in Resources */,
 				F42507B512B4CFC50016CD6B /* MenuRootViewController.xib in Resources */,
 				F42507EE12B4DBD40016CD6B /* logogreen.png in Resources */,
@@ -1251,8 +1265,6 @@
 				1D3623260D0F684500981E51 /* TheCarltonAppDelegate.m in Sources */,
 				F437CC6712B3BABC0049F9C4 /* LauncherViewController.m in Sources */,
 				F437CCEB12B3BFF90049F9C4 /* BoxViewController.m in Sources */,
-				F437CD0612B3C69F0049F9C4 /* CameraViewController.m in Sources */,
-				F437CD0912B3C7FA0049F9C4 /* OverlayViewController.m in Sources */,
 				F425061812B49F590016CD6B /* RemoteImage.m in Sources */,
 				F42506E712B4BC240016CD6B /* RemoteDictionary.m in Sources */,
 				F42507B212B4CFC50016CD6B /* DetailViewController.m in Sources */,
@@ -1261,6 +1273,10 @@
 				F42508E412B4FC960016CD6B /* LocateViewController.m in Sources */,
 				F42508E612B4FC960016CD6B /* ContactViewController.m in Sources */,
 				F42508E812B4FC960016CD6B /* ContactTableController.m in Sources */,
+				F4008D7D12B60DCF00B583C6 /* Overlay.m in Sources */,
+				F4008D8012B60DDF00B583C6 /* MockPhotoSource.m in Sources */,
+				F4008D8312B60DEB00B583C6 /* GalleryViewController.m in Sources */,
+				F4008D8612B60DFA00B583C6 /* PhotosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1303,17 +1319,6 @@
 			targetProxy = 320F2C48872C2E2C4DF86202 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F437CD9812B3CF640049F9C4 /* OverlayViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F437CD9912B3CF640049F9C4 /* en */,
-			);
-			name = OverlayViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -1386,6 +1391,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;

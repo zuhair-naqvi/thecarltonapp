@@ -49,7 +49,7 @@
 {
 	RemoteDictionary *dict = [[RemoteDictionary alloc] init];
 	[dict setDelegate:self];
-	[dict dictionaryFromServer:@"menu.xml"];
+	[dict dictionaryFromServer:@"menu/plist"];
 }
 
 - (void) remoteDictionaryDidLoad:(NSDictionary*)dict

@@ -18,9 +18,9 @@
 
 - (id)initWithStyle:(UITableViewStyle)style {
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-    if ((self = [super initWithStyle:style])) {
-		//self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]]; 		
-    }
+//    if ((self = [super initWithStyle:style])) {
+//		//self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]]; 		
+//    }
 	contactMenu = [[NSMutableArray alloc] init];
 	
 	
@@ -211,6 +211,7 @@
 
 
 - (void)dealloc {
+	[contactMenu release];
     [super dealloc];
 }
 

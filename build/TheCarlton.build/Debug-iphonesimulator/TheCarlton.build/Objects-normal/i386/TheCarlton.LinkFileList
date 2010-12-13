@@ -2,8 +2,6 @@
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/TheCarltonAppDelegate.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LauncherViewController.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/BoxViewController.o
-/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/CameraViewController.o
-/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/OverlayViewController.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteImage.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/RemoteDictionary.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/DetailViewController.o
@@ -12,3 +10,7 @@
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/LocateViewController.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/ContactViewController.o
 /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/ContactTableController.o
+/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/Overlay.o
+/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/MockPhotoSource.o
+/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/GalleryViewController.o
+/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphonesimulator/TheCarlton.build/Objects-normal/i386/PhotosViewController.o

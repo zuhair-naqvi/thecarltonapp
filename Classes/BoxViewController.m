@@ -19,7 +19,7 @@
 	NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(showRedeem) userInfo:nil repeats:NO];
     RemoteDictionary *rdict = [[RemoteDictionary alloc] init];
 	[rdict setDelegate:self];	
-	[rdict dictionaryFromServer:@"box.xml"];
+	[rdict dictionaryFromServer:@"box/plist"];
 }
 
 - (void) remoteDictionaryDidLoad:(NSDictionary*)dict
@@ -39,7 +39,7 @@
 - (void)showRedeem {
 	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"And it's Free" message:@"That's right, this one's on us :-)" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];
     [alert addButtonWithTitle:@"Redeem"];
-    [alert show];	
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -44,7 +44,7 @@
 			<key>Key</key>
 			<string>server</string>
 			<key>DefaultValue</key>
-			<string>common.local/carltonserver</string>
+			<string>ec2-184-72-186-159.compute-1.amazonaws.com</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>

@@ -12,7 +12,7 @@
 #import "LauncherViewController.h"
 #import "SyncViewController.h"
 #import "BoxViewController.h"
-#import "CameraViewController.h"
+#import "GalleryViewController.h"
 #import "MenuRootViewController.h"
 #import "ContactViewController.h"
 #import "LocateViewController.h"
@@ -42,7 +42,7 @@
 	[map from:@"*" toViewController:[TTWebController class]];
 	[map from:@"tt://menu/" toViewController:[MenuRootViewController class]];
 	[map from:@"tt://contact/" toViewController:[ContactViewController class]];
-	[map from:@"tt://photos/" toViewController:[CameraViewController class]];
+	[map from:@"tt://photos/" toViewController:[GalleryViewController class]];
 	[map from:@"tt://box/" toViewController:[BoxViewController class]];
 //	[map from:@"tt://reservations/" toViewController:[ReservationsViewController class]];
 	[map from:@"tt://sync/" toViewController:[SyncViewController class]];
