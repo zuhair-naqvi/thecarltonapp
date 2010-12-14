@@ -26,14 +26,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	homeButton = [[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"53-house.png"] 
-												   style:UIBarButtonItemStylePlain target:self action:@selector(goHome)] autorelease];
-	[self.navigationItem setRightBarButtonItem:homeButton];
+//	homeButton = [[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"53-house.png"] 
+//												   style:UIBarButtonItemStylePlain target:self action:@selector(goHome)] autorelease];
+//	[self.navigationItem setRightBarButtonItem:homeButton];
 }
 
-- (void) goHome {
-	[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:@"tt://launcher"] applyAnimated:YES]];
-}
+//- (void) goHome {
+//	[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:@"tt://launcher"] applyAnimated:YES]];
+//}
 
 - (IBAction) goMaps:(id)sender
 {
@@ -63,7 +63,7 @@
 
 
 - (void)dealloc {
-	[homeButton release];
+//	[homeButton release];
     [super dealloc];
 }
 

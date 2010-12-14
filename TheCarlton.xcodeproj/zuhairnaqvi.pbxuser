@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = F437CB0012B3AD170049F9C4 /* TheCarlton */;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* TheCarlton */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* TheCarlton */,
@@ -142,6 +142,8 @@
 			F41390FA12B655C600659225 /* PBXTextBookmark */ = F41390FA12B655C600659225 /* PBXTextBookmark */;
 			F41390FB12B655C600659225 /* PBXTextBookmark */ = F41390FB12B655C600659225 /* PBXTextBookmark */;
 			F41390FC12B655C600659225 /* PBXTextBookmark */ = F41390FC12B655C600659225 /* PBXTextBookmark */;
+			F413910D12B7666A00659225 /* PBXTextBookmark */ = F413910D12B7666A00659225 /* PBXTextBookmark */;
+			F413910E12B7666A00659225 /* PBXTextBookmark */ = F413910E12B7666A00659225 /* PBXTextBookmark */;
 			F42505B412B499720016CD6B = F42505B412B499720016CD6B /* PBXTextBookmark */;
 			F425060A12B49D4F0016CD6B = F425060A12B49D4F0016CD6B /* PBXTextBookmark */;
 			F425067212B4AB570016CD6B = F425067212B4AB570016CD6B /* PBXTextBookmark */;
@@ -250,9 +252,9 @@
 	};
 	F4008D8512B60DFA00B583C6 /* PhotosViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 1352}}";
-			sepNavSelRange = "{769, 0}";
-			sepNavVisRange = "{224, 1203}";
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1365}}";
+			sepNavSelRange = "{640, 0}";
+			sepNavVisRange = "{151, 902}";
 		};
 	};
 	F4008DA312B611CC00B583C6 /* TTStyledLayout.m */ = {
@@ -525,7 +527,7 @@
 		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1545, 1898}}";
-			sepNavSelRange = "{7057, 21}";
+			sepNavSelRange = "{7189, 0}";
 			sepNavVisRange = "{7038, 240}";
 			sepNavWindowFrame = "{{38, 294}, {750, 558}}";
 		};
@@ -705,6 +707,26 @@
 		rType = 0;
 		vrLen = 1203;
 		vrLoc = 224;
+	};
+	F413910D12B7666A00659225 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4008D8512B60DFA00B583C6 /* PhotosViewController.m */;
+		name = "PhotosViewController.m: 23";
+		rLen = 0;
+		rLoc = 640;
+		rType = 0;
+		vrLen = 902;
+		vrLoc = 151;
+	};
+	F413910E12B7666A00659225 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F41390E612B654AE00659225 /* UIImagePickerController.h */;
+		name = "UIImagePickerController.h: 114";
+		rLen = 0;
+		rLoc = 7189;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 7038;
 	};
 	F42505B412B499720016CD6B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -924,16 +946,16 @@
 	};
 	F42508DC12B4FC960016CD6B /* LocateViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1068, 505}}";
-			sepNavSelRange = "{144, 0}";
-			sepNavVisRange = "{0, 376}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 547}}";
+			sepNavSelRange = "{323, 18}";
+			sepNavVisRange = "{0, 380}";
 		};
 	};
 	F42508DD12B4FC960016CD6B /* LocateViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 845}}";
-			sepNavSelRange = "{1155, 0}";
-			sepNavVisRange = "{218, 1561}";
+			sepNavSelRange = "{627, 1}";
+			sepNavVisRange = "{51, 1601}";
 		};
 	};
 	F42508DF12B4FC960016CD6B /* ContactViewController.h */ = {
@@ -1015,7 +1037,7 @@
 		fRef = F42508DD12B4FC960016CD6B /* LocateViewController.m */;
 		name = "LocateViewController.m: 36";
 		rLen = 0;
-		rLoc = 1155;
+		rLoc = 1167;
 		rType = 0;
 		vrLen = 1561;
 		vrLoc = 218;

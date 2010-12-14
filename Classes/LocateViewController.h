@@ -9,12 +9,12 @@
 #import "Three20/Three20.h"
 
 @interface LocateViewController : UIViewController {
-	UIBarButtonItem *homeButton;	
+//	UIBarButtonItem *homeButton;	
 }
 
 @property (nonatomic, retain) UIBarButtonItem *homeButton;
 
-- (void) goHome;
+//- (void) goHome;
 - (IBAction) goMaps:(id)sender;
 
 @end
