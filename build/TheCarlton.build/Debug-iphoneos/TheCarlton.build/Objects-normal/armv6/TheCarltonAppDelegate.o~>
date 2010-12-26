@@ -1,0 +1,2 @@
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate loginUser]':
+/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m:65: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast

@@ -16,6 +16,7 @@
 #import "MenuRootViewController.h"
 #import "ContactViewController.h"
 #import "LocateViewController.h"
+#import "User.h"
 
 @implementation TheCarltonAppDelegate
 
@@ -35,6 +36,7 @@
 	}
 	
 	NSLog(@"%@", [prefs stringForKey:@"server"]);
+	
 
 	TTNavigator* navigator = [TTNavigator navigator];
 	navigator.persistenceMode = TTNavigatorPersistenceModeNone;

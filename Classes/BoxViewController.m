@@ -9,6 +9,7 @@
 #import "BoxViewController.h"
 #import "RemoteDictionary.h"
 #import "RemoteImage.h"
+#import "User.h"
 
 @implementation BoxViewController
 

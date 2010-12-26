@@ -70,6 +70,7 @@
 		F437CCEC12B3BFF90049F9C4 /* BoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F437CCEA12B3BFF90049F9C4 /* BoxViewController.xib */; };
 		F437CD2A12B3CB480049F9C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */; };
 		F437CD7E12B3CF080049F9C4 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F437CD7D12B3CF080049F9C4 /* tick.aiff */; };
+		F46FD33F12C711B400856213 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F46FD33E12C711B400856213 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -500,6 +501,8 @@
 		F437CCEA12B3BFF90049F9C4 /* BoxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoxViewController.xib; sourceTree = "<group>"; };
 		F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F437CD7D12B3CF080049F9C4 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
+		F46FD33D12C711B400856213 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F46FD33E12C711B400856213 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -723,6 +726,8 @@
 				F425061712B49F590016CD6B /* RemoteImage.m */,
 				F42506E512B4BC240016CD6B /* RemoteDictionary.h */,
 				F42506E612B4BC240016CD6B /* RemoteDictionary.m */,
+				F46FD33D12C711B400856213 /* User.h */,
+				F46FD33E12C711B400856213 /* User.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -1277,6 +1282,7 @@
 				F4008D8012B60DDF00B583C6 /* MockPhotoSource.m in Sources */,
 				F4008D8312B60DEB00B583C6 /* GalleryViewController.m in Sources */,
 				F4008D8612B60DFA00B583C6 /* PhotosViewController.m in Sources */,
+				F46FD33F12C711B400856213 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
