@@ -9,7 +9,7 @@
 #import "Three20/Three20.h"
 #import "FBConnect.h"
 
-@interface TheCarltonAppDelegate : NSObject <UIApplicationDelegate> {
+@interface TheCarltonAppDelegate : NSObject <UIApplicationDelegate, FBRequestDelegate, FBSessionDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;

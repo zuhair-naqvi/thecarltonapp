@@ -7,7 +7,7 @@
 //
 
 #import "ShareViewController.h"
-
+#import "TheCarltonAppDelegate.h"
 
 @implementation ShareViewController
 
@@ -30,6 +30,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[self setTitle:@"Share"];
+	
+	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+
+	SBJSON *jsonWriter = [[SBJSON new] autorelease];
+	
+	NSDictionary* actionLinks = [NSArray arrayWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:
+														   @"Always Running",@"text",@"http://itsti.me/",@"href", nil], nil];
+	
+	NSString *actionLinksStr = [jsonWriter stringWithObject:actionLinks];
+	NSDictionary* attachment = [NSDictionary dictionaryWithObjectsAndKeys:
+								@"a long run", @"name",
+								@"The Facebook Running app", @"caption",
+								@"it is fun", @"description",
+								@"http://itsti.me/", @"href", nil];
+	NSString *attachmentStr = [jsonWriter stringWithObject:attachment];
+	NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+								   @"Share on Facebook",  @"user_message_prompt",
+								   actionLinksStr, @"action_links",
+								   attachmentStr, @"attachment",
+								   nil];
+	
+	
+	[[appDelegate facebook] dialog:@"feed"
+			andParams:params
+		  andDelegate:self];
+	
+	
 	[shareText.layer setBorderWidth: 5.0];
     [shareText.layer setCornerRadius:8.0f];
     [shareText.layer setMasksToBounds:YES];

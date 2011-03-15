@@ -64,9 +64,23 @@
 	
 	facebook = [[Facebook alloc] initWithAppId:[prefs stringForKey:@"fbappid"]];
 	
-	[facebook authorize:nil delegate:self];
+	NSArray *permissions = [[NSArray arrayWithObjects:
+							  @"read_stream",@"publish_stream",nil] retain];
+
 	
-	[facebook requestWithGraphPath:@"me" andDelegate:self];
+	[facebook authorize:permissions delegate:self];
+	
+	[facebook requestWithMethodName: @"users.getLoggedInUser" 
+						  andParams:nil andHttpMethod: @"GET" andDelegate: self];
+
+//	
+//	NSMutableDictionary * params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+//									@"SELECT name FROM user WHERE uid=me()", @"query",
+//									nil];
+//	[facebook requestWithMethodName:@"fql.query"
+//						   andParams:params
+//					   andHttpMethod:@"POST"
+//						 andDelegate:self];
 	
     return YES;
 }
@@ -96,8 +110,11 @@
 
 - (void)request:(FBRequest *)request didLoad:(id)result
 {
-	NSLog(@"hello");
-	//NSLog(@"%@",result);
+	//NSLog(@"hello");
+	//[[User sharedUser] setFbUid:result];
+	NSLog(@"%d", result);
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"fbConnectEvent" object:self];
+	
 }
 
 - (void)request:(FBRequest *)request didFailWithError:(NSError *)error {

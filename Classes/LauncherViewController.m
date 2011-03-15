@@ -8,19 +8,45 @@
 
 #import "LauncherViewController.h"
 #import "User.h"
+#import "TheCarltonAppDelegate.h"
 
 @implementation LauncherViewController
 
 
-@synthesize logoView;
+@synthesize logoView, facebook;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-		self.title = @"Home";
+		self.title = @"Loading...";
+		//NSLog(@"Fb id: %d", [[User sharedUser] fbUid]);
+			
+		[[NSNotificationCenter defaultCenter]
+		addObserver:self
+		selector:@selector(fbConnected:)
+		name:@"fbConnectEvent"
+		object:nil];
 		self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed: @"bg.jpg"]]; 
 	}
 	return self;
 }
+
+- (void) fbConnected:(id) sender {
+	NSLog(@"Fb Connected");	
+	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+	[[appDelegate facebook] requestWithGraphPath:@"me" andDelegate:self];
+}
+
+- (void)request:(FBRequest *)request didLoad:(id)result
+{
+	NSLog(@"My result: %@", result);
+	self.title = [NSString stringWithFormat:@"Hi %@", [result valueForKey:@"first_name"]];
+	
+}
+
+- (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
+	//[self.label setText:[error localizedDescription]];
+	NSLog(@"FBRequest Error %@", [error localizedDescription]);
+};
 
 
 - (void)loadView {
