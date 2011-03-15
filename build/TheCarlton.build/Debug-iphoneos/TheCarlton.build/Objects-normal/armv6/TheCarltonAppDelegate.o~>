@@ -1,2 +1,2 @@
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate loginUser]':
-/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m:65: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast
+/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:67: warning: class 'TheCarltonAppDelegate' does not implement the 'FBSessionDelegate' protocol

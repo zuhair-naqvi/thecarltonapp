@@ -12,13 +12,17 @@
 		<data>
 		6jEoZ53W1olwCF5iwsqFM71js+A=
 		</data>
+		<key>BookingsViewController.nib</key>
+		<data>
+		jeR/GrLT4VSewFmB/9MQbQt709s=
+		</data>
 		<key>BoxViewController.nib</key>
 		<data>
-		mKTjFM58clqzaTKAIAPpoml5qAw=
+		A0vARlwzTtorpNOomJgQcoTPK3o=
 		</data>
 		<key>ContactViewController.nib</key>
 		<data>
-		dyCxtSvFiWlGMuAn+UhOpOuPMQ4=
+		T0yu0eeymIAJG2FD1TLbWbp0Or0=
 		</data>
 		<key>Default.png</key>
 		<data>
@@ -26,7 +30,15 @@
 		</data>
 		<key>DetailView.nib</key>
 		<data>
-		uPfs6PXRSkNr4eANnG/GlK8XN7w=
+		S0nqIJ3X+i9PuExjGFoLR7lM044=
+		</data>
+		<key>FBDialog.bundle/images/close.png</key>
+		<data>
+		M4sLIAMmRkHGBwOXHPbqxF3V3VY=
+		</data>
+		<key>FBDialog.bundle/images/fbicon.png</key>
+		<data>
+		O10PJ3vPkAdypNUGk3PgmTOlWLg=
 		</data>
 		<key>Icon-Small.png</key>
 		<data>
@@ -38,7 +50,7 @@
 		</data>
 		<key>Icon.png</key>
 		<data>
-		jc+n1DDuMzX+RVl2d0+AzEGOp0M=
+		Vzqfb7HQf4F7f+tJrMw+eU59Bzk=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
@@ -46,19 +58,23 @@
 		</data>
 		<key>LauncherViewController.nib</key>
 		<data>
-		0GhY6lLtiCQh6GjPY0S74N9ha94=
+		VSbv6YMfYesW96VPHDuQJM7h/Xs=
 		</data>
 		<key>LocateViewController.nib</key>
 		<data>
-		M7uXzaBcZxN2WBmymr3I8LUjgWM=
+		28lD+VFutCC00Pu4WCFLs0JIDjM=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		rTxIEOgetKBp7e+crcxTgHqGqqg=
+		qaQRG8G0U17g9nPRZLBjEciptlA=
 		</data>
 		<key>MenuRootViewController.nib</key>
 		<data>
-		HTuSfSLtMjuRGUDmpNg9wIaOK2g=
+		Y5JnfXkzWO1OU2yKmuNuPX4RcM8=
+		</data>
+		<key>NewsViewController.nib</key>
+		<data>
+		NmqAjvkWUadQOPfJlx/dEV/87hE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -66,15 +82,19 @@
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
-		QXHsR7inzQHh+7I+coCfyGVWeiM=
+		z4tFMjhsStYnwgiT/DECT+Zorg4=
 		</data>
 		<key>Settings.bundle/en.lproj/Root.strings</key>
 		<data>
 		t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
 		</data>
+		<key>ShareViewController.nib</key>
+		<data>
+		xqSh9ft5NUQwZ/VZUHPwicI+FD4=
+		</data>
 		<key>SyncViewController.nib</key>
 		<data>
-		B57eLQum50yinDxg8XFdvBqFPK4=
+		myuvxQ1PaLoSdDjzxIPRbp3wskk=
 		</data>
 		<key>Three20.bundle/de.lproj/Localizable.strings</key>
 		<data>
@@ -180,6 +200,10 @@
 		<data>
 		b2V87ed1+qJyH0P5GrccX9liRyg=
 		</data>
+		<key>Three20.bundle/nl.lproj/Localizable.strings</key>
+		<data>
+		aNnb6Jkj2fZulXXfNIKkgqmeYpA=
+		</data>
 		<key>Three20.bundle/pt.lproj/Localizable.strings</key>
 		<data>
 		D3oEEcX3HDdIUaRCY96XQkTxNwQ=
@@ -190,11 +214,11 @@
 		</data>
 		<key>Three20.bundle/zh_cn.lproj/Localizable.strings</key>
 		<data>
-		lTSODHso+jbDtt8iST673ZM3o+0=
+		AZniDOltmS8+oJXe5D8EWq4VY1o=
 		</data>
 		<key>Three20.bundle/zh_tw.lproj/Localizable.strings</key>
 		<data>
-		wN5ON2DPF6O5cTDDohv9xa+B7+M=
+		9IRbxuB2NAkjA0oTZosDKcndyow=
 		</data>
 		<key>appsettings.png</key>
 		<data>
@@ -226,7 +250,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		+txnV2Oj7Swfvd6IZUHqdVXj264=
+		wbUkPQi8Js5+O48mqmaJvvCkE/Q=
 		</data>
 		<key>free.png</key>
 		<data>
@@ -267,6 +291,10 @@
 		<key>share.png</key>
 		<data>
 		EYtC3tFggR9GvxEUNix99hOlJkw=
+		</data>
+		<key>sync_01.png</key>
+		<data>
+		pGd8FctZ+Mglu4gtRPm6fqbKeXU=
 		</data>
 		<key>tick.aiff</key>
 		<data>

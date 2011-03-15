@@ -20,7 +20,7 @@
 			<key>Key</key>
 			<string>memberid</string>
 			<key>DefaultValue</key>
-			<string>1105</string>
+			<string>1</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>

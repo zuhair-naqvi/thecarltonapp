@@ -57,6 +57,7 @@ static User *sharedUser = nil;
 - (void) remoteDictionaryDidLoad:(NSDictionary*)dict
 {
 	//[self setName:[dict valueForKey:@""]]
+	NSLog(@"raw %@", dict);
 	if ([dict valueForKey:@"exists"] == @"true") {
 		self.status = @"active";
 		self.level = [dict valueForKey:@"level"];

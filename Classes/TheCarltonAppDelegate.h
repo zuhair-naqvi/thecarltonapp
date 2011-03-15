@@ -7,18 +7,19 @@
 //
 
 #import "Three20/Three20.h"
+#import "FBConnect.h"
 
 @interface TheCarltonAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;
 	NSUserDefaults *prefs;
+	Facebook *facebook;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, retain) NSUserDefaults *prefs;
-
+@property (nonatomic, retain) Facebook *facebook;
 - (void) initSettingsDefaults;
-
 @end

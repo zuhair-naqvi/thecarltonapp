@@ -7,6 +7,7 @@
 //
 
 #import "LauncherViewController.h"
+#import "User.h"
 
 @implementation LauncherViewController
 
@@ -20,6 +21,7 @@
 	}
 	return self;
 }
+
 
 - (void)loadView {
 	[super loadView];
@@ -42,7 +44,7 @@
 															   URL:@"tt://contact/" canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Bookings"
 															 image:@"bundle://bookings.png"
-															   URL:@"tt://reservations/" canDelete:NO] autorelease],
+															   URL:@"tt://bookings/" canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Food & Drinks"
 															 image:@"bundle://menu.png"
 															   URL:@"tt://menu/" canDelete:NO] autorelease],
@@ -51,7 +53,7 @@
 															   URL:@"tt://box/" canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"News"
 															 image:@"bundle://news.png"
-															   URL:nil canDelete:NO] autorelease],
+															   URL:@"tt://news/" canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Photos"
 															 image:@"bundle://cameraimg.png"
 															   URL:@"tt://photos/" canDelete:NO] autorelease],	
@@ -60,9 +62,9 @@
 															   URL:nil canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Share"
 															 image:@"bundle://share.png"
-															   URL:nil canDelete:NO] autorelease],
+															   URL:@"tt://share/" canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Sync"
-															 image:@"bundle://appsettings.png"
+															 image:@"bundle://sync_01.png"
 															   URL:@"tt://sync/" canDelete:NO] autorelease],								
 							nil],
 						   nil
@@ -74,8 +76,7 @@
 	box.badgeNumber = 1;
 	
 	TTLauncherItem* photos = [_launcherView itemWithURL:@"tt://photos/"];
-	photos.badgeNumber = 5;
-	
+	photos.badgeNumber = 5;	
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

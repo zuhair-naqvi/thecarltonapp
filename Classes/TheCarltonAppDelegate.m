@@ -16,11 +16,14 @@
 #import "MenuRootViewController.h"
 #import "ContactViewController.h"
 #import "LocateViewController.h"
+#import "BookingsViewController.h"
+#import "NewsViewController.h"
+#import "ShareViewController.h"
 #import "User.h"
 
 @implementation TheCarltonAppDelegate
 
-@synthesize window, navigationController, prefs;
+@synthesize window, navigationController, prefs, facebook;
 
 
 #pragma mark -
@@ -46,7 +49,9 @@
 	[map from:@"tt://contact/" toViewController:[ContactViewController class]];
 	[map from:@"tt://photos/" toViewController:[GalleryViewController class]];
 	[map from:@"tt://box/" toViewController:[BoxViewController class]];
-//	[map from:@"tt://reservations/" toViewController:[ReservationsViewController class]];
+	[map from:@"tt://bookings/" toViewController:[BookingsViewController class]];
+	[map from:@"tt://news/" toViewController:[NewsViewController class]];
+	[map from:@"tt://share/" toViewController:[ShareViewController class]];
 	[map from:@"tt://sync/" toViewController:[SyncViewController class]];
 	[map from:@"tt://launcher/" toViewController:[LauncherViewController class]];
 //	//Child mapping
@@ -56,14 +61,49 @@
 		[navigator openURLAction:
 		 [TTURLAction actionWithURLPath:@"tt://launcher"]];
 	}
-    
+	
+	facebook = [[Facebook alloc] initWithAppId:[prefs stringForKey:@"fbappid"]];
+	
+	[facebook authorize:nil delegate:self];
+	
+	[facebook requestWithGraphPath:@"me" andDelegate:self];
+	
     return YES;
 }
 
-- (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
-	[[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:URL.absoluteString]];
+- (BOOL)navigator:(TTNavigator*)navigator shouldOpenURL:(NSURL*)URL {
 	return YES;
 }
+
+
+- (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)URL {
+	
+	if ([URL.scheme isEqualToString:[NSString stringWithFormat:@"fb%@",[prefs stringForKey:@"fbappid"]]]) {
+		
+		return [facebook handleOpenURL:URL]; 
+		
+	}
+	
+	else {
+		
+		[[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:URL.absoluteString]];	
+		
+	} 
+	
+	return YES;
+}
+
+
+- (void)request:(FBRequest *)request didLoad:(id)result
+{
+	NSLog(@"hello");
+	//NSLog(@"%@",result);
+}
+
+- (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
+	//[self.label setText:[error localizedDescription]];
+	NSLog(@"FBRequest Error %@", [error localizedDescription]);
+};
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
