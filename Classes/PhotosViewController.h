@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PhotosViewController : UIImagePickerController {
+@interface PhotosViewController : UIImagePickerController <UIImagePickerControllerDelegate> {
 
 }
 

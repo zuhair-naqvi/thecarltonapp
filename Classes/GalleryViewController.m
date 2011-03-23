@@ -2,6 +2,7 @@
 #import "MockPhotoSource.h"
 #import "PhotosViewController.h"
 #import "Overlay.h"
+#import "TheCarltonAppDelegate.h"
 
 //transform values for full screen support
 #define CAMERA_TRANSFORM_X 1
@@ -69,8 +70,24 @@
 	//photosViewController.delegate = self;
 	photosViewController.sourceType = UIImagePickerControllerSourceTypeCamera;
 	photosViewController.cameraOverlayView = overlay;
+	photosViewController.delegate = self;
 	[self presentModalViewController:photosViewController animated:YES];
 }
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo{
+	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+
+	NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+								   image, @"picture",
+								   nil];
+	[[appDelegate facebook] requestWithMethodName:@"photos.upload"
+						   andParams:params
+					   andHttpMethod:@"POST"
+						 andDelegate:self];
+
+	[[picker parentViewController] dismissModalViewControllerAnimated:YES];
+}
+
 
 - (void)dealloc {
 	[photosList release];

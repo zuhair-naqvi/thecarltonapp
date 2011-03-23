@@ -9,7 +9,7 @@
 #import "Three20/Three20.h"
 #import "FBConnect.h"
 
-@interface LauncherViewController : TTViewController<TTLauncherViewDelegate, FBRequestDelegate, FBSessionDelegate> {
+@interface LauncherViewController : TTViewController <TTLauncherViewDelegate, FBRequestDelegate, FBSessionDelegate, UIImagePickerControllerDelegate> {
 	TTLauncherView* _launcherView;
 	UIImageView *logoView;
 	Facebook *facebook;
@@ -17,5 +17,8 @@
 
 @property (nonatomic, retain) UIImageView *logoView;
 @property (nonatomic, retain) Facebook *facebook;
+
+- (void) goCamera;
+
 
 @end

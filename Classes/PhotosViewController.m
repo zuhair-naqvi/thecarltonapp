@@ -24,6 +24,10 @@
 	[picker release];
 }
 
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo{
+	NSLog(@"Hello");
+}
+
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
 {
 	UIAlertView *alert;

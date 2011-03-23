@@ -7,9 +7,9 @@
 //
 
 #import "Three20/Three20.h"
+#import "FBConnect.h"
 
-
-@interface GalleryViewController : TTThumbsViewController {
+@interface GalleryViewController : TTThumbsViewController <UIImagePickerControllerDelegate, FBRequestDelegate, FBSessionDelegate, FBDialogDelegate> {
 	NSMutableArray *photosList;
 }
 

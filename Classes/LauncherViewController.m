@@ -6,9 +6,20 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
+//transform values for full screen support
+#define CAMERA_TRANSFORM_X 1
+#define CAMERA_TRANSFORM_Y 1.12412
+
+//iphone screen dimensions
+#define SCREEN_WIDTH  320
+#define SCREEN_HEIGTH 480
+
 #import "LauncherViewController.h"
 #import "User.h"
 #import "TheCarltonAppDelegate.h"
+#import "MockPhotoSource.h"
+#import "PhotosViewController.h"
+#import "Overlay.h"
 
 @implementation LauncherViewController
 
@@ -59,6 +70,154 @@
 	NSLog(@"FBRequest Error %@", [error localizedDescription]);
 };
 
+- (void) goCamera
+{
+	//create an overlay view instance
+	Overlay *overlay = [[[Overlay alloc]
+						 initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGTH)] autorelease];
+	
+	PhotosViewController *photosViewController = [[[PhotosViewController alloc] init] autorelease];
+	//photosViewController.delegate = self;
+	photosViewController.sourceType = UIImagePickerControllerSourceTypeCamera;
+	photosViewController.cameraOverlayView = overlay;
+	photosViewController.delegate = self;
+	[self presentModalViewController:photosViewController animated:YES];
+}
+
+- (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+	// Access the uncropped image from info dictionary
+	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+	
+	// Save image
+	//UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+	
+	[self uploadPhoto:[self correctImageOrientation:image]];
+	
+	[picker release];
+}
+
+- (UIImage*) correctImageOrientation:(UIImage*)image1
+{
+    int kMaxResolution = 320;
+	
+	CGImageRef imgRef = image1.CGImage;
+	CGFloat width = CGImageGetWidth(imgRef);
+	CGFloat height = CGImageGetHeight(imgRef);
+	
+	CGAffineTransform transform = CGAffineTransformIdentity;
+	CGRect bounds = CGRectMake(0, 0, width, height);
+	if (width > kMaxResolution || height > kMaxResolution) {
+		CGFloat ratio = width/height;
+		if (ratio > 1) {
+			bounds.size.width = kMaxResolution;
+			bounds.size.height = bounds.size.width / ratio;
+		}
+		else {
+			bounds.size.height = kMaxResolution;
+			bounds.size.width = bounds.size.height * ratio;
+		}
+	}
+	
+	CGFloat scaleRatio = bounds.size.width / width;
+	CGSize imageSize = CGSizeMake(CGImageGetWidth(imgRef), CGImageGetHeight(imgRef));
+	CGFloat boundHeight;
+	UIImageOrientation orient = image1.imageOrientation;
+	switch(orient) {
+			
+		case UIImageOrientationUp: //EXIF = 1
+			transform = CGAffineTransformIdentity;
+			break;
+			
+		case UIImageOrientationUpMirrored: //EXIF = 2
+			transform = CGAffineTransformMakeTranslation(imageSize.width, 0.0);
+			transform = CGAffineTransformScale(transform, -1.0, 1.0);
+			break;
+			
+		case UIImageOrientationDown: //EXIF = 3
+			transform = CGAffineTransformMakeTranslation(imageSize.width, imageSize.height);
+			transform = CGAffineTransformRotate(transform, M_PI);
+			break;
+			
+		case UIImageOrientationDownMirrored: //EXIF = 4
+			transform = CGAffineTransformMakeTranslation(0.0, imageSize.height);
+			transform = CGAffineTransformScale(transform, 1.0, -1.0);
+			break;
+			
+		case UIImageOrientationLeftMirrored: //EXIF = 5
+			boundHeight = bounds.size.height;
+			bounds.size.height = bounds.size.width;
+			bounds.size.width = boundHeight;
+			transform = CGAffineTransformMakeTranslation(imageSize.height, imageSize.width);
+			transform = CGAffineTransformScale(transform, -1.0, 1.0);
+			transform = CGAffineTransformRotate(transform, 3.0 * M_PI / 2.0);
+			break;
+			
+		case UIImageOrientationLeft: //EXIF = 6
+			boundHeight = bounds.size.height;
+			bounds.size.height = bounds.size.width;
+			bounds.size.width = boundHeight;
+			transform = CGAffineTransformMakeTranslation(0.0, imageSize.width);
+			transform = CGAffineTransformRotate(transform, 3.0 * M_PI / 2.0);
+			break;
+			
+		case UIImageOrientationRightMirrored: //EXIF = 7
+			boundHeight = bounds.size.height;
+			bounds.size.height = bounds.size.width;
+			bounds.size.width = boundHeight;
+			transform = CGAffineTransformMakeScale(-1.0, 1.0);
+			transform = CGAffineTransformRotate(transform, M_PI / 2.0);
+			break;
+			
+		case UIImageOrientationRight: //EXIF = 8
+			boundHeight = bounds.size.height;
+			bounds.size.height = bounds.size.width;
+			bounds.size.width = boundHeight;
+			transform = CGAffineTransformMakeTranslation(imageSize.height, 0.0);
+			transform = CGAffineTransformRotate(transform, M_PI / 2.0);
+			break;
+			
+		default:
+			[NSException raise:NSInternalInconsistencyException format:@"Invalid image orientation"];
+			
+	}
+	
+	UIGraphicsBeginImageContext(bounds.size);
+	
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	if (orient == UIImageOrientationRight || orient == UIImageOrientationLeft) {
+		CGContextScaleCTM(context, -scaleRatio, scaleRatio);
+		CGContextTranslateCTM(context, -height, 0);
+	}
+	else {
+		CGContextScaleCTM(context, scaleRatio, -scaleRatio);
+		CGContextTranslateCTM(context, 0, -height);
+	}
+	
+	CGContextConcatCTM(context, transform);
+	
+	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), imgRef);
+	UIImage *imageCopy = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	
+	return imageCopy;
+	
+}
+
+
+- (void) uploadPhoto:(UIImage*) image{
+	NSLog(@"Hello from upload");
+	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+	
+	NSMutableDictionary *params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+								   image, @"picture",
+								   nil];
+	[[appDelegate facebook] requestWithMethodName:@"photos.upload"
+										andParams:params
+									andHttpMethod:@"POST"
+									  andDelegate:self];
+}
 
 - (void)loadView {
 	[super loadView];
@@ -145,6 +304,10 @@
 		[[appDelegate facebook] dialog:@"stream.publish"
 							 andParams:params
 						   andDelegate:self];
+	}
+	else if([item.title isEqualToString:@"Photos"])
+	{
+		[self goCamera];
 	}
 	else {
 		[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:item.URL] applyAnimated:YES]];
