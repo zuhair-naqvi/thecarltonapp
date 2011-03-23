@@ -94,6 +94,8 @@
 		FFAC607E13342DFE0079DFB5 /* ticket_04.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAC607D13342DFE0079DFB5 /* ticket_04.png */; };
 		FFAC60B71339AD000079DFB5 /* carlton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFAC60B61339AD000079DFB5 /* carlton.jpg */; };
 		FFAC60BE1339B43E0079DFB5 /* love-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAC60BD1339B43E0079DFB5 /* love-button.png */; };
+		FFCFD93E133A1AE000552284 /* logogreen_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCFD93D133A1AE000552284 /* logogreen_vertical.png */; };
+		FFCFD94E133A20D000552284 /* like-button.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCFD94D133A20D000552284 /* like-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -466,6 +468,8 @@
 		FFAC607D13342DFE0079DFB5 /* ticket_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket_04.png; sourceTree = "<group>"; };
 		FFAC60B61339AD000079DFB5 /* carlton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carlton.jpg; sourceTree = "<group>"; };
 		FFAC60BD1339B43E0079DFB5 /* love-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love-button.png"; sourceTree = "<group>"; };
+		FFCFD93D133A1AE000552284 /* logogreen_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logogreen_vertical.png; sourceTree = "<group>"; };
+		FFCFD94D133A20D000552284 /* like-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -736,8 +740,10 @@
 		F437CBDF12B3B6E30049F9C4 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FFCFD93D133A1AE000552284 /* logogreen_vertical.png */,
 				FFAC60B61339AD000079DFB5 /* carlton.jpg */,
 				FFAC607D13342DFE0079DFB5 /* ticket_04.png */,
+				FFCFD94D133A20D000552284 /* like-button.png */,
 				FFAC5FCB133374FE0079DFB5 /* map.png */,
 				FF61378F130F972100DF8230 /* sync_01.png */,
 				F42508BD12B4F9550016CD6B /* Default.png */,
@@ -1195,6 +1201,8 @@
 				FFAC607E13342DFE0079DFB5 /* ticket_04.png in Resources */,
 				FFAC60B71339AD000079DFB5 /* carlton.jpg in Resources */,
 				FFAC60BE1339B43E0079DFB5 /* love-button.png in Resources */,
+				FFCFD93E133A1AE000552284 /* logogreen_vertical.png in Resources */,
+				FFCFD94E133A20D000552284 /* like-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

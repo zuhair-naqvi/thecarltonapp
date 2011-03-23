@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* TheCarltonAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1121, 495}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1121, 483}}";
 			sepNavSelRange = "{622, 49}";
 			sepNavVisRange = "{0, 708}";
 		};
 	};
 	1D3623250D0F684500981E51 /* TheCarltonAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 3822}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 3848}}";
 			sepNavSelRange = "{4546, 1}";
-			sepNavVisRange = "{6811, 1245}";
+			sepNavVisRange = "{3770, 929}";
 			sepNavWindowFrame = "{{65, 315}, {750, 558}}";
 		};
 	};
@@ -70,8 +70,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 322563679;
-			PBXWorkspaceStateSaveDate = 322563679;
+			PBXPerProjectTemplateStateSaveDate = 322570297;
+			PBXWorkspaceStateSaveDate = 322570297;
 		};
 		perUserProjectItems = {
 			FF01E731132F696700921D8F = FF01E731132F696700921D8F /* PBXTextBookmark */;
@@ -153,10 +153,29 @@
 			FFAC616C1339E5EB0079DFB5 = FFAC616C1339E5EB0079DFB5 /* PBXTextBookmark */;
 			FFAC616D1339E7C70079DFB5 = FFAC616D1339E7C70079DFB5 /* PBXTextBookmark */;
 			FFAC61701339EA350079DFB5 = FFAC61701339EA350079DFB5 /* PBXTextBookmark */;
-			FFBE06921339EE67000EFA70 /* PBXTextBookmark */ = FFBE06921339EE67000EFA70 /* PBXTextBookmark */;
+			FFBE06921339EE67000EFA70 = FFBE06921339EE67000EFA70 /* PBXTextBookmark */;
+			FFBE06AC1339F0C5000EFA70 = FFBE06AC1339F0C5000EFA70 /* PBXBookmark */;
+			FFBE06B61339F1ED000EFA70 = FFBE06B61339F1ED000EFA70 /* PBXTextBookmark */;
+			FFBE06B71339F1ED000EFA70 = FFBE06B71339F1ED000EFA70 /* PBXTextBookmark */;
+			FFBE06B81339F1ED000EFA70 = FFBE06B81339F1ED000EFA70 /* PBXTextBookmark */;
+			FFBE06BB1339F1ED000EFA70 = FFBE06BB1339F1ED000EFA70 /* PBXTextBookmark */;
+			FFBE06C81339F2FD000EFA70 = FFBE06C81339F2FD000EFA70 /* PBXTextBookmark */;
+			FFBE06C91339F2FD000EFA70 = FFBE06C91339F2FD000EFA70 /* PBXTextBookmark */;
+			FFBE06D91339FCB5000EFA70 = FFBE06D91339FCB5000EFA70 /* PBXTextBookmark */;
+			FFBE06DA1339FCB5000EFA70 = FFBE06DA1339FCB5000EFA70 /* PBXTextBookmark */;
+			FFBE06DB1339FCB5000EFA70 = FFBE06DB1339FCB5000EFA70 /* PBXTextBookmark */;
+			FFBE06DC1339FCF7000EFA70 = FFBE06DC1339FCF7000EFA70 /* PBXTextBookmark */;
+			FFBE06DD1339FCF7000EFA70 = FFBE06DD1339FCF7000EFA70 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FFDB56271307E184007CC24B /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	F4008D7C12B60DCF00B583C6 /* Overlay.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1121, 702}}";
+			sepNavSelRange = "{467, 0}";
+			sepNavVisRange = "{3, 1098}";
 		};
 	};
 	F4008D7F12B60DDF00B583C6 /* MockPhotoSource.m */ = {
@@ -296,9 +315,10 @@
 	};
 	F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1832, 4446}}";
-			sepNavSelRange = "{3191, 0}";
-			sepNavVisRange = "{2874, 1206}";
+			sepNavIntBoundsRect = "{{0, 0}, {1121, 4732}}";
+			sepNavSelRange = "{7146, 0}";
+			sepNavVisRange = "{6574, 1220}";
+			sepNavWindowFrame = "{{65, 315}, {750, 558}}";
 		};
 	};
 	F437CCE912B3BFF90049F9C4 /* BoxViewController.m */ = {
@@ -341,9 +361,9 @@
 	};
 	FF613762130F6FA800DF8230 /* BookingsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 1053}}";
-			sepNavSelRange = "{787, 0}";
-			sepNavVisRange = "{183, 1211}";
+			sepNavIntBoundsRect = "{{0, 0}, {1713, 975}}";
+			sepNavSelRange = "{843, 0}";
+			sepNavVisRange = "{658, 1065}";
 		};
 	};
 	FF613763130F6FA800DF8230 /* BookingsViewController.h */ = {
@@ -712,7 +732,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 121";
 		rLen = 0;
-		rLoc = 11260;
+		rLoc = 12169;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 3464;
@@ -722,7 +742,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 111";
 		rLen = 0;
-		rLoc = 10057;
+		rLoc = 10966;
 		rType = 0;
 		vrLen = 527;
 		vrLoc = 3919;
@@ -742,7 +762,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 111";
 		rLen = 0;
-		rLoc = 10057;
+		rLoc = 10966;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 3921;
@@ -1011,7 +1031,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 182";
 		rLen = 0;
-		rLoc = 11334;
+		rLoc = 12243;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 4236;
@@ -1021,7 +1041,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 98";
 		rLen = 0;
-		rLoc = 6915;
+		rLoc = 7824;
 		rType = 0;
 		vrLen = 1501;
 		vrLoc = 2139;
@@ -1031,7 +1051,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 88";
 		rLen = 0;
-		rLoc = 6845;
+		rLoc = 7754;
 		rType = 0;
 		vrLen = 1753;
 		vrLoc = 2381;
@@ -1061,7 +1081,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 88";
 		rLen = 0;
-		rLoc = 6845;
+		rLoc = 7754;
 		rType = 0;
 		vrLen = 1753;
 		vrLoc = 2381;
@@ -1071,7 +1091,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 89";
 		rLen = 0;
-		rLoc = 6845;
+		rLoc = 7754;
 		rType = 0;
 		vrLen = 1753;
 		vrLoc = 1690;
@@ -1101,7 +1121,7 @@
 		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
 		name = "LauncherViewController.m: 102";
 		rLen = 0;
-		rLoc = 6887;
+		rLoc = 7796;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 2381;
@@ -1142,6 +1162,118 @@
 		rType = 0;
 		vrLen = 1206;
 		vrLoc = 2874;
+	};
+	FFBE06AC1339F0C5000EFA70 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */;
+	};
+	FFBE06B61339F1ED000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */;
+		name = "Overlay.m: 22";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 1104;
+		vrLoc = 0;
+	};
+	FFBE06B71339F1ED000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 75";
+		rLen = 120;
+		rLoc = 2258;
+		rType = 0;
+		vrLen = 1563;
+		vrLoc = 1311;
+	};
+	FFBE06B81339F1ED000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 104";
+		rLen = 0;
+		rLoc = 3360;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 3007;
+	};
+	FFBE06BB1339F1ED000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */;
+		name = "Overlay.m: 25";
+		rLen = 2;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	FFBE06C81339F2FD000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 97";
+		rLen = 0;
+		rLoc = 3244;
+		rType = 0;
+		vrLen = 1295;
+		vrLoc = 6227;
+	};
+	FFBE06C91339F2FD000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */;
+		name = "Overlay.m: 25";
+		rLen = 2;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 0;
+	};
+	FFBE06D91339FCB5000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'imagePicker' undeclared (first use in this function)";
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		rLen = 1;
+		rLoc = 96;
+		rType = 1;
+	};
+	FFBE06DA1339FCB5000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 206";
+		rLen = 0;
+		rLoc = 7082;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 6328;
+	};
+	FFBE06DB1339FCB5000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */;
+		name = "Overlay.m: 25";
+		rLen = 2;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 0;
+	};
+	FFBE06DC1339FCF7000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F437CC6512B3BABC0049F9C4 /* LauncherViewController.m */;
+		name = "LauncherViewController.m: 206";
+		rLen = 0;
+		rLoc = 7060;
+		rType = 0;
+		vrLen = 1361;
+		vrLoc = 6235;
+	};
+	FFBE06DD1339FCF7000EFA70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4008D7C12B60DCF00B583C6 /* Overlay.m */;
+		name = "Overlay.m: 25";
+		rLen = 2;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 0;
 	};
 	FFDB55EB1307E182007CC24B /* TheCarlton */ = {
 		isa = PBXExecutable;

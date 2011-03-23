@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>FFBE06B91339F1ED000EFA70</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Overlay.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>FFBE06BA1339F1ED000EFA70</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Overlay.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>FFBE06DD1339FCF7000EFA70</string>
+						<key>history</key>
+						<array>
+							<string>FFBE06AC1339F0C5000EFA70</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {750, 461}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>88 350 750 502 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -270,6 +311,7 @@
 								<string>FF6137A2130F991900DF8230</string>
 								<string>FF613759130F6F0D00DF8230</string>
 								<string>F4008D7912B60DA700B583C6</string>
+								<string>F4008D7A12B60DCF00B583C6</string>
 								<string>F42508DA12B4FC960016CD6B</string>
 								<string>F42508DB12B4FC960016CD6B</string>
 								<string>F42507A412B4CF510016CD6B</string>
@@ -287,11 +329,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>125</integer>
+									<integer>35</integer>
+									<integer>33</integer>
+									<integer>26</integer>
+									<integer>13</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 1463}, {186, 764}}</string>
+							<string>{{0, 58}, {186, 764}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -340,7 +386,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FFBE06921339EE67000EFA70</string>
+										<string>FFBE06DC1339FCF7000EFA70</string>
 										<key>history</key>
 										<array>
 											<string>FF61378B130F960500DF8230</string>
@@ -388,7 +434,8 @@
 											<string>FFAC614D1339CFA60079DFB5</string>
 											<string>FFAC61551339D0680079DFB5</string>
 											<string>FFAC61561339D0680079DFB5</string>
-											<string>FFAC61701339EA350079DFB5</string>
+											<string>FFBE06B61339F1ED000EFA70</string>
+											<string>FFBE06D91339FCB5000EFA70</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -586,7 +633,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FFBE06C41339F1ED000EFA70</string>
+		<string>FFBE06C51339F1ED000EFA70</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>FFBE06B91339F1ED000EFA70</string>
 		<string>FFDB562C1307E18A007CC24B</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jameseden/ios/TheCarlton/TheCarlton.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -611,7 +663,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>LauncherViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -628,6 +680,8 @@
 							<string>249pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -680,7 +734,7 @@
 			<key>WindowToolGUID</key>
 			<string>FFDB562C1307E18A007CC24B</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -789,13 +843,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FFAC609E1334351C0079DFB5</string>
+				<string>FFBE06BC1339F1ED000EFA70</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FFAC609F1334351C0079DFB5</string>
-				<string>FFAC60A01334351C0079DFB5</string>
-				<string>FFAC60A11334351C0079DFB5</string>
-				<string>FFAC60A21334351C0079DFB5</string>
-				<string>FFAC60A31334351C0079DFB5</string>
+				<string>FFBE06BD1339F1ED000EFA70</string>
+				<string>FFBE06BE1339F1ED000EFA70</string>
+				<string>FFBE06BF1339F1ED000EFA70</string>
+				<string>FFBE06C01339F1ED000EFA70</string>
+				<string>FFBE06C11339F1ED000EFA70</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -951,7 +1005,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FFAC60A41334351C0079DFB5</string>
+				<string>FFBE06C21339F1ED000EFA70</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

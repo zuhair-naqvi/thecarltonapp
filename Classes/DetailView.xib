@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="1"/>
+			<integer value="13"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -116,7 +116,7 @@
 						</object>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">love-button.png</string>
+							<string key="NSResourceName">like-button.png</string>
 						</object>
 					</object>
 				</object>
@@ -583,14 +583,14 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>bg.jpg</string>
+				<string>like-button.png</string>
 				<string>logo.png</string>
-				<string>love-button.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{320, 480}</string>
-				<string>{129, 62}</string>
 				<string>{50, 26}</string>
+				<string>{129, 62}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">132</string>

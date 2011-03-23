@@ -50,9 +50,14 @@
 - (void)request:(FBRequest *)request didLoad:(id)result
 {
 	NSLog(@"My result: %@", result);
-	[[User sharedUser] setFbUser:result];
-	self.title = [NSString stringWithFormat:@"Hi %@", [result valueForKey:@"first_name"]];
-	
+	if ([result valueForKey:@"first_name"] != nil) {
+		[[User sharedUser] setFbUser:result];
+		self.title = [NSString stringWithFormat:@"Hi %@", [result valueForKey:@"first_name"]];
+	}
+	else if([result valueForKey:@"src"] != nil) {
+		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Photo uploaded Facebook" message:@"The photo you just shot has been uploaded to your Facebook Album" delegate:self cancelButtonTitle:@"Done" otherButtonTitles:nil] autorelease];
+		[alert show];
+	}
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
@@ -94,14 +99,19 @@
 	
 	[self uploadPhoto:[self correctImageOrientation:image]];
 	
-	[picker release];
+	[picker dismissModalViewControllerAnimated:YES];
+	
+	//[picker release];
 }
 
 - (UIImage*) correctImageOrientation:(UIImage*)image1
 {
-    int kMaxResolution = 320;
+    int kMaxResolution = 640;
+	
+	UIImage *logo = [UIImage imageNamed:@"logogreen_vertical.png"];
 	
 	CGImageRef imgRef = image1.CGImage;
+	CGImageRef logoRef = logo.CGImage;
 	CGFloat width = CGImageGetWidth(imgRef);
 	CGFloat height = CGImageGetHeight(imgRef);
 	
@@ -126,25 +136,30 @@
 	switch(orient) {
 			
 		case UIImageOrientationUp: //EXIF = 1
+			NSLog(@"1");
 			transform = CGAffineTransformIdentity;
 			break;
 			
 		case UIImageOrientationUpMirrored: //EXIF = 2
+			NSLog(@"2");
 			transform = CGAffineTransformMakeTranslation(imageSize.width, 0.0);
 			transform = CGAffineTransformScale(transform, -1.0, 1.0);
 			break;
 			
 		case UIImageOrientationDown: //EXIF = 3
+			NSLog(@"3");
 			transform = CGAffineTransformMakeTranslation(imageSize.width, imageSize.height);
 			transform = CGAffineTransformRotate(transform, M_PI);
 			break;
 			
 		case UIImageOrientationDownMirrored: //EXIF = 4
+			NSLog(@"4");
 			transform = CGAffineTransformMakeTranslation(0.0, imageSize.height);
 			transform = CGAffineTransformScale(transform, 1.0, -1.0);
 			break;
 			
 		case UIImageOrientationLeftMirrored: //EXIF = 5
+			NSLog(@"5");
 			boundHeight = bounds.size.height;
 			bounds.size.height = bounds.size.width;
 			bounds.size.width = boundHeight;
@@ -154,6 +169,7 @@
 			break;
 			
 		case UIImageOrientationLeft: //EXIF = 6
+			NSLog(@"6");
 			boundHeight = bounds.size.height;
 			bounds.size.height = bounds.size.width;
 			bounds.size.width = boundHeight;
@@ -162,6 +178,7 @@
 			break;
 			
 		case UIImageOrientationRightMirrored: //EXIF = 7
+			NSLog(@"7");
 			boundHeight = bounds.size.height;
 			bounds.size.height = bounds.size.width;
 			bounds.size.width = boundHeight;
@@ -170,6 +187,7 @@
 			break;
 			
 		case UIImageOrientationRight: //EXIF = 8
+			NSLog(@"8");
 			boundHeight = bounds.size.height;
 			bounds.size.height = bounds.size.width;
 			bounds.size.width = boundHeight;
@@ -198,6 +216,9 @@
 	CGContextConcatCTM(context, transform);
 	
 	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), imgRef);
+	CGContextSetBlendMode(UIGraphicsGetCurrentContext(), kCGBlendModeNormal);
+	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(1520, 350, 396, 822), logoRef);
+	
 	UIImage *imageCopy = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
 	
@@ -205,6 +226,19 @@
 	
 }
 
+- (UIImage*) rotateImage:(CGImageRef*) imgRef
+{
+	CGSize size = CGSizeMake(CGImageGetWidth(imgRef), CGImageGetHeight(imgRef));
+	UIGraphicsBeginImageContext(size);
+	CGContextRotateCTM(UIGraphicsGetCurrentContext(), 1.57079633);
+	CGContextDrawImage(UIGraphicsGetCurrentContext(),
+					   CGRectMake(0,0,size.width, size.height),
+					   imgRef);
+	
+	UIImage *copy = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	return copy;
+}
 
 - (void) uploadPhoto:(UIImage*) image{
 	NSLog(@"Hello from upload");
