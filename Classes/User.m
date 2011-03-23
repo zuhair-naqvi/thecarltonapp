@@ -13,7 +13,7 @@ static User *sharedUser = nil;
 
 @implementation User
 
-@synthesize userId, level, userName, email, status, fbUid;
+@synthesize userId, level, userName, email, status, fbUser;
 
 #pragma mark Singleton Methonds
 
@@ -71,6 +71,7 @@ static User *sharedUser = nil;
 	[email release];
 	[level release];
 	[status release];
+	[fbUser release];
 	[super dealloc];
 }
 

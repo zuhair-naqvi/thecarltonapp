@@ -23,5 +23,6 @@
 @property (nonatomic, retain) IBOutlet UITextView *itemDescText;
 
 - (void) remoteImageDidLoad:(UIImage*)img;
+- (IBAction) loveButton:(id) sender;
 
 @end

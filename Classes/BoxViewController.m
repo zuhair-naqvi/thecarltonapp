@@ -36,8 +36,28 @@
 	[promoImage setImage:image];
 }
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 1) {
+		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Show this at the bar" message:@"\n\n\n\n\n\n\n" delegate:self cancelButtonTitle:nil otherButtonTitles:nil] autorelease];
+		[alert addButtonWithTitle:@"Done"];
+		
+		UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 30, 234, 168)];
+		NSString *path = [[NSString alloc] initWithString:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"ticket_04.png"]];
+		UIImage *bkgImg = [[UIImage alloc] initWithContentsOfFile:path];
+		[imageView setImage:bkgImg];
+		[bkgImg release];
+		[path release];
+		
+		[alert addSubview:imageView];
+		[imageView release];
+		
+		[alert show];
+	}
+}
 
-- (void)showRedeem {
+
+
+- (void)showRedeem {	
 	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"And it's Free" message:@"That's right, this one's on us :-)" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];
     [alert addButtonWithTitle:@"Redeem"];
     [alert show];

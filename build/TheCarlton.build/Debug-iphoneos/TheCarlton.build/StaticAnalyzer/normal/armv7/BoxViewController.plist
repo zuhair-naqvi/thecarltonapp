@@ -4,7 +4,7 @@
 <dict>
  <key>files</key>
  <array>
-  <string>/Users/zuhairnaqvi/iOS/TheCarlton/Classes/BoxViewController.m</string>
+  <string>/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m</string>
  </array>
  <key>diagnostics</key>
  <array>
@@ -15,7 +15,7 @@
      <key>kind</key><string>event</string>
      <key>location</key>
      <dict>
-      <key>line</key><integer>19</integer>
+      <key>line</key><integer>20</integer>
       <key>col</key><integer>11</integer>
       <key>file</key><integer>0</integer>
      </dict>
@@ -23,12 +23,12 @@
      <array>
        <array>
         <dict>
-         <key>line</key><integer>19</integer>
+         <key>line</key><integer>20</integer>
          <key>col</key><integer>19</integer>
          <key>file</key><integer>0</integer>
         </dict>
         <dict>
-         <key>line</key><integer>19</integer>
+         <key>line</key><integer>20</integer>
          <key>col</key><integer>129</integer>
          <key>file</key><integer>0</integer>
         </dict>
@@ -45,7 +45,7 @@
    <key>type</key><string>Dead initialization</string>
   <key>location</key>
   <dict>
-   <key>line</key><integer>19</integer>
+   <key>line</key><integer>20</integer>
    <key>col</key><integer>11</integer>
    <key>file</key><integer>0</integer>
   </dict>

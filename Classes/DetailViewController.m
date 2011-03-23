@@ -7,6 +7,8 @@
 //
 
 #import "DetailViewController.h"
+#import "TheCarltonAppDelegate.h"
+#import "User.h"
 
 @implementation DetailViewController
 
@@ -43,9 +45,36 @@
 	itemPicView.image = [UIImage imageNamed:@"logogreen.png"];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void) didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
     // Release anything that's not essential, such as cached data
+}
+
+- (IBAction) loveButton:(id) sender {
+	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+	
+	SBJSON *jsonWriter = [[SBJSON new] autorelease];
+	
+	NSDictionary* actionLinks = [NSArray arrayWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:
+														   @"Vist The Carlton",@"text",@"http://www.thecarlton.com.au/",@"href", nil], nil];
+	
+	NSString *actionLinksStr = [jsonWriter stringWithObject:actionLinks];
+	NSDictionary* attachment = [NSDictionary dictionaryWithObjectsAndKeys:
+								[NSString stringWithFormat:@"%@ Loves %@ at The Carlton",[[[User sharedUser] fbUser] valueForKey:@"first_name"], self.navigationItem.title], @"name",
+								@"", @"caption",
+								itemDesc, @"description",
+								@"http://www.facebook.com/pages/The-Carlton/150052555010209", @"href", nil];
+	NSString *attachmentStr = [jsonWriter stringWithObject:attachment];
+	NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+								   @"Share on Facebook",  @"user_message_prompt",
+								   actionLinksStr, @"action_links",
+								   attachmentStr, @"attachment",
+								   nil];
+	
+	
+	[[appDelegate facebook] dialog:@"stream.publish"
+						 andParams:params
+					   andDelegate:self];
 }
 
 

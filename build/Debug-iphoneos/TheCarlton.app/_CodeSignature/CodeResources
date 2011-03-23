@@ -14,15 +14,15 @@
 		</data>
 		<key>BookingsViewController.nib</key>
 		<data>
-		ylcz8uXI8OT64HxozJozjPqVZ5c=
+		4aZrKwM4unvDnyMNpJppLyu0GXs=
 		</data>
 		<key>BoxViewController.nib</key>
 		<data>
-		NUPYBDdba6/zNjVVNkYxpEwXJVM=
+		/r2r4XV3OJn1FKxILUjAC1wiDvY=
 		</data>
 		<key>ContactViewController.nib</key>
 		<data>
-		jtrG8mQx1IS1xXHks8kqj4d08Ds=
+		TAPWLLXmd0CbU11+WzFLCndDqHY=
 		</data>
 		<key>Default.png</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>DetailView.nib</key>
 		<data>
-		bFRF6LMDnrRtI736uJfJVdlfwwg=
+		0Q6a3SPSna0O+7AL6Sk9Q1/yn/o=
 		</data>
 		<key>FBDialog.bundle/images/close.png</key>
 		<data>
@@ -58,23 +58,23 @@
 		</data>
 		<key>LauncherViewController.nib</key>
 		<data>
-		mQ0nbg4qIKaSErQYxzheXsFfVgk=
+		oJq9lCrSxtm05J+YlWFY87xbZlU=
 		</data>
 		<key>LocateViewController.nib</key>
 		<data>
-		SM9hrt3XGZIdlPhL4kSVLgLpNr4=
+		QWHDzJX7DL7mAq/uhyYVM+4jogM=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		2ohEm7xbiHWDf+ifx+1Y2IzT0zs=
+		J+E0XUkEpjUpl/E+M3XcjBilk70=
 		</data>
 		<key>MenuRootViewController.nib</key>
 		<data>
-		LbvX2a6avsoCwTS8gsiq4tcPJq8=
+		yt1frCz+Pm0JIl6W+VbALtnMG08=
 		</data>
 		<key>NewsViewController.nib</key>
 		<data>
-		IrcQMJqN6egJMHKhnq09EPM6z9I=
+		x3FKdozFfTVe7h3+pKAmWFtGUmo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>ShareViewController.nib</key>
 		<data>
-		Aw/KCvo5btV3V9RAf3rEbh5Tz3c=
+		2gHz8R3tj/TsxT0viXt70K3CoP8=
 		</data>
 		<key>SyncViewController.nib</key>
 		<data>
-		is4qzK0a580DZLTeFg0fmmgobrw=
+		dh/KJiAQIiuDdj1OlFI3zD/73tg=
 		</data>
 		<key>Three20.bundle/de.lproj/Localizable.strings</key>
 		<data>
@@ -240,6 +240,10 @@
 		<data>
 		isIQ8mIRYqYNPiBQBiVesW4XaOo=
 		</data>
+		<key>carlton.jpg</key>
+		<data>
+		Cv/e+ZazhvlS8UYnanRFZe1fv+E=
+		</data>
 		<key>checkin.png</key>
 		<data>
 		xKEPBQEXDEdswdK4G0GeKjwiclc=
@@ -250,7 +254,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		wbUkPQi8Js5+O48mqmaJvvCkE/Q=
+		NE/4L4OtYQ0w1KutgvW45Ab29qY=
 		</data>
 		<key>free.png</key>
 		<data>
@@ -267,6 +271,14 @@
 		<key>logogreen.png</key>
 		<data>
 		iHeCc+RnsW4Pr8sjEV3DETj+OvI=
+		</data>
+		<key>love-button.png</key>
+		<data>
+		1MiRi3y6ZPfZIZnzR3kOf9R3mSU=
+		</data>
+		<key>map.png</key>
+		<data>
+		LhwcW++6u8oH7bCxImcZDpLjBCM=
 		</data>
 		<key>menu.png</key>
 		<data>
@@ -299,6 +311,10 @@
 		<key>tick.aiff</key>
 		<data>
 		IMeIXHQ2ITF+Ma8lzmuMqVMfIWA=
+		</data>
+		<key>ticket_04.png</key>
+		<data>
+		0nD0q7KWRLDtTDjj5yV/CZqJSyw=
 		</data>
 	</dict>
 	<key>rules</key>

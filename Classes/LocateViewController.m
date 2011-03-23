@@ -37,8 +37,18 @@
 
 - (IBAction) goMaps:(id)sender
 {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.google.com/maps?q=193%20Bourke%20Street%2C%20Melbourne%2C%20VIC%2C%203000"]];
+	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Get Directions?" message:@"This will take you outside The Carlton app, are you sure?" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];
+	//[alert setTag:1];
+	[alert addButtonWithTitle:@"Go"];		
+	[alert show];	
 }
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 1) {
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.google.com/maps?q=193%20Bourke%20Street%2C%20Melbourne%2C%20VIC%2C%203000"]];
+	}
+}
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.

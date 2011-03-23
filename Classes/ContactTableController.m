@@ -154,6 +154,27 @@
 }
 */
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 1) {
+		switch (alertView.tag) {
+			case 1:
+				[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://0396633246"]];
+				break;
+			case 2:
+				[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:manager@thecarlton.com.au"]];
+				break;
+			case 3:
+				[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.thecarlton.com.au"]];
+				break;
+			case 4:
+				[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:@"tt://locate"] applyAnimated:YES]];
+				break;
+				
+			default:
+				break;
+		}
+	}
+}
 
 #pragma mark -
 #pragma mark Table view delegate
@@ -161,26 +182,42 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	//NSMutableArray *selectedItem = [contactMenu objectAtIndex:indexPath.row];
 	int row = indexPath.row;
-	//NSLog(@"opt %@", row);
+	NSLog(@"opt %d", row);
 
 	switch (row) {
 		case 0:
+		{
 			//NSLog(@"phone");
-			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://0396633246"]];
+			UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Call us?" message:@"This will take you outside The Carlton app, are you sure?" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];
+			[alert setTag:1];
+			[alert addButtonWithTitle:@"Call"];		
+			[alert show];
 			break;
+		}
 		case 1:
+		{
 			//NSLog(@"email");
-			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:manager@thecarlton.com.au"]];
+			UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Email us?" message:@"This will take you outside The Carlton app, are you sure?" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];
+			[alert setTag:2];
+			[alert addButtonWithTitle:@"Email"];		
+			[alert show];
 			break;
+		}
 		case 2:
+		{
 			//NSLog(@"website");
-			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.thecarlton.com.au"]];
+			UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Visit website?" message:@"This will take you outside The Carlton app, are you sure?" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:nil] autorelease];
+			[alert setTag:3];
+			[alert addButtonWithTitle:@"Visit"];		
+			[alert show];
 			break;
+		}
 		case 3:
+		{
 			//NSLog(@"map");
 			[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:@"tt://locate"] applyAnimated:YES]];
 			break;			
-		default:
+		}		default:
 			break;
 	}
     // Navigation logic may go here. Create and push another view controller.

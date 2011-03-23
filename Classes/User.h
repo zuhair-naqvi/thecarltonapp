@@ -15,11 +15,11 @@
 	NSString *email;
 	NSString *status;
 	NSString *level;
-	NSInteger *fbUid;
+	NSObject *fbUser;
 }
 
 @property (assign, nonatomic) NSInteger *userId;
-@property (assign, nonatomic) NSInteger *fbUid;
+@property (nonatomic, retain) NSObject *fbUser;
 @property (nonatomic, retain) NSString *level;
 @property (nonatomic, retain) NSString *userName;
 @property (nonatomic, retain) NSString *email;

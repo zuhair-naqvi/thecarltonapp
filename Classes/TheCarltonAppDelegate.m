@@ -6,6 +6,9 @@
 //  Copyright 2010 Fitzroy. All rights reserved.
 //
 
+#define ACCESS_TOKEN_KEY @"fb_access_token"
+#define EXPIRATION_DATE_KEY @"fb_expiration_date"
+
 #import "TheCarltonAppDelegate.h"
 
 // Launcher Dependencies
@@ -25,6 +28,21 @@
 
 @synthesize window, navigationController, prefs, facebook;
 
+/*
+ P1
+ 1. Prompts for phone email and website.*
+ 2. Location map.*
+ 3. Ticket.
+ 4. Change bookings titles to "restaurant booking".*
+ 5. Send user back to main screen on after share*
+ 6. Pop-up connect only if not connected*
+ 
+ P2
+ 5. Camera post photos for Post to wall
+ 6. Replace checkin with MemberID - medalion.
+ 7. Replace menu images with like button.
+ 8. Free wifi popup.
+ */
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -63,15 +81,7 @@
 	}
 	
 	facebook = [[Facebook alloc] initWithAppId:[prefs stringForKey:@"fbappid"]];
-	
-	NSArray *permissions = [[NSArray arrayWithObjects:
-							  @"read_stream",@"publish_stream",nil] retain];
-
-	
-	[facebook authorize:permissions delegate:self];
-	
-	[facebook requestWithMethodName: @"users.getLoggedInUser" 
-						  andParams:nil andHttpMethod: @"GET" andDelegate: self];
+	[self login];
 
 //	
 //	NSMutableDictionary * params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
@@ -87,6 +97,35 @@
 
 - (BOOL)navigator:(TTNavigator*)navigator shouldOpenURL:(NSURL*)URL {
 	return YES;
+}
+
+- (void)login {
+    // on login, use the stored access token and see if it still works
+    facebook.accessToken = [prefs objectForKey:ACCESS_TOKEN_KEY];
+    facebook.expirationDate = [prefs objectForKey:EXPIRATION_DATE_KEY];
+	
+	NSLog(@"Exp: %@", [prefs objectForKey:EXPIRATION_DATE_KEY]);
+	
+    // only authorize if the access token isn't valid
+    // if it *is* valid, no need to authenticate. just move on
+    if (![facebook isSessionValid]) {
+		NSArray *permissions = [[NSArray arrayWithObjects:
+								 @"read_stream",@"publish_stream",@"email",@"offline_access",nil] retain];
+		
+		
+		[facebook authorize:permissions delegate:self];
+    }
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"fbConnectEvent" object:self];
+}
+
+
+
+- (void)fbDidLogin {
+	
+    // store the access token and expiration date to the user defaults
+    [prefs setObject:facebook.accessToken forKey:ACCESS_TOKEN_KEY];
+    [prefs setObject:facebook.expirationDate forKey:EXPIRATION_DATE_KEY];
+    [prefs synchronize];	    
 }
 
 
@@ -107,18 +146,25 @@
 	return YES;
 }
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 1) {
+		[self login];
+	}
+}
+
 
 - (void)request:(FBRequest *)request didLoad:(id)result
 {
 	//NSLog(@"hello");
 	//[[User sharedUser] setFbUid:result];
 	NSLog(@"%d", result);
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"fbConnectEvent" object:self];
-	
 }
 
 - (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
 	//[self.label setText:[error localizedDescription]];
+	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Can't connect to Facebook" message:@"This could be temporary issue with your network or Facebook's servers." delegate:self cancelButtonTitle:@"Continue Without" otherButtonTitles:nil] autorelease];
+    [alert addButtonWithTitle:@"Try Again"];
+    [alert show];
 	NSLog(@"FBRequest Error %@", [error localizedDescription]);
 };
 

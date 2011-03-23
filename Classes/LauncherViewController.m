@@ -31,7 +31,7 @@
 }
 
 - (void) fbConnected:(id) sender {
-	NSLog(@"Fb Connected");	
+	NSLog(@"FbDidLogin");	
 	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
 	[[appDelegate facebook] requestWithGraphPath:@"me" andDelegate:self];
 }
@@ -39,12 +39,23 @@
 - (void)request:(FBRequest *)request didLoad:(id)result
 {
 	NSLog(@"My result: %@", result);
+	[[User sharedUser] setFbUser:result];
 	self.title = [NSString stringWithFormat:@"Hi %@", [result valueForKey:@"first_name"]];
 	
 }
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 1) {
+		[self fbConnected:self];
+	}
+}
+
+
 - (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
 	//[self.label setText:[error localizedDescription]];
+	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Can't connect to Facebook" message:@"This could be temporary issue with your network or Facebook's servers." delegate:self cancelButtonTitle:@"Continue Without" otherButtonTitles:nil] autorelease];
+    [alert addButtonWithTitle:@"Try Again"];
+    [alert show];
 	NSLog(@"FBRequest Error %@", [error localizedDescription]);
 };
 
@@ -109,7 +120,35 @@
 // TTLauncherViewDelegate
 
 - (void)launcherView:(TTLauncherView*)launcher didSelectItem:(TTLauncherItem*)item {
-    [[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:item.URL] applyAnimated:YES]];
+	if ([item.title isEqualToString:@"Share"]) {
+		TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+		
+		SBJSON *jsonWriter = [[SBJSON new] autorelease];
+		
+		NSDictionary* actionLinks = [NSArray arrayWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:
+															   @"Always Running",@"text",@"http://itsti.me/",@"href", nil], nil];
+		
+		NSString *actionLinksStr = [jsonWriter stringWithObject:actionLinks];
+		NSDictionary* attachment = [NSDictionary dictionaryWithObjectsAndKeys:
+									@"a long run", @"name",
+									@"The Facebook Running app", @"caption",
+									@"it is fun", @"description",
+									@"http://itsti.me/", @"href", nil];
+		NSString *attachmentStr = [jsonWriter stringWithObject:attachment];
+		NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+									   @"Share on Facebook",  @"user_message_prompt",
+									   actionLinksStr, @"action_links",
+									   attachmentStr, @"attachment",
+									   nil];
+		
+		
+		[[appDelegate facebook] dialog:@"stream.publish"
+							 andParams:params
+						   andDelegate:self];
+	}
+	else {
+		[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:item.URL] applyAnimated:YES]];
+	}    
 }
 
 - (void)launcherViewDidBeginEditing:(TTLauncherView*)launcher {
