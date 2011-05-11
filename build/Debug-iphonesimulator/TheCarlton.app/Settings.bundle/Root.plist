@@ -40,6 +40,24 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
+			<string>FB AppID</string>
+			<key>Key</key>
+			<string>fbappid</string>
+			<key>DefaultValue</key>
+			<string>117936768282347</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
 			<string>Server</string>
 			<key>Key</key>
 			<string>server</string>

@@ -217,7 +217,7 @@
 	
 	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), imgRef);
 	CGContextSetBlendMode(UIGraphicsGetCurrentContext(), kCGBlendModeNormal);
-	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(1520, 350, 396, 822), logoRef);
+	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(2050, 580, 396, 822), logoRef);
 	
 	UIImage *imageCopy = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
