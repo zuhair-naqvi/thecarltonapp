@@ -70,9 +70,9 @@
 		F437CD2A12B3CB480049F9C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F437CD2912B3CB480049F9C4 /* AudioToolbox.framework */; };
 		F437CD7E12B3CF080049F9C4 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F437CD7D12B3CF080049F9C4 /* tick.aiff */; };
 		F46FD33F12C711B400856213 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F46FD33E12C711B400856213 /* User.m */; };
+		FF28D899137A80B8008A4990 /* sync_01.png in Resources */ = {isa = PBXBuildFile; fileRef = FF28D898137A80B8008A4990 /* sync_01.png */; };
 		FF613764130F6FA800DF8230 /* BookingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF613761130F6FA800DF8230 /* BookingsViewController.xib */; };
 		FF613765130F6FA800DF8230 /* BookingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF613762130F6FA800DF8230 /* BookingsViewController.m */; };
-		FF613790130F972100DF8230 /* sync_01.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61378F130F972100DF8230 /* sync_01.png */; };
 		FF61379D130F982600DF8230 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61379C130F982600DF8230 /* Icon.png */; };
 		FF6137A6130F993000DF8230 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6137A4130F993000DF8230 /* NewsViewController.m */; };
 		FF6137A7130F993000DF8230 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6137A5130F993000DF8230 /* NewsViewController.xib */; };
@@ -429,10 +429,10 @@
 		F437CD7D12B3CF080049F9C4 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
 		F46FD33D12C711B400856213 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		F46FD33E12C711B400856213 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FF28D898137A80B8008A4990 /* sync_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync_01.png; sourceTree = "<group>"; };
 		FF613761130F6FA800DF8230 /* BookingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingsViewController.xib; sourceTree = "<group>"; };
 		FF613762130F6FA800DF8230 /* BookingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingsViewController.m; sourceTree = "<group>"; };
 		FF613763130F6FA800DF8230 /* BookingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingsViewController.h; sourceTree = "<group>"; };
-		FF61378F130F972100DF8230 /* sync_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sync_01.png; path = ../../Downloads/Artwork/Icons/sync_01.png; sourceTree = SOURCE_ROOT; };
 		FF61379C130F982600DF8230 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		FF6137A3130F993000DF8230 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		FF6137A4130F993000DF8230 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
@@ -745,9 +745,9 @@
 				FFAC607D13342DFE0079DFB5 /* ticket_04.png */,
 				FFCFD94D133A20D000552284 /* like-button.png */,
 				FFAC5FCB133374FE0079DFB5 /* map.png */,
-				FF61378F130F972100DF8230 /* sync_01.png */,
 				F42508BD12B4F9550016CD6B /* Default.png */,
 				FFAC60BD1339B43E0079DFB5 /* love-button.png */,
+				FF28D898137A80B8008A4990 /* sync_01.png */,
 				FF61379C130F982600DF8230 /* Icon.png */,
 				F42508BE12B4F9550016CD6B /* Icon-Small.png */,
 				F42508BF12B4F9550016CD6B /* Icon-Small@2x.png */,
@@ -1192,7 +1192,6 @@
 				F42508E512B4FC960016CD6B /* LocateViewController.xib in Resources */,
 				F42508E712B4FC960016CD6B /* ContactViewController.xib in Resources */,
 				FF613764130F6FA800DF8230 /* BookingsViewController.xib in Resources */,
-				FF613790130F972100DF8230 /* sync_01.png in Resources */,
 				FF61379D130F982600DF8230 /* Icon.png in Resources */,
 				FF6137A7130F993000DF8230 /* NewsViewController.xib in Resources */,
 				FF6137C2130F9D4C00DF8230 /* ShareViewController.xib in Resources */,
@@ -1203,6 +1202,7 @@
 				FFAC60BE1339B43E0079DFB5 /* love-button.png in Resources */,
 				FFCFD93E133A1AE000552284 /* logogreen_vertical.png in Resources */,
 				FFCFD94E133A20D000552284 /* like-button.png in Resources */,
+				FF28D899137A80B8008A4990 /* sync_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
