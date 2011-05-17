@@ -23,7 +23,16 @@
         UIImageView *logoView = [[UIImageView alloc]
 									 initWithImage:logo];
         logoView.frame = CGRectMake(95, 340, 137, 66);
+		
+		UIImage *photoFrame = [UIImage imageNamed:@"photoframe.png"];
+        UIImageView *frameView = [[UIImageView alloc]
+								 initWithImage:photoFrame];
+        frameView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
+		
         [self addSubview:logoView];
+		[self addSubview:frameView];
+		 
+		[frameView release];
         [logoView release];
 		
         //add a simple button to the overview
