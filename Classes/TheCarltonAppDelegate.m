@@ -22,6 +22,7 @@
 #import "BookingsViewController.h"
 #import "NewsViewController.h"
 #import "ShareViewController.h"
+#import "MedallionViewController.h"
 #import "User.h"
 
 @implementation TheCarltonAppDelegate
@@ -71,6 +72,7 @@
 	[map from:@"tt://news/" toViewController:[NewsViewController class]];
 	[map from:@"tt://share/" toViewController:[ShareViewController class]];
 	[map from:@"tt://sync/" toViewController:[SyncViewController class]];
+	[map from:@"tt://medallion/" toViewController:[MedallionViewController class]];
 	[map from:@"tt://launcher/" toViewController:[LauncherViewController class]];
 //	//Child mapping
 	[map from:@"tt://locate/" toViewController:[LocateViewController class]];
@@ -79,6 +81,9 @@
 		[navigator openURLAction:
 		 [TTURLAction actionWithURLPath:@"tt://launcher"]];
 	}
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+	
+	[[User sharedUser] loginWithUserId:[[prefs stringForKey:@"memberid"] intValue]];
 	
 	facebook = [[Facebook alloc] initWithAppId:[prefs stringForKey:@"fbappid"]];
 	[self login];

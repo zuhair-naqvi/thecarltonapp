@@ -1,12 +1,137 @@
 TTheCarlton
 v7
 r0
-t325663023.775234
+t326879283.286964
 cCheck dependencies
+cCpResource build/Debug-iphoneos/TheCarlton.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Info.plist TheCarlton-Info.plist
+cCpResource build/Debug-iphoneos/TheCarlton.app/Three20.bundle ../three20/src/Three20.bundle
+cCompileXIB /Users/jameseden/ios/TheCarlton/MainWindow.xib
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/18-envelope.png 18-envelope.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/53-house.png 53-house.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/appsettings.png appsettings.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/bookings.png bookings.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/buttonimg.png buttonimg.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/cameraimg.png cameraimg.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/checkin.png checkin.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/contact.png contact.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/free.png free.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/logo.png logo.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/menu.png menu.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/navbarbg.png navbarbg.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/news.png news.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/phone.png phone.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/settings.png settings.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/share.png share.png
+cCpResource build/Debug-iphoneos/TheCarlton.app/bg.jpg bg.jpg
+cCpResource build/Debug-iphoneos/TheCarlton.app/Settings.bundle Settings.bundle
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.xib
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.xib
+cCpResource build/Debug-iphoneos/TheCarlton.app/tick.aiff tick.aiff
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/DetailView.xib
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.xib
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/logogreen.png logogreen.png
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/SyncViewController.xib
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Default.png Default.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Icon-Small.png Icon-Small.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Icon-Small@2x.png Icon-Small@2x.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Icon@2x.png Icon@2x.png
+cCpResource build/Debug-iphoneos/TheCarlton.app/iTunesArtwork iTunesArtwork
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/LocateViewController.xib
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/ContactViewController.xib
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/BookingsViewController.xib
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Icon.png Icon.png
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/NewsViewController.xib
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/ShareViewController.xib
+cCpResource build/Debug-iphoneos/TheCarlton.app/FBDialog.bundle FBDialog.bundle
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/map.png map.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/ticket_04.png ticket_04.png
+cCpResource build/Debug-iphoneos/TheCarlton.app/carlton.jpg carlton.jpg
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/love-button.png love-button.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/logogreen_vertical.png logogreen_vertical.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/like-button.png like-button.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png sync_01.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/photoframe.png photoframe.png
+cCompileXIB /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.xib
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_dark.png medallion_dark.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_green.png medallion_green.png
+cCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_black.png medallion_black.png
+cProcessPCH /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch.gch TheCarlton_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/main.o /Users/jameseden/ios/TheCarlton/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/RemoteImage.o /Users/jameseden/ios/TheCarlton/Classes/RemoteImage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/RemoteDictionary.o /Users/jameseden/ios/TheCarlton/Classes/RemoteDictionary.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MenuRootViewController.o /Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/SyncViewController.o /Users/jameseden/ios/TheCarlton/Classes/SyncViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LocateViewController.o /Users/jameseden/ios/TheCarlton/Classes/LocateViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/ContactViewController.o /Users/jameseden/ios/TheCarlton/Classes/ContactViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/ContactTableController.o /Users/jameseden/ios/TheCarlton/Classes/ContactTableController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o /Users/jameseden/ios/TheCarlton/Classes/Overlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MockPhotoSource.o /Users/jameseden/ios/TheCarlton/Classes/MockPhotoSource.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/GalleryViewController.o /Users/jameseden/ios/TheCarlton/Classes/GalleryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/PhotosViewController.o /Users/jameseden/ios/TheCarlton/Classes/PhotosViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o /Users/jameseden/ios/TheCarlton/Classes/User.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BookingsViewController.o /Users/jameseden/ios/TheCarlton/Classes/BookingsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/NewsViewController.o /Users/jameseden/ios/TheCarlton/Classes/NewsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/ShareViewController.o /Users/jameseden/ios/TheCarlton/Classes/ShareViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/jameseden/ios/TheCarlton/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/NSString+SBJSON.o /Users/jameseden/ios/TheCarlton/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/SBJSON.o /Users/jameseden/ios/TheCarlton/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/SBJsonBase.o /Users/jameseden/ios/TheCarlton/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/SBJsonParser.o /Users/jameseden/ios/TheCarlton/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/SBJsonWriter.o /Users/jameseden/ios/TheCarlton/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/FBRequest.o /Users/jameseden/ios/TheCarlton/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Facebook.o /Users/jameseden/ios/TheCarlton/Facebook.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/FBLoginDialog.o /Users/jameseden/ios/TheCarlton/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/FBDialog.o /Users/jameseden/ios/TheCarlton/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MedallionViewController.o /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton normal armv6
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/main.o /Users/jameseden/ios/TheCarlton/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/RemoteImage.o /Users/jameseden/ios/TheCarlton/Classes/RemoteImage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/RemoteDictionary.o /Users/jameseden/ios/TheCarlton/Classes/RemoteDictionary.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MenuRootViewController.o /Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/SyncViewController.o /Users/jameseden/ios/TheCarlton/Classes/SyncViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LocateViewController.o /Users/jameseden/ios/TheCarlton/Classes/LocateViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/ContactViewController.o /Users/jameseden/ios/TheCarlton/Classes/ContactViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/ContactTableController.o /Users/jameseden/ios/TheCarlton/Classes/ContactTableController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o /Users/jameseden/ios/TheCarlton/Classes/Overlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MockPhotoSource.o /Users/jameseden/ios/TheCarlton/Classes/MockPhotoSource.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/GalleryViewController.o /Users/jameseden/ios/TheCarlton/Classes/GalleryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/PhotosViewController.o /Users/jameseden/ios/TheCarlton/Classes/PhotosViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o /Users/jameseden/ios/TheCarlton/Classes/User.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BookingsViewController.o /Users/jameseden/ios/TheCarlton/Classes/BookingsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/NewsViewController.o /Users/jameseden/ios/TheCarlton/Classes/NewsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/ShareViewController.o /Users/jameseden/ios/TheCarlton/Classes/ShareViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/jameseden/ios/TheCarlton/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/NSString+SBJSON.o /Users/jameseden/ios/TheCarlton/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/SBJSON.o /Users/jameseden/ios/TheCarlton/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/SBJsonBase.o /Users/jameseden/ios/TheCarlton/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/SBJsonParser.o /Users/jameseden/ios/TheCarlton/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/SBJsonWriter.o /Users/jameseden/ios/TheCarlton/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/FBRequest.o /Users/jameseden/ios/TheCarlton/FBRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Facebook.o /Users/jameseden/ios/TheCarlton/Facebook.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/FBLoginDialog.o /Users/jameseden/ios/TheCarlton/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/FBDialog.o /Users/jameseden/ios/TheCarlton/FBDialog.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MedallionViewController.o /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton normal armv7
+cCreateUniversalBinary /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton normal "armv6 armv7"
+cGenerateDSYMFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton
+cProcessProductPackaging "/Users/jameseden/Library/MobileDevice/Provisioning Profiles/13CE7B99-D260-46B1-8F22-D1A4387EC022.mobileprovision" /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/embedded.mobileprovision
+cTouch /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton.xcent
+cCodeSign /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004D75BB8B0000000000000110
-t1299561355
+c000000004CC7DC9E0000000000000110
+t1288166558
 s272
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
@@ -70,8 +195,8 @@ t1286863800
 s12777
 
 N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004D38F78C0000000000D00CA0
-t1295579020
+c000000004CD5CE980000000000D00CA0
+t1289080472
 s13634720
 
 N/Users/jameseden/Library/MobileDevice/Provisioning Profiles/13CE7B99-D260-46B1-8F22-D1A4387EC022.mobileprovision
@@ -108,6 +233,11 @@ N/Users/jameseden/ios/TheCarlton/53-house.png
 c000000004D57A9AA0000000000000B55
 t1297590698
 s2901
+
+N/Users/jameseden/ios/TheCarlton/Classes/../ticket_04.png
+c000000004D83F7AB000000000000CF8C
+t1300494251
+s53132
 
 N/Users/jameseden/ios/TheCarlton/Classes/BookingsViewController.h
 c000000004D5F5C4B00000000000001DD
@@ -221,9 +351,9 @@ i"Three20/Three20.h"
 i"FBConnect.h"
 
 N/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m
-c000000004D89FD5000000000000033A2
-t1300888912
-s13218
+c000000004DCA9744000000000000347F
+t1305122628
+s13439
 i"LauncherViewController.h"
 i"User.h"
 i"TheCarltonAppDelegate.h"
@@ -252,6 +382,24 @@ N/Users/jameseden/ios/TheCarlton/Classes/LocateViewController.xib
 c000000004D833DB700000000000059D3
 t1300446647
 s22995
+
+N/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.h
+c000000004DCA8FBF000000000000025C
+t1305120703
+s604
+i<UIKit/UIKit.h>
+
+N/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m
+c000000004DCA953B0000000000000783
+t1305122107
+s1923
+i"MedallionViewController.h"
+i"User.h"
+
+N/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.xib
+c000000004DCB90AA00000000000085CE
+t1305186474
+s34254
 
 N/Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.h
 c000000004D57A9AD000000000000028C
@@ -307,9 +455,9 @@ s197
 i<UIKit/UIKit.h>
 
 N/Users/jameseden/ios/TheCarlton/Classes/Overlay.m
-c000000004D57A9AD000000000000053F
-t1297590701
-s1343
+c000000004DCA5487000000000000066A
+t1305105543
+s1642
 i"Overlay.h"
 
 N/Users/jameseden/ios/TheCarlton/Classes/PhotosViewController.h
@@ -393,9 +541,9 @@ i"Three20/Three20.h"
 i"FBConnect.h"
 
 N/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m
-c000000004D83FD1D00000000000026F0
-t1300495645
-s9968
+c000000004DCA878D00000000000027F9
+t1305118605
+s10233
 i"TheCarltonAppDelegate.h"
 i"LauncherViewController.h"
 i"SyncViewController.h"
@@ -407,18 +555,19 @@ i"LocateViewController.h"
 i"BookingsViewController.h"
 i"NewsViewController.h"
 i"ShareViewController.h"
+i"MedallionViewController.h"
 i"User.h"
 
 N/Users/jameseden/ios/TheCarlton/Classes/User.h
-c000000004D8982A100000000000002C8
-t1300857505
+c000000004DCA880200000000000002C8
+t1305118722
 s712
 i<Foundation/Foundation.h>
 
 N/Users/jameseden/ios/TheCarlton/Classes/User.m
-c000000004D8982B800000000000005D0
-t1300857528
-s1488
+c000000004DCA8A7D00000000000005EF
+t1305119357
+s1519
 i"User.h"
 i"RemoteDictionary.h"
 
@@ -637,11 +786,11 @@ t1297590698
 s6706
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
-t1300888920
-s1870
+t1305186483
+s2040
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM
-t1300888918
+t1305122675
 s102
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/18-envelope.png
@@ -708,6 +857,10 @@ N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/MainWindow.
 t1300243429
 s987
 
+N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/MedallionViewController.nib
+t1305186482
+s2504
+
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/MenuRootViewController.nib
 t1300243434
 s979
@@ -737,8 +890,8 @@ t1300243435
 s2693
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton
-t1300888918
-s2739568
+t1305122675
+s2750448
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/Three20.bundle
 t1300243416
@@ -812,6 +965,18 @@ N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/map.png
 t1300446816
 s65321
 
+N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_black.png
+t1305122122
+s159361
+
+N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_dark.png
+t1305122121
+s220297
+
+N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_green.png
+t1305122122
+s226684
+
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/menu.png
 t1300243421
 s7426
@@ -828,6 +993,10 @@ N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/phone.png
 t1300243421
 s6339
 
+N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/photoframe.png
+t1305122120
+s247982
+
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/settings.png
 t1300243422
 s6302
@@ -837,7 +1006,7 @@ t1300243422
 s7072
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png
-t1300243437
+t1305122120
 s4619
 
 N/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/tick.aiff
@@ -853,7 +1022,7 @@ t1300883466
 s49964
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o
-t1300857659
+t1305122129
 s57408
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/ContactTableController.o
@@ -865,7 +1034,7 @@ t1300243447
 s43376
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o
-t1300859898
+t1305122129
 s63168
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/FBDialog.o
@@ -889,12 +1058,16 @@ t1300861963
 s67428
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o
-t1300888917
-s96916
+t1305122674
+s97352
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LocateViewController.o
 t1300446818
 s51088
+
+N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MedallionViewController.o
+t1305122130
+s45452
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MenuRootViewController.o
 t1300857017
@@ -917,8 +1090,8 @@ t1300243448
 s38352
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o
-t1300243447
-s39384
+t1305122129
+s39924
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/PhotosViewController.o
 t1300861274
@@ -957,21 +1130,21 @@ t1300243447
 s49588
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton
-t1300888917
-s1393844
+t1305122674
+s1396488
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton.LinkFileList
-c000000004D8023D60000000000000EC2
-t1300243414
-s3778
+c000000004DCA95470000000000000F48
+t1305122119
+s3912
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o
-t1300862312
-s90092
+t1305122129
+s91228
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o
-t1300857660
-s19544
+t1305122129
+s19620
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/main.o
 t1300243446
@@ -982,7 +1155,7 @@ t1300883467
 s49824
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o
-t1300857661
+t1305122133
 s57068
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/ContactTableController.o
@@ -994,7 +1167,7 @@ t1300243453
 s43284
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o
-t1300859898
+t1305122133
 s62716
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/FBDialog.o
@@ -1018,12 +1191,16 @@ t1300861964
 s67116
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o
-t1300888917
-s95064
+t1305122673
+s95460
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LocateViewController.o
 t1300446821
 s50984
+
+N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MedallionViewController.o
+t1305122133
+s45300
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MenuRootViewController.o
 t1300857018
@@ -1046,8 +1223,8 @@ t1300243456
 s38308
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o
-t1300243453
-s39308
+t1305122133
+s39824
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/PhotosViewController.o
 t1300861274
@@ -1086,21 +1263,21 @@ t1300243452
 s49352
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton
-t1300888917
-s1314264
+t1305122675
+s1321000
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton.LinkFileList
-c000000004D8023D60000000000000EC2
-t1300243414
-s3778
+c000000004DCA95470000000000000F48
+t1305122119
+s3912
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o
-t1300862313
-s89668
+t1305122132
+s90804
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o
-t1300857661
-s19160
+t1305122133
+s19244
 
 N/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/main.o
 t1300243450
@@ -1421,6 +1598,21 @@ c000000004D833A720000000000011A64
 t1300445810
 s72292
 
+N/Users/jameseden/ios/TheCarlton/medallion_black.png
+c000000004DCA7EFD0000000000017851
+t1305116413
+s96337
+
+N/Users/jameseden/ios/TheCarlton/medallion_dark.png
+c000000004DCA782800000000000258A9
+t1305114664
+s153769
+
+N/Users/jameseden/ios/TheCarlton/medallion_green.png
+c000000004DCA79760000000000025739
+t1305114998
+s153401
+
 N/Users/jameseden/ios/TheCarlton/menu.png
 c000000004D57A9AD0000000000001ADF
 t1297590701
@@ -1441,6 +1633,11 @@ c000000004D57A9AD0000000000001732
 t1297590701
 s5938
 
+N/Users/jameseden/ios/TheCarlton/photoframe.png
+c000000004DCA5487000000000003BFC3
+t1305105543
+s245699
+
 N/Users/jameseden/ios/TheCarlton/settings.png
 c000000004D57A9AD0000000000001F82
 t1297590701
@@ -1450,6 +1647,11 @@ N/Users/jameseden/ios/TheCarlton/share.png
 c000000004D57A9AD0000000000001979
 t1297590701
 s6521
+
+N/Users/jameseden/ios/TheCarlton/sync_01.png
+c000000004D5F603500000000000013FC
+t1298096181
+s5116
 
 N/Users/jameseden/ios/TheCarlton/tick.aiff
 c000000004D57A9AD0000000000005DDE
@@ -8440,8 +8642,8 @@ t1293530887
 s10446552
 
 NTheCarlton-Info.plist
-c000000004DD23AC30000000000000408
-t1305623235
+c000000004D7F47640000000000000408
+t1300186980
 s1032
 
 CAnalyze /Users/jameseden/ios/TheCarlton/Classes/BookingsViewController.m
@@ -8830,16 +9032,16 @@ lSLF07#2@48"Analyze /Users/zuhairnaqvi/iOS/TheCarlton/main.m313923640#313923640#
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies327316125#327316125#0(96"[BEROR]CodeSign error: code signing is required for product type 'Application' in SDK 'iOS 4.2'1(4@88"CodeSign error: code signing is required for product type 'Application' in SDK 'iOS 4.2'327316125#18446744073709551615#0#0(1@0"0(0#1#0"8635311648#0"0#
+lSLF07#2@18"Check dependencies326879281#326879281#0(0"0(0#1#0"2556027536#0"0#
 
 CCodeSign /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
-s325663019.889645
-e325663023.755062
+s326879282.642823
+e326879283.286905
 r1
 xCodeSign
 x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
 o/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app: replacing existing signature
-lSLF07#2@44"CodeSign build/Debug-iphoneos/TheCarlton.app325663019#325663023#0(98"/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app: replacing existing signature0(0#0#67"/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app2556027536#633"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: James Eden (NPG5ZVZ8SW)" --resource-rules=/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/ResourceRules.plist --entitlements /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton.xcent /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app0#
+lSLF07#2@44"CodeSign build/Debug-iphoneos/TheCarlton.app326879282#326879283#0(98"/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app: replacing existing signature0(0#0#67"/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app2556027536#633"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: James Eden (NPG5ZVZ8SW)" --resource-rules=/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/ResourceRules.plist --entitlements /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton.xcent /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app0#
 
 CCodeSign /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/TheCarlton.app
 s315042352.634905
@@ -8866,8 +9068,8 @@ CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/
 r0
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s322550459.332114
-e322550459.798732
+s326814929.313259
+e326814929.599865
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o
@@ -8878,7 +9080,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':
 o/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'
-lSLF07#2@67"Compile /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m322550459#322550459#0(206"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'1(22@23"Unused variable 'timer'322550459#109#97#0(6@59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m322187702#20#0#20#0#19"unused variable '*'0(0#0#59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m2556027536#1777"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o0#
+lSLF07#2@67"Compile /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m326814929#326814929#0(206"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'1(22@23"Unused variable 'timer'326814929#109#97#0(6@59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m322187702#20#0#20#0#19"unused variable '*'0(0#0#59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m2556027536#1777"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/BoxViewController.o /Users/zed/iOS/src/thecarltonapp/Classes/BoxViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -8970,8 +9172,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m313985670#313985670#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m8689138304#1807"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-chzwtyicmudixxgkwtizqyooturw/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/ContactViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s322552698.209870
-e322552698.785312
+s326814929.343310
+e326814929.682647
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o
@@ -8982,7 +9184,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController loveButton:]':
 o/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m:77: warning: class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol
-lSLF07#2@70"Compile /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m322552698#322552698#0(271"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController loveButton:]':/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m:77: warning: class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol1(22@79"Class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol322552698#115#156#0(6@62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m322552693#77#0#77#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m2556027536#1783"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o0#
+lSLF07#2@70"Compile /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m326814929#326814929#0(271"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController loveButton:]':/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m:77: warning: class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol1(22@79"Class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol326814929#115#156#0(6@62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m322552693#77#0#77#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m2556027536#1783"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/DetailViewController.o /Users/zed/iOS/src/thecarltonapp/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9096,8 +9298,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/GalleryViewController.m313923853#313923853#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/GalleryViewController.m8648017952#1807"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-chzwtyicmudixxgkwtizqyooturw/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/GalleryViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/GalleryViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s322581716.659476
-e322581717.276163
+s326815473.364598
+e326815474.113910
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o
@@ -9115,12 +9317,12 @@ o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: '...' as arguments.)
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-uploadPhoto:'
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController rotateImage:]':
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:236: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:239: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController launcherView:didSelectItem:]':
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:340: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol
-lSLF07#2@72"Compile /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581716#322581717#0(1956"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController goCamera]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:88: warning: class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController imagePickerController:didFinishPickingMediaWithInfo:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-correctImageOrientation:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: '...' as arguments.)/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-uploadPhoto:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController rotateImage:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:236: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController launcherView:didSelectItem:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:340: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol8(22@95"Class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol322581717#116#174#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#88#0#88#0#45"class '*' does not implement the '*' protocol0(22@71"'LauncherViewController' may not respond to '-correctImageOrientation:'322581717#450#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#100#0#100#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322581717#601#125#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#100#0#100#0#0"0(22@59"'LauncherViewController' may not respond to '-uploadPhoto:'322581717#947#139#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#100#0#100#0#26"'*' may not respond to '*'0(22@70"Passing argument 1 of 'CGImageGetWidth' from incompatible pointer type322581717#1206#150#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#231#0#231#0#56"passing argument * of '*' from incompatible pointer type0(22@71"Passing argument 1 of 'CGImageGetHeight' from incompatible pointer type322581717#1356#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#231#0#231#0#56"passing argument * of '*' from incompatible pointer type0(22@73"Passing argument 3 of 'CGContextDrawImage' from incompatible pointer type322581717#1507#153#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#236#0#236#0#56"passing argument * of '*' from incompatible pointer type0(22@81"Class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol322581717#1795#161#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#340#0#340#0#45"class '*' does not implement the '*' protocol0(0#0#64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m2556027536#1787"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o0#
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:343: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol
+lSLF07#2@72"Compile /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815473#326815474#0(1956"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController goCamera]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:88: warning: class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController imagePickerController:didFinishPickingMediaWithInfo:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-correctImageOrientation:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: '...' as arguments.)/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-uploadPhoto:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController rotateImage:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:239: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController launcherView:didSelectItem:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:343: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol8(22@95"Class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol326815473#116#174#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#88#0#88#0#45"class '*' does not implement the '*' protocol0(22@71"'LauncherViewController' may not respond to '-correctImageOrientation:'326815473#450#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#100#0#100#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326815473#601#125#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#100#0#100#0#0"0(22@59"'LauncherViewController' may not respond to '-uploadPhoto:'326815473#947#139#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#100#0#100#0#26"'*' may not respond to '*'0(22@70"Passing argument 1 of 'CGImageGetWidth' from incompatible pointer type326815473#1206#150#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#234#0#234#0#56"passing argument * of '*' from incompatible pointer type0(22@71"Passing argument 1 of 'CGImageGetHeight' from incompatible pointer type326815473#1356#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#234#0#234#0#56"passing argument * of '*' from incompatible pointer type0(22@73"Passing argument 3 of 'CGContextDrawImage' from incompatible pointer type326815473#1507#153#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#239#0#239#0#56"passing argument * of '*' from incompatible pointer type0(22@81"Class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol326815473#1795#161#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#343#0#343#0#45"class '*' does not implement the '*' protocol0(0#0#64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m2556027536#1787"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LauncherViewController.o /Users/zed/iOS/src/thecarltonapp/Classes/LauncherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9166,6 +9368,22 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m313985670#313985670#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m8650094912#1805"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-chzwtyicmudixxgkwtizqyooturw/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/LocateViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MedallionViewController.o /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326814929.865519
+e326814930.114875
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MedallionViewController.o
+x/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m: In function '-[MedallionViewController viewDidLoad]':
+o/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:33: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast
+o/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:35: warning: invalid receiver type 'NSUInteger'
+lSLF07#2@73"Compile /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m326814929#326814930#0(389"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m: In function '-[MedallionViewController viewDidLoad]':/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:33: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:35: warning: invalid receiver type 'NSUInteger'2(22@74"Passing argument 1 of 'setText:' makes pointer from integer without a cast326814930#121#154#0(6@65"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m326814907#33#0#33#0#0"0(22@34"Invalid receiver type 'NSUInteger'326814930#275#114#0(6@65"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m326814907#35#0#35#0#0"0(0#0#65"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m2556027536#1789"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MedallionViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/MenuRootViewController.o /Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s322549817.136305
@@ -9290,8 +9508,8 @@ CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/
 r0
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o /Users/jameseden/ios/TheCarlton/Classes/Overlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321936247.818086
-e321936247.933882
+s326814929.600730
+e326814929.863159
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o
@@ -9300,7 +9518,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/jameseden/ios/TheCarlton/Classes/Overlay.m321936247#321936247#0(0"0(0#0#49"/Users/jameseden/ios/TheCarlton/Classes/Overlay.m2556027536#1757"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/Overlay.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o0#
+lSLF07#2@57"Compile /Users/jameseden/ios/TheCarlton/Classes/Overlay.m326814929#326814929#0(0"0(0#0#49"/Users/jameseden/ios/TheCarlton/Classes/Overlay.m2556027536#1757"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/Overlay.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/Overlay.o /Users/zed/iOS/src/thecarltonapp/Classes/Overlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9530,8 +9748,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m313935807#313935807#0(0"0(0#0#62"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m8673052224#1801"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-chzwtyicmudixxgkwtizqyooturw/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/SyncViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s322555111.976571
-e322555112.616661
+s326814926.880457
+e326814929.342562
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o
@@ -9541,11 +9759,14 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: 'TheCarltonAppDelegate' may not respond to '-login'
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: (Messages without a matching method signature
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: will be assumed to return 'id' and accept
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: '...' as arguments.)
-lSLF07#2@71"Compile /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m322555111#322555112#0(617"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: 'TheCarltonAppDelegate' may not respond to '-login'/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: '...' as arguments.)2(22@51"'TheCarltonAppDelegate' may not respond to '-login'322555112#148#129#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m322188445#84#0#84#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322555112#277#123#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m322188445#84#0#84#0#0"0(0#0#63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m2556027536#1785"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o0#
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: local declaration of 'prefs' hides instance variable
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:88: warning: local declaration of 'prefs' hides instance variable
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: 'TheCarltonAppDelegate' may not respond to '-login'
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: (Messages without a matching method signature
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: will be assumed to return 'id' and accept
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: '...' as arguments.)
+lSLF07#2@71"Compile /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326814926#326814929#0(1037"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: local declaration of 'prefs' hides instance variable/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:88: warning: local declaration of 'prefs' hides instance variable/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: 'TheCarltonAppDelegate' may not respond to '-login'/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: '...' as arguments.)5(22@52"Local declaration of 'prefs' hides instance variable326814927#148#130#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#86#0#86#0#0"0(22@82"Passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast326814927#278#160#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#86#0#86#0#0"0(22@52"Local declaration of 'prefs' hides instance variable326814927#438#130#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#88#0#88#0#0"0(22@51"'TheCarltonAppDelegate' may not respond to '-login'326814927#568#129#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#89#0#89#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326814927#697#123#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#89#0#89#0#0"0(0#0#63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m2556027536#1785"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o /Users/zed/iOS/src/thecarltonapp/Classes/TheCarltonAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9566,8 +9787,8 @@ o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m:41: warning: 
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m315042185#315042185#0(312"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m:41: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast1(22@82"Passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast315042185#150#162#0(6@65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m315038768#41#0#41#0#0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m8655222720#1807"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-chzwtyicmudixxgkwtizqyooturw/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarltonAppDelegate.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o /Users/jameseden/ios/TheCarlton/Classes/User.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s322550459.801034
-e322550460.315229
+s326814929.683485
+e326814929.989599
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o
@@ -9576,7 +9797,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/jameseden/ios/TheCarlton/Classes/User.m322550459#322550460#0(0"0(0#0#46"/Users/jameseden/ios/TheCarlton/Classes/User.m2556027536#1751"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/User.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o0#
+lSLF07#2@54"Compile /Users/jameseden/ios/TheCarlton/Classes/User.m326814929#326814929#0(0"0(0#0#46"/Users/jameseden/ios/TheCarlton/Classes/User.m2556027536#1751"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv6 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-ewmclclyiqeitidzbcrwjkzlccip/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/User.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/User.o /Users/zed/iOS/src/thecarltonapp/Classes/User.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9640,8 +9861,8 @@ CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/
 r0
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s322550460.884290
-e322550461.119919
+s326814932.992305
+e326814933.302445
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o
@@ -9652,7 +9873,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':
 o/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'
-lSLF07#2@67"Compile /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m322550460#322550461#0(206"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'1(22@23"Unused variable 'timer'322550460#109#97#0(6@59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m322187702#20#0#20#0#19"unused variable '*'0(0#0#59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m2556027536#1777"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o0#
+lSLF07#2@67"Compile /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m326814932#326814933#0(206"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m: In function '-[BoxViewController viewDidLoad]':/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m:20: warning: unused variable 'timer'1(22@23"Unused variable 'timer'326814933#109#97#0(6@59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m322187702#20#0#20#0#19"unused variable '*'0(0#0#59"/Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m2556027536#1777"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/BoxViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/BoxViewController.o /Users/zed/iOS/src/thecarltonapp/Classes/BoxViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9744,8 +9965,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m313985670#313985671#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m8689595392#1807"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fpsjtumsbjipzogroouprjjerldm/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/ContactViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/ContactViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s322552698.401878
-e322552698.999894
+s326814933.009940
+e326814933.317292
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o
@@ -9756,7 +9977,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController loveButton:]':
 o/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m:77: warning: class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol
-lSLF07#2@70"Compile /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m322552698#322552699#0(271"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController loveButton:]':/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m:77: warning: class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol1(22@79"Class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol322552698#115#156#0(6@62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m322552693#77#0#77#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m2556027536#1783"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o0#
+lSLF07#2@70"Compile /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m326814933#326814933#0(271"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m: In function '-[DetailViewController loveButton:]':/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m:77: warning: class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol1(22@79"Class 'DetailViewController' does not implement the 'FBDialogDelegate' protocol326814933#115#156#0(6@62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m322552693#77#0#77#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m2556027536#1783"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/DetailViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/DetailViewController.o /Users/zed/iOS/src/thecarltonapp/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9870,8 +10091,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/GalleryViewController.m313923853#313923853#0(0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/GalleryViewController.m8682594368#1807"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fpsjtumsbjipzogroouprjjerldm/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/GalleryViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/GalleryViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s322581716.807986
-e322581717.277985
+s326815473.388455
+e326815473.966199
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o
@@ -9889,12 +10110,12 @@ o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: '...' as arguments.)
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-uploadPhoto:'
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController rotateImage:]':
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:236: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:239: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type
 o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController launcherView:didSelectItem:]':
-o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:340: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol
-lSLF07#2@72"Compile /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581716#322581717#0(1956"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController goCamera]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:88: warning: class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController imagePickerController:didFinishPickingMediaWithInfo:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-correctImageOrientation:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: '...' as arguments.)/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-uploadPhoto:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController rotateImage:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:231: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:236: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController launcherView:didSelectItem:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:340: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol8(22@95"Class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol322581717#116#174#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#88#0#88#0#45"class '*' does not implement the '*' protocol0(22@71"'LauncherViewController' may not respond to '-correctImageOrientation:'322581717#450#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#100#0#100#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322581717#601#125#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#100#0#100#0#0"0(22@59"'LauncherViewController' may not respond to '-uploadPhoto:'322581717#947#139#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#100#0#100#0#26"'*' may not respond to '*'0(22@70"Passing argument 1 of 'CGImageGetWidth' from incompatible pointer type322581717#1206#150#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#231#0#231#0#56"passing argument * of '*' from incompatible pointer type0(22@71"Passing argument 1 of 'CGImageGetHeight' from incompatible pointer type322581717#1356#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#231#0#231#0#56"passing argument * of '*' from incompatible pointer type0(22@73"Passing argument 3 of 'CGContextDrawImage' from incompatible pointer type322581717#1507#153#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#236#0#236#0#56"passing argument * of '*' from incompatible pointer type0(22@81"Class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol322581717#1795#161#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m322581712#340#0#340#0#45"class '*' does not implement the '*' protocol0(0#0#64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m2556027536#1787"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o0#
+o/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:343: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol
+lSLF07#2@72"Compile /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815473#326815473#0(1956"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController goCamera]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:88: warning: class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController imagePickerController:didFinishPickingMediaWithInfo:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-correctImageOrientation:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: '...' as arguments.)/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:100: warning: 'LauncherViewController' may not respond to '-uploadPhoto:'/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController rotateImage:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetWidth' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:234: warning: passing argument 1 of 'CGImageGetHeight' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:239: warning: passing argument 3 of 'CGContextDrawImage' from incompatible pointer type/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m: In function '-[LauncherViewController launcherView:didSelectItem:]':/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m:343: warning: class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol8(22@95"Class 'LauncherViewController' does not implement the 'UINavigationControllerDelegate' protocol326815473#116#174#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#88#0#88#0#45"class '*' does not implement the '*' protocol0(22@71"'LauncherViewController' may not respond to '-correctImageOrientation:'326815473#450#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#100#0#100#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326815473#601#125#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#100#0#100#0#0"0(22@59"'LauncherViewController' may not respond to '-uploadPhoto:'326815473#947#139#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#100#0#100#0#26"'*' may not respond to '*'0(22@70"Passing argument 1 of 'CGImageGetWidth' from incompatible pointer type326815473#1206#150#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#234#0#234#0#56"passing argument * of '*' from incompatible pointer type0(22@71"Passing argument 1 of 'CGImageGetHeight' from incompatible pointer type326815473#1356#151#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#234#0#234#0#56"passing argument * of '*' from incompatible pointer type0(22@73"Passing argument 3 of 'CGContextDrawImage' from incompatible pointer type326815473#1507#153#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#239#0#239#0#56"passing argument * of '*' from incompatible pointer type0(22@81"Class 'LauncherViewController' does not implement the 'FBDialogDelegate' protocol326815473#1795#161#0(6@64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m326815428#343#0#343#0#45"class '*' does not implement the '*' protocol0(0#0#64"/Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m2556027536#1787"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/LauncherViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LauncherViewController.o /Users/zed/iOS/src/thecarltonapp/Classes/LauncherViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -9940,6 +10161,22 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m313985670#313985670#0(0"0(0#0#64"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m8688281760#1805"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fpsjtumsbjipzogroouprjjerldm/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/LocateViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/LocateViewController.o0#
+
+CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MedallionViewController.o /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326814933.415468
+e326814933.527406
+r1
+xCompileC
+xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MedallionViewController.o
+x/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m: In function '-[MedallionViewController viewDidLoad]':
+o/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:33: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast
+o/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:35: warning: invalid receiver type 'NSUInteger'
+lSLF07#2@73"Compile /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m326814933#326814933#0(389"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m: In function '-[MedallionViewController viewDidLoad]':/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:33: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:35: warning: invalid receiver type 'NSUInteger'2(22@74"Passing argument 1 of 'setText:' makes pointer from integer without a cast326814933#121#154#0(6@65"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m326814907#33#0#33#0#0"0(22@34"Invalid receiver type 'NSUInteger'326814933#275#114#0(6@65"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m326814907#35#0#35#0#0"0(0#0#65"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m2556027536#1789"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MedallionViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/MenuRootViewController.o /Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s322549817.855533
@@ -10064,8 +10301,8 @@ CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/
 r0
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o /Users/jameseden/ios/TheCarlton/Classes/Overlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321936253.703840
-e321936253.845360
+s326814933.303393
+e326814933.413613
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o
@@ -10074,7 +10311,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/jameseden/ios/TheCarlton/Classes/Overlay.m321936253#321936253#0(0"0(0#0#49"/Users/jameseden/ios/TheCarlton/Classes/Overlay.m2556027536#1757"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/Overlay.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o0#
+lSLF07#2@57"Compile /Users/jameseden/ios/TheCarlton/Classes/Overlay.m326814933#326814933#0(0"0(0#0#49"/Users/jameseden/ios/TheCarlton/Classes/Overlay.m2556027536#1757"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/Overlay.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/Overlay.o /Users/zed/iOS/src/thecarltonapp/Classes/Overlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -10304,8 +10541,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@70"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m313935807#313935807#0(0"0(0#0#62"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m8659986240#1801"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fpsjtumsbjipzogroouprjjerldm/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/SyncViewController.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/SyncViewController.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s322555112.614627
-e322555113.076809
+s326814929.989928
+e326814933.009420
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o
@@ -10315,11 +10552,14 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: 'TheCarltonAppDelegate' may not respond to '-login'
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: (Messages without a matching method signature
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: will be assumed to return 'id' and accept
-o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: '...' as arguments.)
-lSLF07#2@71"Compile /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m322555112#322555113#0(617"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: 'TheCarltonAppDelegate' may not respond to '-login'/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:84: warning: '...' as arguments.)2(22@51"'TheCarltonAppDelegate' may not respond to '-login'322555112#148#129#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m322188445#84#0#84#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322555112#277#123#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m322188445#84#0#84#0#0"0(0#0#63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m2556027536#1785"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o0#
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: local declaration of 'prefs' hides instance variable
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:88: warning: local declaration of 'prefs' hides instance variable
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: 'TheCarltonAppDelegate' may not respond to '-login'
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: (Messages without a matching method signature
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: will be assumed to return 'id' and accept
+o/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: '...' as arguments.)
+lSLF07#2@71"Compile /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326814929#326814933#0(1037"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: local declaration of 'prefs' hides instance variable/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:86: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:88: warning: local declaration of 'prefs' hides instance variable/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: 'TheCarltonAppDelegate' may not respond to '-login'/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: (Messages without a matching method signature/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: will be assumed to return 'id' and accept/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m:89: warning: '...' as arguments.)5(22@52"Local declaration of 'prefs' hides instance variable326814931#148#130#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#86#0#86#0#0"0(22@82"Passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast326814931#278#160#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#86#0#86#0#0"0(22@52"Local declaration of 'prefs' hides instance variable326814931#438#130#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#88#0#88#0#0"0(22@51"'TheCarltonAppDelegate' may not respond to '-login'326814931#568#129#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#89#0#89#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326814931#697#123#0(6@63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m326811405#89#0#89#0#0"0(0#0#63"/Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m2556027536#1785"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o /Users/zed/iOS/src/thecarltonapp/Classes/TheCarltonAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -10340,8 +10580,8 @@ o/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m:41: warning: 
 lSLF07#2@73"Compile /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m315042185#315042186#0(312"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m: In function '-[TheCarltonAppDelegate application:didFinishLaunchingWithOptions:]':/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m:41: warning: passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast1(22@82"Passing argument 1 of 'loginWithUserId:' makes pointer from integer without a cast315042186#150#162#0(6@65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m315038768#41#0#41#0#0"0(0#0#65"/Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m8674735680#1807"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos -I/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/z9/z9S3-eAYEeWVdZqHDYcke++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TheCarlton_Prefix-fpsjtumsbjipzogroouprjjerldm/TheCarlton_Prefix.pch -c /Users/zuhairnaqvi/iOS/TheCarlton/Classes/TheCarltonAppDelegate.m -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarltonAppDelegate.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o /Users/jameseden/ios/TheCarlton/Classes/User.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s322550461.147751
-e322550461.483403
+s326814933.317989
+e326814933.565788
 r1
 xCompileC
 xbuild/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o
@@ -10350,7 +10590,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/jameseden/ios/TheCarlton/Classes/User.m322550461#322550461#0(0"0(0#0#46"/Users/jameseden/ios/TheCarlton/Classes/User.m2556027536#1751"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/User.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o0#
+lSLF07#2@54"Compile /Users/jameseden/ios/TheCarlton/Classes/User.m326814933#326814933#0(0"0(0#0#46"/Users/jameseden/ios/TheCarlton/Classes/User.m2556027536#1751"    cd /Users/jameseden/ios/TheCarlton    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-generated-files.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-own-target-headers.hmap -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-all-target-headers.hmap -iquote /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton-project-headers.hmap -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -I/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/include -I../three20/Build/Products/three20 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources/armv7 -I/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/DerivedSources -include /var/folders/x9/x9qDTz9RGH4vAByqG7MJ8E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TheCarlton_Prefix-alzlwysvcpqymncpcjgzosgrrnce/TheCarlton_Prefix.pch -c /Users/jameseden/ios/TheCarlton/Classes/User.m -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o0#
 
 CCompileC build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/User.o /Users/zed/iOS/src/thecarltonapp/Classes/User.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -10450,6 +10690,15 @@ xCompileXIB
 x/Users/jameseden/ios/TheCarlton/Classes/LocateViewController.xib
 oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
 lSLF07#2@43"CompileXIB Classes/LocateViewController.xib322139615#322139618#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#64"/Users/jameseden/ios/TheCarlton/Classes/LocateViewController.xib2556027536#552"    cd /Users/jameseden/ios/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/LocateViewController.nib /Users/jameseden/ios/TheCarlton/Classes/LocateViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.xib
+s326879281.467013
+e326879282.628353
+r1
+xCompileXIB
+x/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@46"CompileXIB Classes/MedallionViewController.xib326879281#326879282#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#67"/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.xib2556027536#558"    cd /Users/jameseden/ios/TheCarlton    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/MedallionViewController.nib /Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCompileXIB /Users/jameseden/ios/TheCarlton/Classes/MenuRootViewController.xib
 s321936233.291313
@@ -10785,6 +11034,33 @@ x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/map.png
 xmap.png
 lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/map.png map.png322139615#322139617#0(0"0(0#0#39"/Users/jameseden/ios/TheCarlton/map.png2556027536#536"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/map.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/map.png0#
 
+CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_black.png medallion_black.png
+s326814922.158160
+e326814922.801506
+r1
+xCopyPNGFile
+x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_black.png
+xmedallion_black.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/medallion_black.png medallion_black.png326814922#326814922#0(0"0(0#0#51"/Users/jameseden/ios/TheCarlton/medallion_black.png2556027536#560"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/medallion_black.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_black.png0#
+
+CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_dark.png medallion_dark.png
+s326814920.349689
+e326814921.107579
+r1
+xCopyPNGFile
+x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_dark.png
+xmedallion_dark.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/medallion_dark.png medallion_dark.png326814920#326814921#0(0"0(0#0#50"/Users/jameseden/ios/TheCarlton/medallion_dark.png2556027536#558"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/medallion_dark.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_dark.png0#
+
+CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_green.png medallion_green.png
+s326814921.108226
+e326814922.157954
+r1
+xCopyPNGFile
+x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_green.png
+xmedallion_green.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/medallion_green.png medallion_green.png326814921#326814922#0(0"0(0#0#51"/Users/jameseden/ios/TheCarlton/medallion_green.png2556027536#560"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/medallion_green.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/medallion_green.png0#
+
 CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/menu.png menu.png
 s321936221.125790
 e321936221.593498
@@ -10821,6 +11097,15 @@ x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/phone.png
 xphone.png
 lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/phone.png phone.png321936221#321936222#0(0"0(0#0#41"/Users/jameseden/ios/TheCarlton/phone.png2556027536#540"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/phone.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/phone.png0#
 
+CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/photoframe.png photoframe.png
+s326814919.385403
+e326814920.349460
+r1
+xCopyPNGFile
+x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/photoframe.png
+xphotoframe.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/photoframe.png photoframe.png326814919#326814920#0(0"0(0#0#46"/Users/jameseden/ios/TheCarlton/photoframe.png2556027536#550"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/photoframe.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/photoframe.png0#
+
 CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/settings.png settings.png
 s321936222.091506
 e321936222.323424
@@ -10847,6 +11132,18 @@ xCopyPNGFile
 x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png
 x../../Downloads/Artwork/Icons/sync_01.png
 lSLF07#2@101"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/sync_01.png ../../Downloads/Artwork/Icons/sync_01.png321936237#321936237#0(0"0(0#0#73"/Users/jameseden/ios/TheCarlton/../../Downloads/Artwork/Icons/sync_01.png2556027536#574"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/../../Downloads/Artwork/Icons/sync_01.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png0#
+
+CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png sync_01.png
+s326814919.384085
+e326814920.063872
+r1
+xCopyPNGFile
+x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png
+xsync_01.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/TheCarlton.app/sync_01.png sync_01.png326814919#326814920#0(0"0(0#0#43"/Users/jameseden/ios/TheCarlton/sync_01.png2556027536#544"    cd /Users/jameseden/ios/TheCarlton    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jameseden/ios/TheCarlton/sync_01.png /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/sync_01.png0#
+
+CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/ticket_04.png Classes/../ticket_04.png
+r0
 
 CCopyPNGFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/ticket_04.png ticket_04.png
 s322187385.344866
@@ -11215,14 +11512,14 @@ xtick.aiff
 lSLF07#2@14"Copy tick.aiff321936230#321936230#0(0"0(0#0#41"/Users/jameseden/ios/TheCarlton/tick.aiff2556027536#435"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jameseden/ios/TheCarlton/tick.aiff /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app0#
 
 CCreateUniversalBinary /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton normal "armv6 armv7"
-s322581717.881577
-e322581718.011876
+s326815475.173086
+e326815475.303301
 r1
 xCreateUniversalBinary
 x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton
 xnormal
 xarmv6 armv7
-lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/TheCarlton.app/TheCarlton normal "armv6 armv7"322581717#322581718#0(0"0(0#0#43"/Users/jameseden/ios/TheCarlton/armv6 armv72556027536#514"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton -output /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton0#
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/TheCarlton.app/TheCarlton normal "armv6 armv7"326815475#326815475#0(0"0(0#0#43"/Users/jameseden/ios/TheCarlton/armv6 armv72556027536#514"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton -output /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton0#
 
 CCreateUniversalBinary /Users/zed/iOS/src/thecarltonapp/build/Debug-iphoneos/TheCarlton.app/TheCarlton normal "armv6 armv7"
 r0
@@ -11238,13 +11535,13 @@ xarmv6 armv7
 lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/TheCarlton.app/TheCarlton normal "armv6 armv7"315042352#315042352#0(0"0(0#0#45"/Users/zuhairnaqvi/iOS/TheCarlton/armv6 armv78684381760#522"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton -output /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton0#
 
 CGenerateDSYMFile /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton
-s322581718.012021
-e322581718.688938
+s326815475.303453
+e326815476.020152
 r1
 xGenerateDSYMFile
 x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM
 x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton
-lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/TheCarlton.app.dSYM build/Debug-iphoneos/TheCarlton.app/TheCarlton322581718#322581718#0(0"0(0#0#78"/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton2556027536#350"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton -o /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM0#
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/TheCarlton.app.dSYM build/Debug-iphoneos/TheCarlton.app/TheCarlton326815475#326815476#0(0"0(0#0#78"/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton2556027536#350"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton -o /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM0#
 
 CGenerateDSYMFile /Users/zed/iOS/src/thecarltonapp/build/Debug-iphoneos/TheCarlton.app.dSYM /Users/zed/iOS/src/thecarltonapp/build/Debug-iphoneos/TheCarlton.app/TheCarlton
 r0
@@ -11259,24 +11556,24 @@ x/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlto
 lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/TheCarlton.app.dSYM build/Debug-iphoneos/TheCarlton.app/TheCarlton315042352#315042352#0(0"0(0#0#80"/Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton8664603552#356"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/TheCarlton.app/TheCarlton -o /Users/zuhairnaqvi/iOS/TheCarlton/build/Debug-iphoneos/TheCarlton.app.dSYM0#
 
 CLd /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton normal armv6
-s322581717.276410
-e322581717.881393
+s326815474.114040
+e326815475.047801
 r1
 xLd
 x/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton
 xnormal
 xarmv6
-lSLF07#2@123"Link /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton322581717#322581717#0(0"0(0#0#0"2556027536#1950"    cd /Users/jameseden/ios/TheCarlton    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -filelist /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton.LinkFileList -dead_strip -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Style.a -miphoneos-version-min=4.2 /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UICommon.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Core.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UI.a -framework QuartzCore /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Network.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton0#
+lSLF07#2@123"Link /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton326815474#326815475#0(0"0(0#0#0"2556027536#1950"    cd /Users/jameseden/ios/TheCarlton    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -filelist /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton.LinkFileList -dead_strip -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Style.a -miphoneos-version-min=4.2 /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UICommon.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Core.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UI.a -framework QuartzCore /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Network.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton0#
 
 CLd /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton normal armv7
-s322581717.283701
-e322581717.860637
+s326815473.970161
+e326815475.172892
 r1
 xLd
 x/Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton
 xnormal
 xarmv7
-lSLF07#2@123"Link /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton322581717#322581717#0(0"0(0#0#0"2556027536#1950"    cd /Users/jameseden/ios/TheCarlton    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -filelist /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton.LinkFileList -dead_strip -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Style.a -miphoneos-version-min=4.2 /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UICommon.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Core.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UI.a -framework QuartzCore /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Network.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton0#
+lSLF07#2@123"Link /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton326815473#326815475#0(0"0(0#0#0"2556027536#1950"    cd /Users/jameseden/ios/TheCarlton    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -F/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos -filelist /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton.LinkFileList -dead_strip -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UICommon.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Core.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20UI.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Network.a -force_load ../three20/Build/Products/Debug-iphoneos/libThree20Style.a -miphoneos-version-min=4.2 /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UICommon.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UINavigator.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Core.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20UI.a -framework QuartzCore /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Network.a /Users/jameseden/ios/three20/Build/Products/Debug-iphoneos/libThree20Style.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -o /Users/jameseden/ios/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv7/TheCarlton0#
 
 CLd /Users/zed/iOS/src/thecarltonapp/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/Objects-normal/armv6/TheCarlton normal armv6
 r0
@@ -11484,12 +11781,12 @@ x/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarl
 lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton.xcent313923641#313923641#0(0"0(0#0#105"/Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton.xcent8625808160#431"    cd /Users/zuhairnaqvi/iOS/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/zuhairnaqvi/iOS/TheCarlton/build/TheCarlton.build/Debug-iphoneos/TheCarlton.build/TheCarlton.xcent0#
 
 CTouch /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
-s322581718.689213
-e322581718.693218
+s326879282.638636
+e326879282.642537
 r1
 xTouch
 x/Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app
-lSLF07#2@73"Touch /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app322581718#322581718#0(0"0(0#0#0"2556027536#253"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app0#
+lSLF07#2@73"Touch /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app326879282#326879282#0(0"0(0#0#0"2556027536#253"    cd /Users/jameseden/ios/TheCarlton    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jameseden/ios/TheCarlton/build/Debug-iphoneos/TheCarlton.app0#
 
 CTouch /Users/zed/iOS/src/thecarltonapp/build/Debug-iphoneos/TheCarlton.app
 r0

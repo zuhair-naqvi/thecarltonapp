@@ -58,12 +58,14 @@ static User *sharedUser = nil;
 {
 	//[self setName:[dict valueForKey:@""]]
 	NSLog(@"raw %@", dict);
-	if ([dict valueForKey:@"exists"] == @"true") {
-		self.status = @"active";
-		self.level = [dict valueForKey:@"level"];
-		self.userName = [dict valueForKey:@"name"];
-		self.email = [dict valueForKey:@"email"];
+	
+	if ([[dict valueForKey:@"exists"] isEqualToString:@"true"]) {
+		[self setLevel:[dict valueForKey:@"level"]];
+		[self setStatus:@"active"];
+		[self setUserName:[dict valueForKey:@"name"]];
+		[self setEmail:[dict valueForKey:@"email"]];
 	}
+	
 }
 
 - (void) dealloc {

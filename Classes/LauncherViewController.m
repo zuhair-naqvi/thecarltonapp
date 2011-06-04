@@ -109,9 +109,11 @@
     int kMaxResolution = 640;
 	
 	UIImage *logo = [UIImage imageNamed:@"logogreen_vertical.png"];
+	UIImage *photoFrame = [UIImage imageNamed:@"photoframe.png"];
 	
 	CGImageRef imgRef = image1.CGImage;
 	CGImageRef logoRef = logo.CGImage;
+	CGImageRef frameRef = photoFrame.CGImage;
 	CGFloat width = CGImageGetWidth(imgRef);
 	CGFloat height = CGImageGetHeight(imgRef);
 	
@@ -218,6 +220,7 @@
 	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), imgRef);
 	CGContextSetBlendMode(UIGraphicsGetCurrentContext(), kCGBlendModeNormal);
 	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(2050, 580, 396, 822), logoRef);
+	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), frameRef);
 	
 	UIImage *imageCopy = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
@@ -287,9 +290,9 @@
 							[[[TTLauncherItem alloc] initWithTitle:@"Photos"
 															 image:@"bundle://cameraimg.png"
 															   URL:@"tt://photos/" canDelete:NO] autorelease],	
-							[[[TTLauncherItem alloc] initWithTitle:@"Check In"
+							[[[TTLauncherItem alloc] initWithTitle:@"The Medallion"
 															 image:@"bundle://checkin.png"
-															   URL:nil canDelete:NO] autorelease],
+															   URL:@"tt://medallion/" canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Share"
 															 image:@"bundle://share.png"
 															   URL:@"tt://share/" canDelete:NO] autorelease],

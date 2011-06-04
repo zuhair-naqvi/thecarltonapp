@@ -68,6 +68,10 @@
 		<data>
 		J+E0XUkEpjUpl/E+M3XcjBilk70=
 		</data>
+		<key>MedallionViewController.nib</key>
+		<data>
+		mWh/gCfDB+EpJRf8UrP4ZhDUVjc=
+		</data>
 		<key>MenuRootViewController.nib</key>
 		<data>
 		yt1frCz+Pm0JIl6W+VbALtnMG08=
@@ -288,6 +292,18 @@
 		<data>
 		LhwcW++6u8oH7bCxImcZDpLjBCM=
 		</data>
+		<key>medallion_black.png</key>
+		<data>
+		CjgBxmkqyOP+xduF4jvxEAEmoQs=
+		</data>
+		<key>medallion_dark.png</key>
+		<data>
+		dpE1FA3uia8dXPHgdDG3tdAo7fc=
+		</data>
+		<key>medallion_green.png</key>
+		<data>
+		Z58cX+ic6SLWB6PYdc53IQjzXcg=
+		</data>
 		<key>menu.png</key>
 		<data>
 		x4ZNmUbMICr1wf9DnoaOL4vpJuw=
@@ -303,6 +319,10 @@
 		<key>phone.png</key>
 		<data>
 		6O0UIVy8/ttseMUEZW9s83gj1yc=
+		</data>
+		<key>photoframe.png</key>
+		<data>
+		oti+pKHHIcmEZnYmnapSUKbYfNA=
 		</data>
 		<key>settings.png</key>
 		<data>

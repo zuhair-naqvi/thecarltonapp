@@ -1,0 +1,5 @@
+/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m: In function '-[MedallionViewController viewDidLoad]':
+/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:33: warning: passing argument 1 of 'setText:' makes pointer from integer without a cast
+/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:35: warning: invalid receiver type 'NSUInteger'
+/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:38: error: expected ':' before '}' token
+/Users/jameseden/ios/TheCarlton/Classes/MedallionViewController.m:38: confused by earlier errors, bailing out
