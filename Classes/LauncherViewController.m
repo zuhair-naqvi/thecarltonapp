@@ -14,6 +14,9 @@
 #define SCREEN_WIDTH  320
 #define SCREEN_HEIGTH 480
 
+#define ACCESS_TOKEN_KEY @"fb_access_token"
+#define EXPIRATION_DATE_KEY @"fb_expiration_date"
+
 #import "LauncherViewController.h"
 #import "User.h"
 #import "TheCarltonAppDelegate.h"
@@ -24,7 +27,7 @@
 @implementation LauncherViewController
 
 
-@synthesize logoView, facebook;
+@synthesize logoView, facebook, uploadPhotoAlert;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
@@ -42,7 +45,6 @@
 }
 
 - (void) fbConnected:(id) sender {
-	NSLog(@"FbDidLogin");	
 	TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
 	[[appDelegate facebook] requestWithGraphPath:@"me" andDelegate:self];
 }
@@ -55,6 +57,7 @@
 		self.title = [NSString stringWithFormat:@"Hi %@", [result valueForKey:@"first_name"]];
 	}
 	else if([result valueForKey:@"src"] != nil) {
+		[uploadPhotoAlert dismissWithClickedButtonIndex:0 animated:YES];
 		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Photo uploaded Facebook" message:@"The photo you just shot has been uploaded to your Facebook Album" delegate:self cancelButtonTitle:@"Done" otherButtonTitles:nil] autorelease];
 		[alert show];
 	}
@@ -62,7 +65,11 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 1) {
-		[self fbConnected:self];
+		[self fbConnected:self];		
+		TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+		if ([[appDelegate prefs] objectForKey:ACCESS_TOKEN_KEY] == nil) {
+			[appDelegate login];
+		}
 	}
 }
 
@@ -72,6 +79,12 @@
 	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Can't connect to Facebook" message:@"This could be temporary issue with your network or Facebook's servers." delegate:self cancelButtonTitle:@"Continue Without" otherButtonTitles:nil] autorelease];
     [alert addButtonWithTitle:@"Try Again"];
     [alert show];
+	if ([error code] == 10000) {
+		TheCarltonAppDelegate *appDelegate = (TheCarltonAppDelegate *)[[UIApplication sharedApplication] delegate];
+		[[appDelegate prefs] setObject:nil forKey:ACCESS_TOKEN_KEY];
+		[[appDelegate prefs] setObject:nil forKey:EXPIRATION_DATE_KEY];
+		[[appDelegate prefs] synchronize];	    
+	}
 	NSLog(@"FBRequest Error %@", [error localizedDescription]);
 };
 
@@ -219,7 +232,7 @@
 	
 	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), imgRef);
 	CGContextSetBlendMode(UIGraphicsGetCurrentContext(), kCGBlendModeNormal);
-	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(2050, 580, 396, 822), logoRef);
+	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(1850, 570, 396, 822), logoRef);
 	CGContextDrawImage(UIGraphicsGetCurrentContext(), CGRectMake(0, 0, width, height), frameRef);
 	
 	UIImage *imageCopy = UIGraphicsGetImageFromCurrentImageContext();
@@ -254,6 +267,14 @@
 										andParams:params
 									andHttpMethod:@"POST"
 									  andDelegate:self];
+	uploadPhotoAlert = [[UIAlertView alloc] initWithTitle:@"Uploading to Facebook" message:@"" delegate:self cancelButtonTitle:nil otherButtonTitles:nil];
+	
+	UIActivityIndicatorView *progress= [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(125, 50, 30, 30)];
+    progress.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhiteLarge;
+    [uploadPhotoAlert addSubview:progress];
+	[progress startAnimating];
+
+    [uploadPhotoAlert show];
 }
 
 - (void)loadView {
@@ -363,6 +384,7 @@
 
 
 - (void)dealloc {
+	[uploadPhotoAlert release];
 	[logoView release];
 	[super dealloc];
 }

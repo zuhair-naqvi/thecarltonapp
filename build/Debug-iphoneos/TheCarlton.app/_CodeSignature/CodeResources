@@ -14,15 +14,15 @@
 		</data>
 		<key>BookingsViewController.nib</key>
 		<data>
-		4aZrKwM4unvDnyMNpJppLyu0GXs=
+		eZ3qRa5NgsuR9p0RD6EVX7GluwE=
 		</data>
 		<key>BoxViewController.nib</key>
 		<data>
-		/r2r4XV3OJn1FKxILUjAC1wiDvY=
+		keEL0hN0okECuGtO7nQuxqvNLpQ=
 		</data>
 		<key>ContactViewController.nib</key>
 		<data>
-		TAPWLLXmd0CbU11+WzFLCndDqHY=
+		evvl0R/E1XMaCdMH9VIIXeyb8OI=
 		</data>
 		<key>Default.png</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>DetailView.nib</key>
 		<data>
-		zw65YWik4uL8KAD3yUeBk20gX9Q=
+		estO/LgUWoup9qEGBKEYYbJ0Cys=
 		</data>
 		<key>FBDialog.bundle/images/close.png</key>
 		<data>
@@ -42,43 +42,43 @@
 		</data>
 		<key>Icon-Small.png</key>
 		<data>
-		sTy8UYzTUhJPvSIqegU6m2FkrGA=
+		bm9/IpH37IRxqVsoMQoIcaOFXSc=
 		</data>
 		<key>Icon-Small@2x.png</key>
 		<data>
-		oi5w0R4sbfRRizWtjG5KG7dk3/0=
+		iSjIk61izMTT5+o+ro1pEWPLBRA=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		Vzqfb7HQf4F7f+tJrMw+eU59Bzk=
+		U7P0lQv6vwWV9hZARnqv0VlRawI=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		qITtUgBzDIESGajSxSKer5HGA9Y=
+		1Y9SDPnyM8Y0dRmXq8zTSH66y1w=
 		</data>
 		<key>LauncherViewController.nib</key>
 		<data>
-		oJq9lCrSxtm05J+YlWFY87xbZlU=
+		B72H/1Dw9stD4Favro6qiKp/k/Y=
 		</data>
 		<key>LocateViewController.nib</key>
 		<data>
-		QWHDzJX7DL7mAq/uhyYVM+4jogM=
+		qC8IvQxu1MZ5oUM7f14J5uOyVp4=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		J+E0XUkEpjUpl/E+M3XcjBilk70=
+		OsDdJoLzDG3hwyuL3nWRWrbdPwM=
 		</data>
 		<key>MedallionViewController.nib</key>
 		<data>
-		mWh/gCfDB+EpJRf8UrP4ZhDUVjc=
+		ZCS60PUkoZf1bdrvu0mnVVyzUJg=
 		</data>
 		<key>MenuRootViewController.nib</key>
 		<data>
-		yt1frCz+Pm0JIl6W+VbALtnMG08=
+		N83pLZmEAudJCzisfat7V8kLVb4=
 		</data>
 		<key>NewsViewController.nib</key>
 		<data>
-		x3FKdozFfTVe7h3+pKAmWFtGUmo=
+		lxukkUC03XMH3BxyK7dxfH9pobs=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
-		z4tFMjhsStYnwgiT/DECT+Zorg4=
+		IYamgm4kHHVq6ejBJ4vuChDWU08=
 		</data>
 		<key>Settings.bundle/en.lproj/Root.strings</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>ShareViewController.nib</key>
 		<data>
-		2gHz8R3tj/TsxT0viXt70K3CoP8=
+		+xQ9dI929j6Ko7m8XU3UtTJdtEA=
 		</data>
 		<key>SyncViewController.nib</key>
 		<data>
-		dh/KJiAQIiuDdj1OlFI3zD/73tg=
+		Q9nvhohsJrW2Fe99rJPqBvnhE1E=
 		</data>
 		<key>Three20.bundle/de.lproj/Localizable.strings</key>
 		<data>
@@ -256,9 +256,17 @@
 		<data>
 		6O0UIVy8/ttseMUEZW9s83gj1yc=
 		</data>
+		<key>donedown.png</key>
+		<data>
+		BVQDHkKOj1REMJso8SsLq8ofh6M=
+		</data>
+		<key>doneup.png</key>
+		<data>
+		Jexz06EZR7C3onm5W5oil5mqVtY=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		NE/4L4OtYQ0w1KutgvW45Ab29qY=
+		yIX3ek2iFLTfzNgd8iztjco1QmU=
 		</data>
 		<key>free.png</key>
 		<data>
@@ -343,6 +351,10 @@
 		<key>ticket_04.png</key>
 		<data>
 		0nD0q7KWRLDtTDjj5yV/CZqJSyw=
+		</data>
+		<key>ticket_04_highlighted.png</key>
+		<data>
+		yjvYUZMbllFnO6yYPi7ZjHEofQk=
 		</data>
 	</dict>
 	<key>rules</key>

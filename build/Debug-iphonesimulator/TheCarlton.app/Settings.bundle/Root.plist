@@ -61,6 +61,8 @@
 			<string>Server</string>
 			<key>Key</key>
 			<string>server</string>
+			<key>New item</key>
+			<string></string>
 			<key>DefaultValue</key>
 			<string>ec2-184-72-186-159.compute-1.amazonaws.com</string>
 			<key>IsSecure</key>

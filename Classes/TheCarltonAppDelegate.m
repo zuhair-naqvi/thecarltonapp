@@ -126,7 +126,7 @@
 
 
 - (void)fbDidLogin {
-	
+	NSLog(@"AD FbDidLogin");	
     // store the access token and expiration date to the user defaults
     [prefs setObject:facebook.accessToken forKey:ACCESS_TOKEN_KEY];
     [prefs setObject:facebook.expirationDate forKey:EXPIRATION_DATE_KEY];

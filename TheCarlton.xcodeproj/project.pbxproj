@@ -85,6 +85,9 @@
 		FF6137C1130F9D4C00DF8230 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6137BF130F9D4C00DF8230 /* ShareViewController.m */; };
 		FF6137C2130F9D4C00DF8230 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6137C0130F9D4C00DF8230 /* ShareViewController.xib */; };
 		FF6137EE130FA37700DF8230 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6137ED130FA37700DF8230 /* QuartzCore.framework */; };
+		FF8ADB2C139A1BCE00712DE5 /* donedown.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8ADB2A139A1BCE00712DE5 /* donedown.png */; };
+		FF8ADB2D139A1BCE00712DE5 /* doneup.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8ADB2B139A1BCE00712DE5 /* doneup.png */; };
+		FF8ADB6A139A27B400712DE5 /* ticket_04_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8ADB69139A27B400712DE5 /* ticket_04_highlighted.png */; };
 		FFAC5D5A132F76810079DFB5 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFAC5D42132F76810079DFB5 /* FBDialog.bundle */; };
 		FFAC5D5B132F76810079DFB5 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC5D46132F76810079DFB5 /* NSObject+SBJSON.m */; };
 		FFAC5D5C132F76810079DFB5 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC5D48132F76810079DFB5 /* NSString+SBJSON.m */; };
@@ -454,6 +457,9 @@
 		FF6137BF130F9D4C00DF8230 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		FF6137C0130F9D4C00DF8230 /* ShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
 		FF6137ED130FA37700DF8230 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF8ADB2A139A1BCE00712DE5 /* donedown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donedown.png; sourceTree = "<group>"; };
+		FF8ADB2B139A1BCE00712DE5 /* doneup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneup.png; sourceTree = "<group>"; };
+		FF8ADB69139A27B400712DE5 /* ticket_04_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket_04_highlighted.png; sourceTree = "<group>"; };
 		FFAC5D42132F76810079DFB5 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
 		FFAC5D44132F76810079DFB5 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		FFAC5D45132F76810079DFB5 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -478,7 +484,7 @@
 		FFAC5D58132F76810079DFB5 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
 		FFAC5D59132F76810079DFB5 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
 		FFAC5FCB133374FE0079DFB5 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
-		FFAC607D13342DFE0079DFB5 /* ticket_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticket_04.png; path = ../ticket_04.png; sourceTree = "<group>"; };
+		FFAC607D13342DFE0079DFB5 /* ticket_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket_04.png; sourceTree = "<group>"; };
 		FFAC60B61339AD000079DFB5 /* carlton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carlton.jpg; sourceTree = "<group>"; };
 		FFAC60BD1339B43E0079DFB5 /* love-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love-button.png"; sourceTree = "<group>"; };
 		FFCFD93D133A1AE000552284 /* logogreen_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logogreen_vertical.png; sourceTree = "<group>"; };
@@ -697,7 +703,6 @@
 			children = (
 				F425061612B49F590016CD6B /* RemoteImage.h */,
 				F425061712B49F590016CD6B /* RemoteImage.m */,
-				FFAC607D13342DFE0079DFB5 /* ticket_04.png */,
 				F42506E512B4BC240016CD6B /* RemoteDictionary.h */,
 				F42506E612B4BC240016CD6B /* RemoteDictionary.m */,
 				F46FD33D12C711B400856213 /* User.h */,
@@ -755,9 +760,13 @@
 		F437CBDF12B3B6E30049F9C4 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FF8ADB2A139A1BCE00712DE5 /* donedown.png */,
+				FF8ADB69139A27B400712DE5 /* ticket_04_highlighted.png */,
+				FF8ADB2B139A1BCE00712DE5 /* doneup.png */,
 				9596AAE513826B0000880E5D /* photoframe.png */,
 				FFCFD93D133A1AE000552284 /* logogreen_vertical.png */,
 				FFAC60B61339AD000079DFB5 /* carlton.jpg */,
+				FFAC607D13342DFE0079DFB5 /* ticket_04.png */,
 				FF28D928137AB68A008A4990 /* medallion_black.png */,
 				FFCFD94D133A20D000552284 /* like-button.png */,
 				FFAC5FCB133374FE0079DFB5 /* map.png */,
@@ -1236,6 +1245,9 @@
 				FF28D91B137AAFC8008A4990 /* medallion_dark.png in Resources */,
 				FF28D91D137AB120008A4990 /* medallion_green.png in Resources */,
 				FF28D929137AB68A008A4990 /* medallion_black.png in Resources */,
+				FF8ADB2C139A1BCE00712DE5 /* donedown.png in Resources */,
+				FF8ADB2D139A1BCE00712DE5 /* doneup.png in Resources */,
+				FF8ADB6A139A27B400712DE5 /* ticket_04_highlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1390,8 +1402,9 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "13CE7B99-D260-46B1-8F22-D1A4387EC022";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0FCCDBC-BEFC-4225-83F4-975CD2BA35AD";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;

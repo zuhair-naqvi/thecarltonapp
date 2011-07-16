@@ -13,7 +13,7 @@ static User *sharedUser = nil;
 
 @implementation User
 
-@synthesize userId, level, userName, email, status, fbUser;
+@synthesize userId, level, userName, email, status, fbUser, boxOpen;
 
 #pragma mark Singleton Methonds
 

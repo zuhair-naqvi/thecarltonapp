@@ -13,10 +13,12 @@
 	TTLauncherView* _launcherView;
 	UIImageView *logoView;
 	Facebook *facebook;
+	UIAlertView *uploadPhotoAlert;
 }
 
 @property (nonatomic, retain) UIImageView *logoView;
 @property (nonatomic, retain) Facebook *facebook;
+@property (nonatomic, retain) UIAlertView *uploadPhotoAlert;
 
 - (void) goCamera;
 

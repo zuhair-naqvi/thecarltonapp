@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>3AVS5SQL6R.TheCarlton</string>
+	<string>3ZHM5HNU2L.TheCarlton</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>3AVS5SQL6R.TheCarlton</string>
+		<string>3ZHM5HNU2L.TheCarlton</string>
 	</array>
 </dict>
 </plist>

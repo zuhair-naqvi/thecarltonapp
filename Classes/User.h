@@ -15,6 +15,7 @@
 	NSString *email;
 	NSString *status;
 	NSString *level;
+	NSInteger *boxOpen;
 	NSObject *fbUser;
 }
 
@@ -24,7 +25,7 @@
 @property (nonatomic, retain) NSString *userName;
 @property (nonatomic, retain) NSString *email;
 @property (nonatomic, retain) NSString *status;
-
+@property (nonatomic, assign) NSInteger *boxOpen;
 
 //- (void) initWithUserId:(NSInteger*)uid;
 
