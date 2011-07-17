@@ -327,10 +327,10 @@
 	[self.view addSubview:_launcherView];
 	[logoView retain];
 	TTLauncherItem* box = [_launcherView itemWithURL:@"tt://box/"];
-	box.badgeNumber = 1;
+//	box.badgeNumber = 1;
 	
 	TTLauncherItem* photos = [_launcherView itemWithURL:@"tt://photos/"];
-	photos.badgeNumber = 5;	
+//	photos.badgeNumber = 5;	
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
